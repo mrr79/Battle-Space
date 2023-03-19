@@ -1,3 +1,5 @@
 /home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles/Battle_Space.dir
 /home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles/Battle_Space_autogen_timestamp_deps.dir
+/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles/Battle_Space_autogen.dir

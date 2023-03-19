@@ -1,0 +1,21 @@
+# ninja log v5
+1	5	1679266585963007126	Battle_Space_autogen/timestamp	f9bf7ac5e40afc95
+1	5	1679266585963007126	/home/mrr/Desktop/Battle-Space/cmake-build-debug/Battle_Space_autogen/timestamp	f9bf7ac5e40afc95
+0	18	1679267562210591201	build.ninja	6b0190036ee98086
+1	5	1679266585963007126	/home/mrr/Desktop/Battle-Space/cmake-build-debug/Battle_Space_autogen/mocs_compilation.cpp	f9bf7ac5e40afc95
+1	5	1679266585963007126	Battle_Space_autogen/mocs_compilation.cpp	f9bf7ac5e40afc95
+832	920	1679266586875013239	Battle_Space	98c02ec2bd9a84fc
+6	211	1679266325740828317	CMakeFiles/Battle_Space.dir/main.cpp.o	8a058b35de920ee7
+5	832	1679266586791012676	CMakeFiles/Battle_Space.dir/prueba.cpp.o	114ab1bbf39060d1
+6	13	1679266325540826248	CMakeFiles/Battle_Space.dir/Battle_Space_autogen/mocs_compilation.cpp.o	7900fc56d33efd5b
+1	11	1679267569738606492	Battle_Space_autogen/timestamp	f9bf7ac5e40afc95
+1	11	1679267569738606492	Battle_Space_autogen/mocs_compilation.cpp	f9bf7ac5e40afc95
+1	11	1679267569738606492	/home/mrr/Desktop/Battle-Space/cmake-build-debug/Battle_Space_autogen/timestamp	f9bf7ac5e40afc95
+1	11	1679267569738606492	/home/mrr/Desktop/Battle-Space/cmake-build-debug/Battle_Space_autogen/mocs_compilation.cpp	f9bf7ac5e40afc95
+11	18	1679267569746606509	CMakeFiles/Battle_Space.dir/Battle_Space_autogen/mocs_compilation.cpp.o	21e576530dc8a0b4
+0	4	1679269300622727880	Battle_Space_autogen/timestamp	f9bf7ac5e40afc95
+0	4	1679269300622727880	Battle_Space_autogen/mocs_compilation.cpp	f9bf7ac5e40afc95
+0	4	1679269300622727880	/home/mrr/Desktop/Battle-Space/cmake-build-debug/Battle_Space_autogen/timestamp	f9bf7ac5e40afc95
+0	4	1679269300622727880	/home/mrr/Desktop/Battle-Space/cmake-build-debug/Battle_Space_autogen/mocs_compilation.cpp	f9bf7ac5e40afc95
+4	1140	1679269301754735052	CMakeFiles/Battle_Space.dir/main.cpp.o	b0a30e5fef1b282f
+1141	1430	1679269302042736876	Battle_Space	ec20444bded50428
