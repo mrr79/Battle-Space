@@ -3,7 +3,8 @@ Battle_Space_autogen/timestamp: \
   CMakeFiles/3.24.2/CMakeCCompiler.cmake \
   CMakeFiles/3.24.2/CMakeCXXCompiler.cmake \
   CMakeFiles/3.24.2/CMakeSystem.cmake \
-  /home/mrr/Desktop/Battle-Space/main.cpp \
+  /home/mrr/Desktop/Battle-Space/nave_jugador.cpp \
+  /home/mrr/Desktop/Battle-Space/nave_jugador.h \
   /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCInformation.cmake \
   /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake \
   /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake \

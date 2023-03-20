@@ -71,12 +71,29 @@
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
-		"/snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeParseArguments.cmake"
+		"/snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeParseArguments.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake"
 	],
 	"CMAKE_SOURCE_DIR" : "/home/mrr/Desktop/Battle-Space",
 	"DEP_FILE" : "/home/mrr/Desktop/Battle-Space/cmake-build-debug/Battle_Space_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "Battle_Space_autogen/timestamp",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"/home/mrr/Desktop/Battle-Space/nave_jugador.h",
+			"MU",
+			"EWIEGA46WW/moc_nave_jugador.cpp",
+			null
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/home/mrr/Desktop/Battle-Space/cmake-build-debug/Battle_Space_autogen/include",
 	"MOC_COMPILATION_FILE" : "/home/mrr/Desktop/Battle-Space/cmake-build-debug/Battle_Space_autogen/mocs_compilation.cpp",
@@ -127,7 +144,7 @@
 	"SETTINGS_FILE" : "/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles/Battle_Space_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/mrr/Desktop/Battle-Space/main.cpp", "MU", null ]
+		[ "/home/mrr/Desktop/Battle-Space/nave_jugador.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

@@ -25,13 +25,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 12,
+				"line" : 19,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 14,
+				"line" : 21,
 				"parent" : 0
 			}
 		]
@@ -107,11 +107,11 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "Battle_Space_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "Battle_Space_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Battle_Space_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "Battle_Space::@6890427a1f51a3e7e1df",
@@ -163,17 +163,24 @@
 			]
 		},
 		{
-			"name" : "",
+			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
 				2
 			]
 		},
 		{
-			"name" : "CMake Rules",
+			"name" : "",
 			"sourceIndexes" : 
 			[
 				3
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				4
 			]
 		}
 	],
@@ -189,20 +196,25 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "main.cpp",
+			"path" : "nave_jugador.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "cmake-build-debug/Battle_Space_autogen/timestamp",
+			"backtrace" : 1,
+			"path" : "nave_jugador.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/Battle_Space_autogen/timestamp.rule",
+			"path" : "cmake-build-debug/Battle_Space_autogen/timestamp",
 			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/Battle_Space_autogen/timestamp.rule",
+			"sourceGroupIndex" : 3
 		}
 	],
 	"type" : "EXECUTABLE"

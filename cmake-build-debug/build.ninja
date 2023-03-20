@@ -57,9 +57,9 @@ build CMakeFiles/Battle_Space.dir/Battle_Space_autogen/mocs_compilation.cpp.o: C
   OBJECT_DIR = CMakeFiles/Battle_Space.dir
   OBJECT_FILE_DIR = CMakeFiles/Battle_Space.dir/Battle_Space_autogen
 
-build CMakeFiles/Battle_Space.dir/main.cpp.o: CXX_COMPILER__Battle_Space_Debug /home/mrr/Desktop/Battle-Space/main.cpp || cmake_object_order_depends_target_Battle_Space
+build CMakeFiles/Battle_Space.dir/nave_jugador.cpp.o: CXX_COMPILER__Battle_Space_Debug /home/mrr/Desktop/Battle-Space/nave_jugador.cpp || cmake_object_order_depends_target_Battle_Space
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/Battle_Space.dir/main.cpp.o.d
+  DEP_FILE = CMakeFiles/Battle_Space.dir/nave_jugador.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -fPIC
   INCLUDES = -I/home/mrr/Desktop/Battle-Space/cmake-build-debug/Battle_Space_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets
   OBJECT_DIR = CMakeFiles/Battle_Space.dir
@@ -73,7 +73,7 @@ build CMakeFiles/Battle_Space.dir/main.cpp.o: CXX_COMPILER__Battle_Space_Debug /
 #############################################
 # Link the executable Battle_Space
 
-build Battle_Space: CXX_EXECUTABLE_LINKER__Battle_Space_Debug CMakeFiles/Battle_Space.dir/Battle_Space_autogen/mocs_compilation.cpp.o CMakeFiles/Battle_Space.dir/main.cpp.o | /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.6 /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.6 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.6 || Battle_Space_autogen Battle_Space_autogen_timestamp_deps
+build Battle_Space: CXX_EXECUTABLE_LINKER__Battle_Space_Debug CMakeFiles/Battle_Space.dir/Battle_Space_autogen/mocs_compilation.cpp.o CMakeFiles/Battle_Space.dir/nave_jugador.cpp.o | /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.6 /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.6 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.6 || Battle_Space_autogen Battle_Space_autogen_timestamp_deps
   FLAGS = -g
   LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.6  /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.6  /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.6
   OBJECT_DIR = CMakeFiles/Battle_Space.dir
@@ -131,7 +131,7 @@ build Battle_Space_autogen/timestamp Battle_Space_autogen/mocs_compilation.cpp |
 #############################################
 # Phony custom command for CMakeFiles/Battle_Space_autogen_timestamp_deps
 
-build CMakeFiles/Battle_Space_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Battle_Space_autogen_timestamp_deps: phony /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.6 /usr/lib/qt5/bin/moc /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.6 /usr/lib/qt5/bin/uic /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.6
+build CMakeFiles/Battle_Space_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Battle_Space_autogen_timestamp_deps: phony /usr/lib/qt5/bin/moc /usr/lib/qt5/bin/uic
 
 
 #############################################
