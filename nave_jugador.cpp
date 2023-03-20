@@ -1,90 +1,122 @@
 //
 // Created by mrr on 19/03/23.
 //
-#include <iostream>
+
 #include <QApplication>
-#include <QWidget>
-#include <QKeyEvent>
-#include <QPainter>
-#include <QTimer>
+#include <QGraphicsScene>
+#include <QGraphicsView>
 #include <QPixmap>
+#include <QTimer>
+#include <QKeyEvent>
+#include <QGraphicsPixmapItem>
 
 
-class Bullet : public QWidget {
+
+
+class Ship : public QGraphicsPixmapItem {
 public:
-    int x;
-    int y;
-    QPixmap image;
-
-    Bullet(int x, int y, QPixmap image, QWidget *parent = nullptr) : QWidget(parent) {
-        this->x = x;
-        this->y = y;
-        this->image = image;
+    Ship(QGraphicsItem *parent = nullptr) : QGraphicsPixmapItem(parent) {
+        setPixmap(QPixmap("/home/mrr/Desktop/Battle-Space/myship.png").scaled(50, 50));
+        setPos(-200, 125);
     }
 
-    void paintEvent(QPaintEvent *event) override {
-        QPainter painter(this);
-        painter.drawPixmap(QRect(x, y, 30, 10), image);
+
+    void moveUp() {
+        setY(y() - 10);
     }
 
-    void move() {
-        x += 10;
-        update();
 
-        // Remove the bullet from the scene when it goes off-screen
-        if (x > width()) {
-            delete this;
-        }
+    void moveDown() {
+        setY(y() + 10);
     }
 };
 
 
-class MyShip : public QWidget {
+class Bullet : public QGraphicsPixmapItem {
 public:
-    int x = 50;
-    int y = 50;
-    QTimer* timer;
-    QPixmap bulletImage;
-
-    MyShip(QWidget *parent = nullptr) : QWidget(parent) {
-        // Load bullet image
-        bulletImage.load("/home/mrr/Desktop/Battle-Space/bullet.png");
-
-        // Set up timer to fire every 1.5 seconds
-        timer = new QTimer(this);
-        connect(timer, &QTimer::timeout, this, &MyShip::createBullet);
-        timer->start(1500);
+    Bullet(QGraphicsItem *parent = nullptr) : QGraphicsPixmapItem(parent) {
+        setPixmap(QPixmap("/home/mrr/Desktop/Battle-Space/bullet.png").scaled(30, 30));
+        setEnabled(true); // make the bullet item enabled
+        setVisible(true); // make the bullet item visible
     }
 
-    void paintEvent(QPaintEvent *event) override {
-        QPainter painter(this);
-        painter.fillRect(QRect(x, y, 50, 50), Qt::blue);
+
+    void advance(int phase) override {
+        if (phase == 0) return;
+        setX(x() + 10); // move bullet to the right by 10 pixels
+        if (x() > 300) scene()->removeItem(this); // remove bullet when it reaches the right edge of the screen
     }
 
+
+};
+
+
+class Game : public QGraphicsView {
+Q_OBJECT // Add the Q_OBJECT macro to enable slots and signals
+
+public:
+    Game(QWidget *parent = nullptr) : QGraphicsView(parent) {
+        // Set up the game scene
+        QGraphicsScene *scene = new QGraphicsScene(this);
+        setScene(scene);
+        setFixedSize(500, 500);
+
+
+
+
+        // Add the ship to the scene
+        ship = new Ship();
+        scene->addItem(ship);
+
+
+
+
+        // Start the timer for shooting bullets
+        QTimer *timer = new QTimer(this);
+        connect(timer, SIGNAL(timeout()), this, SLOT(update())); // update the view in each frame
+        connect(timer, SIGNAL(timeout()), this, SLOT(shootBullet()));
+        timer->start(1000); // fire every 1 second
+
+
+    }
+
+
+
+
+protected:
     void keyPressEvent(QKeyEvent *event) override {
         switch (event->key()) {
             case Qt::Key_Up:
-                y -= 10;
+                ship->moveUp();
                 break;
             case Qt::Key_Down:
-                y += 10;
+                ship->moveDown();
                 break;
         }
-        update();
     }
 
-    void createBullet() {
-        // Create a new bullet object
-        Bullet* bullet = new Bullet(x + 50, y + 25, bulletImage);
-        bullet->show();
+
+private slots:
+    void shootBullet() {
+        // Create a new bullet and add it to the scene
+        Bullet *bullet = new Bullet();
+        bullet->setPos(ship->x() + 50, ship->y() + 25);
+        scene()->addItem(bullet);
     }
+
+
+private:
+    Ship *ship;
 };
+
+
 
 
 int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
-    MyShip myShip;
-    myShip.show();
+    Game game;
+    game.show();
     return app.exec();
 }
 
+#include <nave_jugador.moc>
