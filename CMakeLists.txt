@@ -21,3 +21,6 @@ add_executable(Battle_Space nave_jugador.cpp nave_jugador.h)
 target_link_libraries(Battle_Space Qt5::Core Qt5::Gui Qt5::Widgets)
 
 target_link_libraries(Battle_Space Qt5::Core Qt5::Gui Qt5::Widgets)
+
+set(CMAKE_AUTOMOC_FLAGS "-fskip-targets=MOC_AUTOMOC_TARGETS_REGEX")
+
