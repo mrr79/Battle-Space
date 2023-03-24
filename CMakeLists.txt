@@ -18,7 +18,7 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
-add_executable(Battle_Space nave_jugador.cpp nave_jugador.h)
+add_executable(Battle_Space main.cpp ship.cpp ship.h Bullet.cpp Bullet.h Enemy.h Enemy.cpp)
 
 target_link_libraries(Battle_Space Qt5::Core Qt5::Gui Qt5::Widgets)
 

@@ -12,7 +12,7 @@
 
 class MyShip : public QWidget {
 public:
-    int x = 50;
+    int x = 10; //posiciones iniciales
     int y = 50;
     QImage image;
     int bulletX = -1; // -1 sigifica que no hay bala activa en este momento
@@ -32,6 +32,8 @@ public:
 
     void paintEvent(QPaintEvent *event) override {
         QPainter painter(this);
+        QRect backgroundRect(0, 0, 500, 500);
+        painter.fillRect(rect(), Qt::white);
         painter.drawImage(QRect(x, y, 50, 50), image);
 
         if (bulletX != -1 && bulletY != -1) {
@@ -46,10 +48,14 @@ public:
         // Move the ship ARRIBA Y ABAJO
         switch (event->key()) {
             case Qt::Key_Up:
-                y -= 10;
+                if (y>0){
+                    y -= 10;
+                }
                 break;
             case Qt::Key_Down:
-                y += 10;
+                if (y<=425) {
+                    y += 10;
+                }
                 break;
             default:
                 QWidget::keyPressEvent(event);
