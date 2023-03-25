@@ -1,0 +1,25 @@
+{
+	"BUILD_DIR" : "/home/mrr/Downloads/Proyecto_1_Datos_ll-e0563a90f933866015b8da9bfeccc377d41f8578/Battlespace/cmake-build-debug/Proyecto_1_Datos_ll_autogen",
+	"CMAKE_BINARY_DIR" : "/home/mrr/Downloads/Proyecto_1_Datos_ll-e0563a90f933866015b8da9bfeccc377d41f8578/Battlespace/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/mrr/Downloads/Proyecto_1_Datos_ll-e0563a90f933866015b8da9bfeccc377d41f8578/Battlespace/cmake-build-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/mrr/Downloads/Proyecto_1_Datos_ll-e0563a90f933866015b8da9bfeccc377d41f8578/Battlespace",
+	"CMAKE_SOURCE_DIR" : "/home/mrr/Downloads/Proyecto_1_Datos_ll-e0563a90f933866015b8da9bfeccc377d41f8578/Battlespace",
+	"INCLUDE_DIR" : "/home/mrr/Downloads/Proyecto_1_Datos_ll-e0563a90f933866015b8da9bfeccc377d41f8578/Battlespace/cmake-build-debug/Proyecto_1_Datos_ll_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/mrr/Downloads/Proyecto_1_Datos_ll-e0563a90f933866015b8da9bfeccc377d41f8578/Battlespace/myship.png",
+		"/home/mrr/Downloads/Proyecto_1_Datos_ll-e0563a90f933866015b8da9bfeccc377d41f8578/Battlespace/e1.png",
+		"/home/mrr/Downloads/Proyecto_1_Datos_ll-e0563a90f933866015b8da9bfeccc377d41f8578/Battlespace/bullet.png",
+		"/home/mrr/Downloads/Proyecto_1_Datos_ll-e0563a90f933866015b8da9bfeccc377d41f8578/Battlespace/E2.png"
+	],
+	"LOCK_FILE" : "/home/mrr/Downloads/Proyecto_1_Datos_ll-e0563a90f933866015b8da9bfeccc377d41f8578/Battlespace/cmake-build-debug/CMakeFiles/Proyecto_1_Datos_ll_autogen.dir/AutoRcc_Resources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "Resources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_Resources.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/mrr/Downloads/Proyecto_1_Datos_ll-e0563a90f933866015b8da9bfeccc377d41f8578/Battlespace/cmake-build-debug/CMakeFiles/Proyecto_1_Datos_ll_autogen.dir/AutoRcc_Resources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/mrr/Downloads/Proyecto_1_Datos_ll-e0563a90f933866015b8da9bfeccc377d41f8578/Battlespace/Resources.qrc",
+	"VERBOSITY" : 0
+}

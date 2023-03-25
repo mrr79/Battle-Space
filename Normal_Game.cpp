@@ -16,7 +16,7 @@ Normal_Game::Normal_Game(QWidget *parent){
 
     //Item en la escena
     Player *player = new Player();
-    player->setPixmap(QPixmap("/home/mrr/Desktop/Battle-Space/myship.png").scaled(50,50));
+    player->setPixmap(QPixmap(":/Images/myship.png"));
 
     //Agregado de el item a la escena
     scene->addItem(player);
@@ -40,9 +40,14 @@ Normal_Game::Normal_Game(QWidget *parent){
     timer_bullets->start(bullet_speed);
 
     //Timer de los enemigos
-    QTimer *timer_enemies = new QTimer;
-    QObject::connect(timer_enemies,SIGNAL(timeout()),player,SLOT(spawn_enemies()));
-    timer_enemies->start(2000);
+    QTimer *timer_enemies1 = new QTimer;
+    QObject::connect(timer_enemies1,SIGNAL(timeout()),player,SLOT(spawn_enemies1()));
+    timer_enemies1->start(2000);
+
+    //Timer de los enemigos
+    QTimer *timer_enemies2 = new QTimer;
+    QObject::connect(timer_enemies2,SIGNAL(timeout()),player,SLOT(spawn_enemies2()));
+    timer_enemies2->start(3000);
 
     show();
 }

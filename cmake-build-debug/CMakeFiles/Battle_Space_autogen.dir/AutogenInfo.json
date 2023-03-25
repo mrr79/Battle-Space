@@ -72,6 +72,7 @@
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
 		"/snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeParseArguments.cmake",
+		"/home/mrr/Desktop/Battle-Space/Resources.qrc",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake",
@@ -106,9 +107,15 @@
 			null
 		],
 		[
-			"/home/mrr/Desktop/Battle-Space/Enemy.h",
+			"/home/mrr/Desktop/Battle-Space/Enemy_1.h",
 			"MU",
-			"EWIEGA46WW/moc_Enemy.cpp",
+			"EWIEGA46WW/moc_Enemy_1.cpp",
+			null
+		],
+		[
+			"/home/mrr/Desktop/Battle-Space/Enemy_2.h",
+			"MU",
+			"EWIEGA46WW/moc_Enemy_2.cpp",
 			null
 		],
 		[
@@ -183,7 +190,8 @@
 		[ "/home/mrr/Desktop/Battle-Space/Bullet.cpp", "MU", null ],
 		[ "/home/mrr/Desktop/Battle-Space/Dificulties_Window.cpp", "MU", null ],
 		[ "/home/mrr/Desktop/Battle-Space/Easy_game.cpp", "MU", null ],
-		[ "/home/mrr/Desktop/Battle-Space/Enemy.cpp", "MU", null ],
+		[ "/home/mrr/Desktop/Battle-Space/Enemy_1.cpp", "MU", null ],
+		[ "/home/mrr/Desktop/Battle-Space/Enemy_2.cpp", "MU", null ],
 		[ "/home/mrr/Desktop/Battle-Space/Hard_Game.cpp", "MU", null ],
 		[ "/home/mrr/Desktop/Battle-Space/Normal_Game.cpp", "MU", null ],
 		[ "/home/mrr/Desktop/Battle-Space/Player.cpp", "MU", null ],

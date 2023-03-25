@@ -5,6 +5,9 @@
 #include "Easy_game.h"
 #include <QTimer>
 #include <QGraphicsTextItem>
+#include "Bullet.h"
+#include "Enemy_1.h"
+#include "Enemy_2.h"
 #include <QFont>
 
 Easy_game::Easy_game(QWidget *parent){
@@ -16,7 +19,7 @@ Easy_game::Easy_game(QWidget *parent){
 
     //Item en la escena
     Player *player = new Player();
-    player->setPixmap(QPixmap("/home/mrr/Desktop/Battle-Space/myship.png").scaled(50,50));
+    player->setPixmap(QPixmap(":/Images/myship.png").scaled(50,50));
 
     //Agregado de el item a la escena
     scene->addItem(player);
@@ -40,9 +43,14 @@ Easy_game::Easy_game(QWidget *parent){
     timer_bullets->start(bullet_speed);
 
     //Timer de los enemigos
-    QTimer *timer_enemies = new QTimer;
-    QObject::connect(timer_enemies,SIGNAL(timeout()),player,SLOT(spawn_enemies()));
-    timer_enemies->start(3000);
+    QTimer *timer_enemies1 = new QTimer;
+    QObject::connect(timer_enemies1,SIGNAL(timeout()),player,SLOT(spawn_enemies1()));
+    timer_enemies1->start(2000);
+
+    //Timer de los enemigos
+    QTimer *timer_enemies2 = new QTimer;
+    QObject::connect(timer_enemies2,SIGNAL(timeout()),player,SLOT(spawn_enemies2()));
+    timer_enemies2->start(3000);
 
     show();
 }

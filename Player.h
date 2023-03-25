@@ -8,19 +8,17 @@
 #include <QGraphicsPixmapItem>
 #include <QObject>
 
+
 class Player: public QObject ,public QGraphicsPixmapItem{
 Q_OBJECT
-
-    Player(QGraphicsItem *parent);
-
 public:
     void keyPressEvent(QKeyEvent * event);
-public:
-    Player();
-
 public slots:
     void bullets();
-    void spawn_enemies();
+    void spawn_enemies1();
+    void spawn_enemies2();
 
 };
+
+
 #endif // PLAYER_H

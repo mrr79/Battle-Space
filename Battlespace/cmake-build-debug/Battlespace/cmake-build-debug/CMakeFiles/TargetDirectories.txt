@@ -1,0 +1,9 @@
+/home/mrr/Downloads/Proyecto_1_Datos_ll-e0563a90f933866015b8da9bfeccc377d41f8578/Battlespace/cmake-build-debug/CMakeFiles/Proyecto_1_Datos_ll.dir
+/home/mrr/Downloads/Proyecto_1_Datos_ll-e0563a90f933866015b8da9bfeccc377d41f8578/Battlespace/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mrr/Downloads/Proyecto_1_Datos_ll-e0563a90f933866015b8da9bfeccc377d41f8578/Battlespace/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mrr/Downloads/Proyecto_1_Datos_ll-e0563a90f933866015b8da9bfeccc377d41f8578/Battlespace/cmake-build-debug/CMakeFiles/list_install_components.dir
+/home/mrr/Downloads/Proyecto_1_Datos_ll-e0563a90f933866015b8da9bfeccc377d41f8578/Battlespace/cmake-build-debug/CMakeFiles/install.dir
+/home/mrr/Downloads/Proyecto_1_Datos_ll-e0563a90f933866015b8da9bfeccc377d41f8578/Battlespace/cmake-build-debug/CMakeFiles/install/local.dir
+/home/mrr/Downloads/Proyecto_1_Datos_ll-e0563a90f933866015b8da9bfeccc377d41f8578/Battlespace/cmake-build-debug/CMakeFiles/install/strip.dir
+/home/mrr/Downloads/Proyecto_1_Datos_ll-e0563a90f933866015b8da9bfeccc377d41f8578/Battlespace/cmake-build-debug/CMakeFiles/Proyecto_1_Datos_ll_autogen_timestamp_deps.dir
+/home/mrr/Downloads/Proyecto_1_Datos_ll-e0563a90f933866015b8da9bfeccc377d41f8578/Battlespace/cmake-build-debug/CMakeFiles/Proyecto_1_Datos_ll_autogen.dir

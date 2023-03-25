@@ -5,6 +5,7 @@
 #ifndef DIFICULTIES_WINDOW_H
 #define DIFICULTIES_WINDOW_H
 
+
 #include <QGraphicsView>
 #include <QWidget>
 #include <QGraphicsScene>

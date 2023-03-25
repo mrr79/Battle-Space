@@ -6,14 +6,17 @@ Battle_Space_autogen/timestamp: \
 	/home/mrr/Desktop/Battle-Space/Dificulties_Window.h \
 	/home/mrr/Desktop/Battle-Space/Easy_game.cpp \
 	/home/mrr/Desktop/Battle-Space/Easy_game.h \
-	/home/mrr/Desktop/Battle-Space/Enemy.cpp \
-	/home/mrr/Desktop/Battle-Space/Enemy.h \
+	/home/mrr/Desktop/Battle-Space/Enemy_1.cpp \
+	/home/mrr/Desktop/Battle-Space/Enemy_1.h \
+	/home/mrr/Desktop/Battle-Space/Enemy_2.cpp \
+	/home/mrr/Desktop/Battle-Space/Enemy_2.h \
 	/home/mrr/Desktop/Battle-Space/Hard_Game.cpp \
 	/home/mrr/Desktop/Battle-Space/Hard_Game.h \
 	/home/mrr/Desktop/Battle-Space/Normal_Game.cpp \
 	/home/mrr/Desktop/Battle-Space/Normal_Game.h \
 	/home/mrr/Desktop/Battle-Space/Player.cpp \
 	/home/mrr/Desktop/Battle-Space/Player.h \
+	/home/mrr/Desktop/Battle-Space/Resources.qrc \
 	/home/mrr/Desktop/Battle-Space/cmake-build-debug/Battle_Space_autogen/moc_predefs.h \
 	/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles/3.24.2/CMakeCCompiler.cmake \
 	/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles/3.24.2/CMakeCXXCompiler.cmake \

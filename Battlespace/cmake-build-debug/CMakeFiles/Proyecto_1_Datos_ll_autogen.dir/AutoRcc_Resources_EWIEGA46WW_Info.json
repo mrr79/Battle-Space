@@ -1,0 +1,25 @@
+{
+	"BUILD_DIR" : "/home/mrr/Desktop/Battle-Space/Battlespace/cmake-build-debug/Proyecto_1_Datos_ll_autogen",
+	"CMAKE_BINARY_DIR" : "/home/mrr/Desktop/Battle-Space/Battlespace/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/mrr/Desktop/Battle-Space/Battlespace/cmake-build-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/mrr/Desktop/Battle-Space/Battlespace",
+	"CMAKE_SOURCE_DIR" : "/home/mrr/Desktop/Battle-Space/Battlespace",
+	"INCLUDE_DIR" : "/home/mrr/Desktop/Battle-Space/Battlespace/cmake-build-debug/Proyecto_1_Datos_ll_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/mrr/Desktop/Battle-Space/Battlespace/myship.png",
+		"/home/mrr/Desktop/Battle-Space/Battlespace/e1.png",
+		"/home/mrr/Desktop/Battle-Space/Battlespace/bullet.png",
+		"/home/mrr/Desktop/Battle-Space/Battlespace/E2.png"
+	],
+	"LOCK_FILE" : "/home/mrr/Desktop/Battle-Space/Battlespace/cmake-build-debug/CMakeFiles/Proyecto_1_Datos_ll_autogen.dir/AutoRcc_Resources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "Resources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_Resources.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/mrr/Desktop/Battle-Space/Battlespace/cmake-build-debug/CMakeFiles/Proyecto_1_Datos_ll_autogen.dir/AutoRcc_Resources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/mrr/Desktop/Battle-Space/Battlespace/Resources.qrc",
+	"VERBOSITY" : 0
+}

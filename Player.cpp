@@ -1,18 +1,12 @@
 //
 // Created by mrr on 24/03/23.
 //
-
 #include "Player.h"
 #include <QKeyEvent>
 #include <QGraphicsScene>
 #include "Bullet.h"
-#include "Enemy.h"
-
-Player::Player()
-{
-    setPixmap(QPixmap(":/images/myship.png").scaled(50,50));
-}
-
+#include "Enemy_2.h"
+#include "Enemy_1.h"
 
 void Player::keyPressEvent(QKeyEvent *event){
     if (event->key() == Qt::Key_Up){
@@ -35,7 +29,15 @@ void Player::bullets()
 
 }
 
-void Player::spawn_enemies(){
-    Enemy *enemy = new Enemy();
-    scene()->addItem(enemy);
+void Player::spawn_enemies1(){
+    Enemy_1 *enemy_1 = new Enemy_1();
+    scene()->addItem(enemy_1);
+    //show();
+}
+
+void Player::spawn_enemies2()
+{
+    Enemy_2 *enemy_2 = new Enemy_2();
+    scene()->addItem(enemy_2);
+    //show();
 }
