@@ -21,28 +21,28 @@
 QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
-struct qt_meta_stringdata_MyShip_t {
+struct qt_meta_stringdata_Player_t {
     QByteArrayData data[4];
-    char stringdata0[20];
+    char stringdata0[30];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    qptrdiff(offsetof(qt_meta_stringdata_MyShip_t, stringdata0) + ofs \
+    qptrdiff(offsetof(qt_meta_stringdata_Player_t, stringdata0) + ofs \
         - idx * sizeof(QByteArrayData)) \
     )
-static const qt_meta_stringdata_MyShip_t qt_meta_stringdata_MyShip = {
+static const qt_meta_stringdata_Player_t qt_meta_stringdata_Player = {
     {
-QT_MOC_LITERAL(0, 0, 6), // "MyShip"
-QT_MOC_LITERAL(1, 7, 5), // "shoot"
-QT_MOC_LITERAL(2, 13, 0), // ""
-QT_MOC_LITERAL(3, 14, 5) // "spawn"
+QT_MOC_LITERAL(0, 0, 6), // "Player"
+QT_MOC_LITERAL(1, 7, 7), // "bullets"
+QT_MOC_LITERAL(2, 15, 0), // ""
+QT_MOC_LITERAL(3, 16, 13) // "spawn_enemies"
 
     },
-    "MyShip\0shoot\0\0spawn"
+    "Player\0bullets\0\0spawn_enemies"
 };
 #undef QT_MOC_LITERAL
 
-static const uint qt_meta_data_MyShip[] = {
+static const uint qt_meta_data_Player[] = {
 
  // content:
        8,       // revision
@@ -66,46 +66,46 @@ static const uint qt_meta_data_MyShip[] = {
        0        // eod
 };
 
-void MyShip::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+void Player::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
-        auto *_t = static_cast<MyShip *>(_o);
+        auto *_t = static_cast<Player *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: _t->shoot(); break;
-        case 1: _t->spawn(); break;
+        case 0: _t->bullets(); break;
+        case 1: _t->spawn_enemies(); break;
         default: ;
         }
     }
     (void)_a;
 }
 
-QT_INIT_METAOBJECT const QMetaObject MyShip::staticMetaObject = { {
+QT_INIT_METAOBJECT const QMetaObject Player::staticMetaObject = { {
     QMetaObject::SuperData::link<QObject::staticMetaObject>(),
-    qt_meta_stringdata_MyShip.data,
-    qt_meta_data_MyShip,
+    qt_meta_stringdata_Player.data,
+    qt_meta_data_Player,
     qt_static_metacall,
     nullptr,
     nullptr
 } };
 
 
-const QMetaObject *MyShip::metaObject() const
+const QMetaObject *Player::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
-void *MyShip::qt_metacast(const char *_clname)
+void *Player::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_MyShip.stringdata0))
+    if (!strcmp(_clname, qt_meta_stringdata_Player.stringdata0))
         return static_cast<void*>(this);
     if (!strcmp(_clname, "QGraphicsPixmapItem"))
         return static_cast< QGraphicsPixmapItem*>(this);
     return QObject::qt_metacast(_clname);
 }
 
-int MyShip::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+int Player::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QObject::qt_metacall(_c, _id, _a);
     if (_id < 0)
