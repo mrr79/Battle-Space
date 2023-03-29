@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Proyecto_1_Datos_ll::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Proyecto_1_Datos_ll-Debug-9619ca5e1ba86a799751.json",
+					"jsonFile" : "target-Proyecto_1_Datos_ll-Debug-c95f45025b6396a09e4c.json",
 					"name" : "Proyecto_1_Datos_ll",
 					"projectIndex" : 0
 				},
@@ -68,8 +68,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/mrr/Desktop/Battle-Space/Battlespace/cmake-build-debug",
-		"source" : "/home/mrr/Desktop/Battle-Space/Battlespace"
+		"build" : "/home/mrr/Desktop/Battle-Space/cmake-build-debug",
+		"source" : "/home/mrr/Desktop/Battle-Space"
 	},
 	"version" : 
 	{

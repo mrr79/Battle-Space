@@ -1,98 +1,6 @@
-Proyecto_1_Datos_ll_autogen/timestamp: \
-  /home/mrr/Desktop/Battle-Space/Battlespace/Bullet.cpp \
-  /home/mrr/Desktop/Battle-Space/Battlespace/Bullet.h \
-  /home/mrr/Desktop/Battle-Space/Battlespace/CMakeLists.txt \
-  /home/mrr/Desktop/Battle-Space/Battlespace/Dificulties_Window.cpp \
-  /home/mrr/Desktop/Battle-Space/Battlespace/Dificulties_Window.h \
-  /home/mrr/Desktop/Battle-Space/Battlespace/Easy_game.cpp \
-  /home/mrr/Desktop/Battle-Space/Battlespace/Easy_game.h \
-  /home/mrr/Desktop/Battle-Space/Battlespace/Enemy.cpp \
-  /home/mrr/Desktop/Battle-Space/Battlespace/Enemy.h \
-  /home/mrr/Desktop/Battle-Space/Battlespace/Enemy_1.cpp \
-  /home/mrr/Desktop/Battle-Space/Battlespace/Enemy_1.h \
-  /home/mrr/Desktop/Battle-Space/Battlespace/Enemy_2.cpp \
-  /home/mrr/Desktop/Battle-Space/Battlespace/Enemy_2.h \
-  /home/mrr/Desktop/Battle-Space/Battlespace/Hard_Game.cpp \
-  /home/mrr/Desktop/Battle-Space/Battlespace/Hard_Game.h \
-  /home/mrr/Desktop/Battle-Space/Battlespace/Normal_Game.cpp \
-  /home/mrr/Desktop/Battle-Space/Battlespace/Normal_Game.h \
-  /home/mrr/Desktop/Battle-Space/Battlespace/Player.cpp \
-  /home/mrr/Desktop/Battle-Space/Battlespace/Player.h \
-  /home/mrr/Desktop/Battle-Space/Battlespace/Resources.qrc \
-  CMakeFiles/3.24.2/CMakeCXXCompiler.cmake \
-  CMakeFiles/3.24.2/CMakeSystem.cmake \
-  Proyecto_1_Datos_ll_autogen/moc_predefs.h \
-  /home/mrr/Desktop/Battle-Space/Battlespace/main.cpp \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCXXCompiler.cmake.in \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCompilerIdDetection.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeDetermineCXXCompiler.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeDetermineCompileFeatures.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeDetermineCompiler.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeDetermineCompilerABI.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeDetermineCompilerId.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeDetermineSystem.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeFindBinUtils.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeParseArguments.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeParseImplicitIncludeInfo.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeParseImplicitLinkInfo.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeParseLibraryArchitecture.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeSystem.cmake.in \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeTestCXXCompiler.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeTestCompilerCommon.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/ADSP-DetermineCompiler.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/Borland-DetermineCompiler.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompiler.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/Cray-DetermineCompiler.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GHS-DetermineCompiler.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU-FindBinUtils.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/IAR-DetermineCompiler.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/Intel-DetermineCompiler.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/MSVC-DetermineCompiler.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/PGI-DetermineCompiler.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/PathScale-DetermineCompiler.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/SCO-DetermineCompiler.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/TI-DetermineCompiler.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/Watcom-DetermineCompiler.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Internal/FeatureTesting.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-Determine-CXX.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU-CXX.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/UnixPaths.cmake \
+/home/mrr/Desktop/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/moc_Easy_game.cpp: /home/mrr/Desktop/Battle-Space/Easy_game.h \
+  /home/mrr/Desktop/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/moc_predefs.h \
+  /home/mrr/Desktop/Battle-Space/Player.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/assert.h \
@@ -329,11 +237,13 @@ Proyecto_1_Datos_ll_autogen/timestamp: \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h \
@@ -382,75 +292,55 @@ Proyecto_1_Datos_ll_autogen/timestamp: \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainter.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainterpath.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsPixmapItem \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsRectItem \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsScene \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsitem.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsscene.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsview.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qscrollarea.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
   /usr/include/x86_64-linux-gnu/sys/syscall.h \
   /usr/lib/gcc/x86_64-linux-gnu/12/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/12/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/12/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h \
-  /usr/lib/gcc/x86_64-linux-gnu/12/include/syslimits.h \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake \
-  /snap/clion/229/bin/cmake/linux/x64/bin/cmake
+  /usr/lib/gcc/x86_64-linux-gnu/12/include/syslimits.h

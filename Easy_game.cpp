@@ -9,8 +9,10 @@ Easy_game::Easy_game(QWidget *parent){
     scene->setSceneRect(0,0,800,600);
     int width = 800;
     int height = 600;
+    //velocidad de las balas
+    int bullet_speed = 600;
 
-    //Item en la escena
+    //PLayer en la scene
     Player *player = new Player();
     player->setPixmap(QPixmap(":/Images/myship.png").scaled(50,50));
 
@@ -28,7 +30,8 @@ Easy_game::Easy_game(QWidget *parent){
     setFixedSize(800,600);
 
     player->setPos(0,150);
-    int bullet_speed = 600;
+
+    scene->addItem(bullets_label);
 
     //Timer de las balas
     QTimer *timer_bullets = new QTimer;
@@ -45,5 +48,21 @@ Easy_game::Easy_game(QWidget *parent){
     QObject::connect(timer_enemies_2, SIGNAL(timeout()), player, SLOT(spawn_enemies_2()));
     timer_enemies_2->start(3000);
 
+//CONTADOR DE BALAS
+    QObject::connect(timer_bullets,SIGNAL(timeout()),this,SLOT(decrease()));
+    timer_bullets->start(bullet_speed);
+
     show();
+
+}
+
+void Easy_game::decrease()
+{
+    if (bullets_number == 0){
+        timer_bullets->stop();
+    }
+    else{
+        bullets_number--;
+        bullets_label->setPlainText("Bullets: " + QString::number(bullets_number));
+    }
 }

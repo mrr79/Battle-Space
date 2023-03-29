@@ -1,5 +1,5 @@
-/home/mrr/Desktop/Battle-Space/Battlespace/cmake-build-debug/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/moc_Enemy_1.cpp: /home/mrr/Desktop/Battle-Space/Battlespace/Enemy_1.h \
-  /home/mrr/Desktop/Battle-Space/Battlespace/cmake-build-debug/Proyecto_1_Datos_ll_autogen/moc_predefs.h \
+/home/mrr/Desktop/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/moc_Enemy_1.cpp: /home/mrr/Desktop/Battle-Space/Enemy_1.h \
+  /home/mrr/Desktop/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/moc_predefs.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/assert.h \
