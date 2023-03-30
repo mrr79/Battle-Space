@@ -4,7 +4,7 @@
 #include <QFont>
 
 Easy_game::Easy_game(QWidget *parent){
-    //Escena
+    //scena
     QGraphicsScene *scene = new QGraphicsScene();
     scene->setSceneRect(0,0,800,600);
     int width = 800;
@@ -13,7 +13,7 @@ Easy_game::Easy_game(QWidget *parent){
     int bullet_speed = 600;
 
     //PLayer en la scene
-    Player *player = new Player();
+    Player *player = new Player(bullets_number);
     player->setPixmap(QPixmap(":/Images/myship.png").scaled(50,50));
 
     //Agregado de el item a la escena

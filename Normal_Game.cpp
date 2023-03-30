@@ -1,6 +1,8 @@
 #include "Normal_Game.h"
 #include <QTimer>
 #include <QGraphicsTextItem>
+#include "Enemy_2.h"
+#include "QDebug"
 #include <QFont>
 
 Normal_Game::Normal_Game(QWidget *parent){
@@ -12,7 +14,7 @@ Normal_Game::Normal_Game(QWidget *parent){
     int bullet_speed = 700;
 
     //Item en la escena
-    Player *player = new Player();
+    Player *player = new Player(bullets_number);
     player->setPixmap(QPixmap(":/Images/myship.png").scaled(50,50));
 
     //Agregado de el item a la escena

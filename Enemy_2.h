@@ -5,11 +5,12 @@
 #include <QObject>
 
 class Enemy_2: public QObject , public QGraphicsPixmapItem{
-    Q_OBJECT
+Q_OBJECT
 public:
+    int red_life = 2;
     Enemy_2();
 public slots:
     void move();
 };
 
-#endif // RED_ENEMY_H
+#endif

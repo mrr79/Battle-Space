@@ -12,7 +12,7 @@ Hard_Game::Hard_Game(QWidget *parent){
     int bullet_speed = 900;
 
     //Item en la escena
-    Player *player = new Player();
+    Player *player = new Player(bullets_number);
     player->setPixmap(QPixmap(":/Images/myship.png").scaled(50,50));
 
     //Agregado de el item a la escena
@@ -39,12 +39,16 @@ Hard_Game::Hard_Game(QWidget *parent){
     //Timer de los enemigos
     QTimer *timer_enemies_1 = new QTimer;
     QObject::connect(timer_enemies_1, SIGNAL(timeout()), player, SLOT(spawn_enemies_1()));
-    timer_enemies_1->start(2000);
+    timer_enemies_1->start(10000);
 
     //Timer de los enemigos
     QTimer *timer_enemies_2 = new QTimer;
     QObject::connect(timer_enemies_2, SIGNAL(timeout()), player, SLOT(spawn_enemies_2()));
-    timer_enemies_2->start(3000);
+    timer_enemies_2->start(10000);
+
+    QTimer *timer_enemies = new QTimer;
+    QObject::connect(timer_enemies,SIGNAL(timeout()),player,SLOT(spawn_enemies()));
+    timer_enemies->start(2000);
 
     //CONTADOR DE BALAS
     QObject::connect(timer_bullets,SIGNAL(timeout()),this,SLOT(decrease()));

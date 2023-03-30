@@ -4,6 +4,7 @@
 #include "Bullet.h"
 #include "Enemy_2.h"
 #include "Enemy_1.h"
+#include "Enemy.h"
 
 void Player::keyPressEvent(QKeyEvent *event){
     if (event->key() == Qt::Key_Up){
@@ -18,12 +19,23 @@ void Player::keyPressEvent(QKeyEvent *event){
     }
 }
 
+Player::Player(int bullets_number)
+{
+    this->bullets_number = bullets_number;
+}
+
+
 void Player::bullets()
 {
-    Bullet *bullet = new Bullet();
-    bullet->setPos(x()+100,y()+20);
-    scene()->addItem(bullet);
-
+    if (bullets_number == 0){
+        return;
+    }
+    else{
+        Bullet *bullet = new Bullet();
+        bullet->setPos(x()+100,y()+20);
+        scene()->addItem(bullet);
+        bullets_number--;
+    }
 }
 
 void Player::spawn_enemies_1(){
@@ -35,4 +47,10 @@ void Player::spawn_enemies_2()
 {
     Enemy_2 *enemy_2 = new Enemy_2();
     scene()->addItem(enemy_2);
+}
+
+void Player::spawn_enemies()
+{
+    Enemy *enemy = new Enemy();
+    scene()->addItem(enemy);
 }

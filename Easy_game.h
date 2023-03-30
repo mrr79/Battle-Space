@@ -13,7 +13,7 @@ public:
     Easy_game(QWidget * parent=0);
     //label y timer de los bulllets
     QTimer *timer_bullets = new QTimer;
-    int bullets_number = 100;
+    int bullets_number = 60;
     QGraphicsTextItem *bullets_label = new QGraphicsTextItem("Bullets: " + QString::number(bullets_number));
 
     QGraphicsScene * scene;
