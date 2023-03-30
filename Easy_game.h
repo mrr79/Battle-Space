@@ -23,6 +23,7 @@ public:
 public slots:
     //ir restando los bullets : ver funcion en el cpp
     void decrease();
+    //void checkBulletPosition();
 };
 
 #endif // EASY_GAME_H

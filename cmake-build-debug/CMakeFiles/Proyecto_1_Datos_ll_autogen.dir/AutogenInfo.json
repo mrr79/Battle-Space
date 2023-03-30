@@ -80,6 +80,12 @@
 			null
 		],
 		[
+			"/home/mrr/Desktop/Battle-Space/Collector.h",
+			"MU",
+			"EWIEGA46WW/moc_Collector.cpp",
+			null
+		],
+		[
 			"/home/mrr/Desktop/Battle-Space/Dificulties_Window.h",
 			"MU",
 			"EWIEGA46WW/moc_Dificulties_Window.cpp",
@@ -119,6 +125,12 @@
 			"/home/mrr/Desktop/Battle-Space/Hard_Game.h",
 			"MU",
 			"EWIEGA46WW/moc_Hard_Game.cpp",
+			null
+		],
+		[
+			"/home/mrr/Desktop/Battle-Space/NodeC.h",
+			"MU",
+			"EWIEGA46WW/moc_NodeC.cpp",
 			null
 		],
 		[
@@ -185,6 +197,7 @@
 	"SOURCES" : 
 	[
 		[ "/home/mrr/Desktop/Battle-Space/Bullet.cpp", "MU", null ],
+		[ "/home/mrr/Desktop/Battle-Space/Collector.cpp", "MU", null ],
 		[ "/home/mrr/Desktop/Battle-Space/Dificulties_Window.cpp", "MU", null ],
 		[ "/home/mrr/Desktop/Battle-Space/Easy_game.cpp", "MU", null ],
 		[ "/home/mrr/Desktop/Battle-Space/Enemy.cpp", "MU", null ],
@@ -192,6 +205,7 @@
 		[ "/home/mrr/Desktop/Battle-Space/Enemy_2.cpp", "MU", null ],
 		[ "/home/mrr/Desktop/Battle-Space/Game_Over.cpp", "MU", null ],
 		[ "/home/mrr/Desktop/Battle-Space/Hard_Game.cpp", "MU", null ],
+		[ "/home/mrr/Desktop/Battle-Space/NodeC.cpp", "MU", null ],
 		[ "/home/mrr/Desktop/Battle-Space/Normal_Game.cpp", "MU", null ],
 		[ "/home/mrr/Desktop/Battle-Space/Player.cpp", "MU", null ],
 		[ "/home/mrr/Desktop/Battle-Space/main.cpp", "MU", null ]

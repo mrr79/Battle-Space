@@ -10,6 +10,8 @@ public:
     Bullet();
 public slots:
     void move();
+//public signals:
+    //void positionOutOfRange();
 };
 
 #endif // BULLET_H

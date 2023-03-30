@@ -44,7 +44,9 @@ void Enemy_2::move()
             }
         }
     }
-    setPos(x() - 5,y());
+
+    /// 5 es la verdadera velocidaD DE LA BALA
+    setPos(x() - enemy2_speed,y());
     if (pos().x() <= 0){
         scene()->removeItem(this);
         delete this;

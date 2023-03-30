@@ -3,6 +3,11 @@
 #include <QGraphicsTextItem>
 #include <QFont>
 #include <QImage>
+#include "Collector.h"
+#include "NodeC.h"
+#include "Player.h"
+#include "Bullet.h"
+
 
 Easy_game::Easy_game(QWidget *parent){
     //scena
@@ -38,6 +43,9 @@ Easy_game::Easy_game(QWidget *parent){
 
     scene->addItem(bullets_label);
 
+
+
+
     //Timer de las balas
     QTimer *timer_bullets = new QTimer;
     QObject::connect(timer_bullets,SIGNAL(timeout()),player,SLOT(bullets()));
@@ -71,3 +79,4 @@ void Easy_game::decrease()
         bullets_label->setPlainText("Bullets: " + QString::number(bullets_number));
     }
 }
+

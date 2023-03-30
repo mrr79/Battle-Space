@@ -5,7 +5,13 @@
 #include "Enemy_2.h"
 #include "Enemy_1.h"
 #include "Enemy.h"
+#include "NodeC.h"
+#include "Collector.h"
+#include <iostream>
+#include "Easy_game.h"
 
+
+// mover jugador arriba y abajo
 void Player::keyPressEvent(QKeyEvent *event){
     if (event->key() == Qt::Key_Up){
         if (pos().y() > 0){
@@ -30,11 +36,17 @@ void Player::bullets()
     if (bullets_number == 0){
         return;
     }
-    else{
+    else
+    {
         Bullet *bullet = new Bullet();
         bullet->setPos(x()+100,y()+20);
+
+
+        // add bullet to the scene
         scene()->addItem(bullet);
         bullets_number--;
+
+
     }
 }
 

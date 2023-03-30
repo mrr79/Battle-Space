@@ -1,6 +1,6 @@
 #ifndef PLAYER_H
 #define PLAYER_H
-
+#include "Collector.h"
 #include <QGraphicsPixmapItem>
 #include <QObject>
 
@@ -15,5 +15,9 @@ public slots:
     void spawn_enemies_1();
     void spawn_enemies_2();
     void spawn_enemies();
+
+private:
+    Collector collector; // declare an instance of the Collector class
+
 };
 #endif // PLAYER_H

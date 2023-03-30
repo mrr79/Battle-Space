@@ -2,6 +2,8 @@ Proyecto_1_Datos_ll_autogen/timestamp: \
   /home/mrr/Desktop/Battle-Space/Bullet.cpp \
   /home/mrr/Desktop/Battle-Space/Bullet.h \
   /home/mrr/Desktop/Battle-Space/CMakeLists.txt \
+  /home/mrr/Desktop/Battle-Space/Collector.cpp \
+  /home/mrr/Desktop/Battle-Space/Collector.h \
   /home/mrr/Desktop/Battle-Space/Dificulties_Window.cpp \
   /home/mrr/Desktop/Battle-Space/Dificulties_Window.h \
   /home/mrr/Desktop/Battle-Space/Easy_game.cpp \
@@ -16,6 +18,8 @@ Proyecto_1_Datos_ll_autogen/timestamp: \
   /home/mrr/Desktop/Battle-Space/Game_Over.h \
   /home/mrr/Desktop/Battle-Space/Hard_Game.cpp \
   /home/mrr/Desktop/Battle-Space/Hard_Game.h \
+  /home/mrr/Desktop/Battle-Space/NodeC.cpp \
+  /home/mrr/Desktop/Battle-Space/NodeC.h \
   /home/mrr/Desktop/Battle-Space/Normal_Game.cpp \
   /home/mrr/Desktop/Battle-Space/Normal_Game.h \
   /home/mrr/Desktop/Battle-Space/Player.cpp \
@@ -77,6 +81,7 @@ Proyecto_1_Datos_ll_autogen/timestamp: \
   /usr/include/c++/12/bits/hash_bytes.h \
   /usr/include/c++/12/bits/invoke.h \
   /usr/include/c++/12/bits/ios_base.h \
+  /usr/include/c++/12/bits/istream.tcc \
   /usr/include/c++/12/bits/iterator_concepts.h \
   /usr/include/c++/12/bits/list.tcc \
   /usr/include/c++/12/bits/locale_classes.h \
@@ -167,6 +172,8 @@ Proyecto_1_Datos_ll_autogen/timestamp: \
   /usr/include/c++/12/initializer_list \
   /usr/include/c++/12/ios \
   /usr/include/c++/12/iosfwd \
+  /usr/include/c++/12/iostream \
+  /usr/include/c++/12/istream \
   /usr/include/c++/12/iterator \
   /usr/include/c++/12/limits \
   /usr/include/c++/12/list \

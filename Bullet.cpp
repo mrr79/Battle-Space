@@ -6,7 +6,8 @@
 #include <QTimer>
 #include <QGraphicsScene>
 #include <QList>
-
+#include "Collector.h"
+#include "NodeC.h"
 
 Bullet::Bullet()
 {
@@ -19,12 +20,16 @@ Bullet::Bullet()
     timer->start(50);
 }
 
-
+Collector *collector = new Collector();
 
 void Bullet::move() {
     setPos(x() + 15, y());
     if (pos().x() > 800) {
+        collector->insertar_collector((void *) this);
+        std::cout << "Bullet added to collector" << std::endl;
+        //emit positionOutOfRange(); //para el collector
         scene()->removeItem(this);
-        delete this;
+        //delete this;
     }
 }
+
