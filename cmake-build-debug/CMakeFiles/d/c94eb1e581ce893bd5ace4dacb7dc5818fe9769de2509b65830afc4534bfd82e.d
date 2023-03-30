@@ -12,6 +12,8 @@ Proyecto_1_Datos_ll_autogen/timestamp: \
   /home/mrr/Desktop/Battle-Space/Enemy_1.h \
   /home/mrr/Desktop/Battle-Space/Enemy_2.cpp \
   /home/mrr/Desktop/Battle-Space/Enemy_2.h \
+  /home/mrr/Desktop/Battle-Space/Game_Over.cpp \
+  /home/mrr/Desktop/Battle-Space/Game_Over.h \
   /home/mrr/Desktop/Battle-Space/Hard_Game.cpp \
   /home/mrr/Desktop/Battle-Space/Hard_Game.h \
   /home/mrr/Desktop/Battle-Space/Normal_Game.cpp \
@@ -23,73 +25,17 @@ Proyecto_1_Datos_ll_autogen/timestamp: \
   CMakeFiles/3.25.2/CMakeSystem.cmake \
   Proyecto_1_Datos_ll_autogen/moc_predefs.h \
   /home/mrr/Desktop/Battle-Space/main.cpp \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCXXCompiler.cmake.in \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp \
   /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake \
   /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCompilerIdDetection.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineCXXCompiler.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineCompileFeatures.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineCompiler.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineCompilerABI.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineCompilerId.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineSystem.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeFindBinUtils.cmake \
   /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake \
   /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake \
   /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake \
   /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeParseArguments.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeParseImplicitIncludeInfo.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeParseImplicitLinkInfo.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeParseLibraryArchitecture.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystem.cmake.in \
   /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake \
   /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeTestCXXCompiler.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeTestCompilerCommon.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/ADSP-DetermineCompiler.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Borland-DetermineCompiler.cmake \
   /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Clang-DetermineCompiler.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Cray-DetermineCompiler.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GHS-DetermineCompiler.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
   /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-FindBinUtils.cmake \
   /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/IAR-DetermineCompiler.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Intel-DetermineCompiler.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/MSVC-DetermineCompiler.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/PGI-DetermineCompiler.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/PathScale-DetermineCompiler.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/SCO-DetermineCompiler.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/TI-DetermineCompiler.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Tasking-DetermineCompiler.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Watcom-DetermineCompiler.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Internal/FeatureTesting.cmake \
-  /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-Determine-CXX.cmake \
   /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-CXX.cmake \
   /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake \
   /snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux.cmake \

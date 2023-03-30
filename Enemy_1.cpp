@@ -35,7 +35,7 @@ void Enemy_1::move()
         }
     }
     setPos(x() - 10,y());
-    if (pos().x() <= 0){
+    if (pos().x() <= -1){
         scene()->removeItem(this);
         delete this;
     }

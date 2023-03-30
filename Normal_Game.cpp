@@ -4,21 +4,47 @@
 #include "Enemy_2.h"
 #include "QDebug"
 #include <QFont>
+#include <QImage>
+#include <QPushButton>
+#include <QGraphicsProxyWidget>
+#include "Enemy_2.h"
+#include "Enemy_1.h"
+#include "Game_Over.h"
+#include <QGraphicsScene>
+#include <QList>
 
-Normal_Game::Normal_Game(QWidget *parent){
+Normal_Game::Normal_Game(int bullet_speed, int bullets, int ships_number, int health, QWidget *parent){
     //Escena
     QGraphicsScene *scene = new QGraphicsScene();
     scene->setSceneRect(0,0,800,600);
-    int width = 800;
-    int height = 600;
-    int bullet_speed = 700;
+    scene->setBackgroundBrush(QBrush(QImage(":/Images/BG.png")));
+
+
+
+    this->bullets_number = bullets;
+    this->health_number = health;
+
+    bullets_label = new QGraphicsTextItem("Bullets: " + QString::number(bullets_number));
+    bullets_label->setDefaultTextColor(Qt::red);
+
+    line = new QGraphicsLineItem(10, 10, 10, 600);
+    scene->addItem(line);
 
     //Item en la escena
     Player *player = new Player(bullets_number);
     player->setPixmap(QPixmap(":/Images/myship.png").scaled(50,50));
 
+    health_label = new QGraphicsTextItem("Health: " + QString::number(health));
+
+    health_label->setDefaultTextColor(Qt::red);
+
+
+
     //Agregado de el item a la escena
     scene->addItem(player);
+    scene->addItem(bullets_label);
+    scene->addItem(health_label);
+    health_label->setPos(0,20);
 
     //Hacer rectangulo focusiable
     player->setFlag(QGraphicsItem::ItemIsFocusable);
@@ -32,7 +58,6 @@ Normal_Game::Normal_Game(QWidget *parent){
 
     player->setPos(0,150);
 
-    scene->addItem(bullets_label);
 
     //Timer de las balas
     QTimer *timer_bullets = new QTimer;
@@ -50,13 +75,19 @@ Normal_Game::Normal_Game(QWidget *parent){
     timer_enemies_2->start(3000);
 
     //CONTADOR DE BALAS
-    QObject::connect(timer_bullets,SIGNAL(timeout()),this,SLOT(decrease()));
+    QObject::connect(timer_bullets,SIGNAL(timeout()),this,SLOT(decrease_bullets()));
     timer_bullets->start(bullet_speed);
+
+
+
+    check = new QTimer;
+    QObject::connect(check,SIGNAL(timeout()),this,SLOT(check_health()));
+    check->start(50);
 
     show();
 }
 
-void Normal_Game::decrease()
+void Normal_Game::decrease_bullets()
 {
     if (bullets_number == 0){
         timer_bullets->stop();
@@ -64,5 +95,35 @@ void Normal_Game::decrease()
     else{
         bullets_number--;
         bullets_label->setPlainText("Bullets: " + QString::number(bullets_number));
+    }
+}
+
+void Normal_Game::decrease_health()
+{
+    if (health_number == 0){
+        return;
+    }
+    else{
+        health_number--;
+        health_label->setPlainText("Health: " + QString::number(health_number));
+    }
+}
+
+void Normal_Game::check_health()
+{
+    if (health_number == 0){
+        check->stop();
+        Game_Over *game_over = new Game_Over();
+        game_over->show();
+        this->close();
+    }
+    else{
+        QList<QGraphicsItem *> colliding_items = line->collidingItems();
+        for (int i = 0, n = colliding_items.size(); i < n; ++i){
+            if (typeid(*(colliding_items[i])) == typeid(Enemy_2) || typeid(*(colliding_items[i])) == typeid(Enemy_1)){
+
+                decrease_health();
+            }
+        }
     }
 }

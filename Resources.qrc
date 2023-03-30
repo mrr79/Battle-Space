@@ -4,6 +4,7 @@
         <file>E2.png</file>
         <file>bullet.png</file>
         <file>myship.png</file>
+        <file>BG.png</file>
 
     </qresource>
 </RCC>

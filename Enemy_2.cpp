@@ -27,7 +27,7 @@ void Enemy_2::move()
     for (int i = 0, n = colliding_items.size(); i < n; ++i){
         if (typeid(*(colliding_items[i])) == typeid(Bullet)){
 
-            if (red_life == 0){
+            if (enemy2_life == 0){
                 // remove them both
                 scene()->removeItem(colliding_items[i]);
                 scene()->removeItem(this);
@@ -37,7 +37,7 @@ void Enemy_2::move()
                 return;
             }
             else{
-                red_life--;
+                enemy2_life--;
                 scene()->removeItem(colliding_items[i]);
                 delete colliding_items[i];
                 return;

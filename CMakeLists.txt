@@ -33,7 +33,8 @@ set(PROJECT_SOURCES
         Dificulties_Window.h
         Dificulties_Window.cpp
         Resources.qrc
-)
+        Game_Over.cpp
+        Game_Over.h)
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(Proyecto_1_Datos_ll

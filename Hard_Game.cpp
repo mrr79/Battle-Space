@@ -2,11 +2,14 @@
 #include <QTimer>
 #include <QGraphicsTextItem>
 #include <QFont>
+#include <QImage>
 
 Hard_Game::Hard_Game(QWidget *parent){
     //Escena
     QGraphicsScene *scene = new QGraphicsScene();
     scene->setSceneRect(0,0,800,600);
+    //scene->setBackgroundBrush(QBrush(QImage(":/Images/BG.png")));
+
     int width = 800;
     int height = 600;
     int bullet_speed = 900;
@@ -14,6 +17,8 @@ Hard_Game::Hard_Game(QWidget *parent){
     //Item en la escena
     Player *player = new Player(bullets_number);
     player->setPixmap(QPixmap(":/Images/myship.png").scaled(50,50));
+
+    bullets_label->setDefaultTextColor(Qt::red);
 
     //Agregado de el item a la escena
     scene->addItem(player);
