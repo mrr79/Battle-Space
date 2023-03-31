@@ -44,8 +44,6 @@ Easy_game::Easy_game(QWidget *parent){
     scene->addItem(bullets_label);
 
 
-
-
     //Timer de las balas
     QTimer *timer_bullets = new QTimer;
     QObject::connect(timer_bullets,SIGNAL(timeout()),player,SLOT(bullets()));

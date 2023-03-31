@@ -29,7 +29,7 @@ void Bullet::move() {
         std::cout << "Bullet added to collector" << std::endl;
         //emit positionOutOfRange(); //para el collector
         scene()->removeItem(this);
-        //delete this;
+        delete this;
     }
 }
 
