@@ -56,3 +56,13 @@ void* Collector::obtener_valor () {
     void *x = inicio->obtener_valor();
     eliminar_nodo_collector(inicio);
 }
+
+int Collector::collector_size() {
+    int count = 0;
+    NodeC* current = inicio;
+    while (current != NULL) {
+        count++;
+        current = current->next;
+    }
+    return count;
+}

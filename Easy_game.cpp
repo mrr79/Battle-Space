@@ -43,6 +43,8 @@ Easy_game::Easy_game(QWidget *parent){
 
     scene->addItem(bullets_label);
 
+    collector_label->setDefaultTextColor(Qt::red);
+    scene->addItem(collector_label);
 
     //Timer de las balas
     QTimer *timer_bullets = new QTimer;
@@ -75,6 +77,7 @@ void Easy_game::decrease()
     else{
         bullets_number--;
         bullets_label->setPlainText("Bullets: " + QString::number(bullets_number));
+        bullets_label->setPlainText("B en collector: " + QString::number(bullets_number));
     }
 }
 

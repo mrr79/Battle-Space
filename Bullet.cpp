@@ -8,8 +8,9 @@
 #include <QList>
 #include "Collector.h"
 #include "NodeC.h"
+#include "Player.h"
 
-Bullet::Bullet()
+Bullet::Bullet(): bullet_damage()
 {
     setPixmap(QPixmap(":/Images/bullet.png").scaled(20,30));
 
@@ -18,6 +19,7 @@ Bullet::Bullet()
     connect(timer,SIGNAL(timeout()),this,SLOT(move()));
 
     timer->start(50);
+
 }
 
 Collector *collector = new Collector();
@@ -31,5 +33,9 @@ void Bullet::move() {
         scene()->removeItem(this);
         delete this;
     }
+    std::cout << collector->collector_size()<< std::endl;
 }
+
+
+
 

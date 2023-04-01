@@ -4,6 +4,8 @@
 #include <stdlib.h>
 #include <QList>
 #include "Bullet.h"
+#include <iostream>
+using namespace std;
 
 Enemy_2::Enemy_2()
 {
@@ -26,8 +28,10 @@ void Enemy_2::move()
     QList<QGraphicsItem *> colliding_items = collidingItems();
     for (int i = 0, n = colliding_items.size(); i < n; ++i){
         if (typeid(*(colliding_items[i])) == typeid(Bullet)){
+            Bullet* bullet = dynamic_cast<Bullet*>(colliding_items[i]);
+            int damage = bullet->bullet_damage;
 
-            if (enemy2_life == 0){
+            if (enemy2_life == 0 && damage==0){
                 // remove them both
                 scene()->removeItem(colliding_items[i]);
                 scene()->removeItem(this);
@@ -35,17 +39,21 @@ void Enemy_2::move()
                 // delete them both
                 delete colliding_items[i];
                 return;
+                std::cout<<"DANO EN LA BALA " << damage <<std::endl;
             }
             else{
                 enemy2_life--;
+                damage--;
                 scene()->removeItem(colliding_items[i]);
                 delete colliding_items[i];
                 return;
+
             }
+
         }
     }
 
-    /// 5 es la verdadera velocidaD DE LA BALA
+    /// 10 es la verdadera velocidaD DE LA BALA
     setPos(x() - enemy2_speed,y());
     if (pos().x() <= 0){
         scene()->removeItem(this);

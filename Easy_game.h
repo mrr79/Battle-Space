@@ -15,6 +15,7 @@ public:
     QTimer *timer_bullets = new QTimer;
     int bullets_number = 60;
     QGraphicsTextItem *bullets_label = new QGraphicsTextItem("Bullets: " + QString::number(bullets_number));
+    QGraphicsTextItem *collector_label = new QGraphicsTextItem("B en Collector: " + QString::number(bullets_number));
 
     QGraphicsScene * scene;
     Player * player;

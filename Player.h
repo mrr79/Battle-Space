@@ -10,6 +10,7 @@ public:
     int bullets_number;
     void keyPressEvent(QKeyEvent * event);
     Player(int bullets_number);
+    int damage = 10;
 public slots:
     void bullets();
     void spawn_enemies_1();

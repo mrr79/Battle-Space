@@ -30,11 +30,12 @@ Player::Player(int bullets_number)
     this->bullets_number = bullets_number;
 }
 
-
+// disparo automatico
 void Player::bullets()
 {
     if (bullets_number == 0){
         return;
+
     }
     else
     {

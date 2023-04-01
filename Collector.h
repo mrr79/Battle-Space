@@ -19,6 +19,7 @@ public:
     bool validar_existencia();
     void* obtener_valor ();
     void mostrar_collector();
+    int collector_size();
 };
 
 #endif
