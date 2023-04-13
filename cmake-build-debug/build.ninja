@@ -286,7 +286,7 @@ build Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp | ${cmake_ninja_w
 #############################################
 # Phony custom command for CMakeFiles/Proyecto_1_Datos_ll_autogen_timestamp_deps
 
-build CMakeFiles/Proyecto_1_Datos_ll_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Proyecto_1_Datos_ll_autogen_timestamp_deps: phony /usr/lib/qt5/bin/uic /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.6 /usr/lib/qt5/bin/moc
+build CMakeFiles/Proyecto_1_Datos_ll_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Proyecto_1_Datos_ll_autogen_timestamp_deps: phony /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.6 /usr/lib/qt5/bin/uic /usr/lib/qt5/bin/moc
 
 
 #############################################

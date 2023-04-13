@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_Bullet_t {
-    QByteArrayData data[3];
-    char stringdata0[13];
+    QByteArrayData data[6];
+    char stringdata0[60];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -33,11 +33,15 @@ struct qt_meta_stringdata_Bullet_t {
 static const qt_meta_stringdata_Bullet_t qt_meta_stringdata_Bullet = {
     {
 QT_MOC_LITERAL(0, 0, 6), // "Bullet"
-QT_MOC_LITERAL(1, 7, 4), // "move"
-QT_MOC_LITERAL(2, 12, 0) // ""
+QT_MOC_LITERAL(1, 7, 17), // "collisionDetected"
+QT_MOC_LITERAL(2, 25, 0), // ""
+QT_MOC_LITERAL(3, 26, 4), // "move"
+QT_MOC_LITERAL(4, 31, 12), // "reduceDamage"
+QT_MOC_LITERAL(5, 44, 15) // "handleCollision"
 
     },
-    "Bullet\0move\0"
+    "Bullet\0collisionDetected\0\0move\0"
+    "reduceDamage\0handleCollision"
 };
 #undef QT_MOC_LITERAL
 
@@ -47,17 +51,27 @@ static const uint qt_meta_data_Bullet[] = {
        8,       // revision
        0,       // classname
        0,    0, // classinfo
-       1,   14, // methods
+       4,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-       0,       // signalCount
+       1,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags
+       1,    0,   34,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       1,    0,   19,    2, 0x0a /* Public */,
+       3,    0,   35,    2, 0x0a /* Public */,
+       4,    0,   36,    2, 0x0a /* Public */,
+       5,    0,   37,    2, 0x09 /* Protected */,
+
+ // signals: parameters
+    QMetaType::Void,
 
  // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
     QMetaType::Void,
 
        0        // eod
@@ -69,8 +83,20 @@ void Bullet::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void
         auto *_t = static_cast<Bullet *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: _t->move(); break;
+        case 0: _t->collisionDetected(); break;
+        case 1: _t->move(); break;
+        case 2: _t->reduceDamage(); break;
+        case 3: _t->handleCollision(); break;
         default: ;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            using _t = void (Bullet::*)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&Bullet::collisionDetected)) {
+                *result = 0;
+                return;
+            }
         }
     }
     (void)_a;
@@ -107,15 +133,21 @@ int Bullet::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 1)
+        if (_id < 4)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 1;
+        _id -= 4;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 1)
+        if (_id < 4)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 1;
+        _id -= 4;
     }
     return _id;
+}
+
+// SIGNAL 0
+void Bullet::collisionDetected()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
 }
 QT_WARNING_POP
 QT_END_MOC_NAMESPACE

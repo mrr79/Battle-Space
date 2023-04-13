@@ -15,7 +15,7 @@ Hard_Game::Hard_Game(QWidget *parent){
     int bullet_speed = 900;
 
     //Item en la escena
-    Player *player = new Player(bullets_number);
+    Player *player = new Player(collector, bullets_number);
     player->setPixmap(QPixmap(":/Images/myship.png").scaled(50,50));
 
     bullets_label->setDefaultTextColor(Qt::red);
@@ -64,7 +64,7 @@ Hard_Game::Hard_Game(QWidget *parent){
 
 void Hard_Game::decrease()
 {
-    if (bullets_number == 0){
+    if (bullets_number == 0 && collector.collector_size() == 0){
         timer_bullets->stop();
     }
     else{

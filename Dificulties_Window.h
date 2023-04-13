@@ -7,13 +7,13 @@
 
 class Dificulties: public QGraphicsView{
 public:
-  Dificulties(QWidget * parent=0);
+    Dificulties(QWidget * parent=0);
 
-  void easy();
-  void normal();
-  void hard();
+    void easy();
+    void normal();
+    void hard();
 
-  QGraphicsScene * scene;
+    QGraphicsScene * scene;
 };
 
 #endif // DIFICULTIES_WINDOW_H

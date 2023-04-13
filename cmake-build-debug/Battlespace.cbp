@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Battlespace"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Proyecto_1_Datos_ll">
+				<Option output="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Proyecto_1_Datos_ll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Proyecto_1_Datos_ll_autogen/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto_1_Datos_ll"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Proyecto_1_Datos_ll/fast">
+				<Option output="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Proyecto_1_Datos_ll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Proyecto_1_Datos_ll_autogen/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto_1_Datos_ll/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Proyecto_1_Datos_ll_autogen">
+				<Option working_dir="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto_1_Datos_ll_autogen"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Bullet.cpp">
+			<Option target="Proyecto_1_Datos_ll"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Bullet.h">
+			<Option target="Proyecto_1_Datos_ll"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Collector.cpp">
+			<Option target="Proyecto_1_Datos_ll"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Collector.h">
+			<Option target="Proyecto_1_Datos_ll"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Dificulties_Window.cpp">
+			<Option target="Proyecto_1_Datos_ll"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Dificulties_Window.h">
+			<Option target="Proyecto_1_Datos_ll"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Easy_game.cpp">
+			<Option target="Proyecto_1_Datos_ll"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Easy_game.h">
+			<Option target="Proyecto_1_Datos_ll"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Enemy.cpp">
+			<Option target="Proyecto_1_Datos_ll"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Enemy.h">
+			<Option target="Proyecto_1_Datos_ll"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Enemy_1.cpp">
+			<Option target="Proyecto_1_Datos_ll"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Enemy_1.h">
+			<Option target="Proyecto_1_Datos_ll"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Enemy_2.cpp">
+			<Option target="Proyecto_1_Datos_ll"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Enemy_2.h">
+			<Option target="Proyecto_1_Datos_ll"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Game_Over.cpp">
+			<Option target="Proyecto_1_Datos_ll"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Game_Over.h">
+			<Option target="Proyecto_1_Datos_ll"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Hard_Game.cpp">
+			<Option target="Proyecto_1_Datos_ll"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Hard_Game.h">
+			<Option target="Proyecto_1_Datos_ll"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/NodeC.cpp">
+			<Option target="Proyecto_1_Datos_ll"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/NodeC.h">
+			<Option target="Proyecto_1_Datos_ll"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Normal_Game.cpp">
+			<Option target="Proyecto_1_Datos_ll"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Normal_Game.h">
+			<Option target="Proyecto_1_Datos_ll"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Player.cpp">
+			<Option target="Proyecto_1_Datos_ll"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Player.h">
+			<Option target="Proyecto_1_Datos_ll"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Resources.qrc">
+			<Option target="Proyecto_1_Datos_ll"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp">
+			<Option target="Proyecto_1_Datos_ll"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.rule">
+			<Option target="Proyecto_1_Datos_ll"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Proyecto_1_Datos_ll_autogen/mocs_compilation.cpp">
+			<Option target="Proyecto_1_Datos_ll"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/main.cpp">
+			<Option target="Proyecto_1_Datos_ll"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Resources.qrc">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

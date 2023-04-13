@@ -1,6 +1,6 @@
 #include "Bullet.h"
-//#include "Enemy_2.h"
-//#include "Enemy_1.h"
+#include "Enemy_2.h"
+#include "Enemy_1.h"
 #include <QDebug>
 #include <QDebug>
 #include <QTimer>
@@ -16,26 +16,40 @@ Bullet::Bullet(): bullet_damage()
 
     QTimer *timer = new QTimer;
 
-    connect(timer,SIGNAL(timeout()),this,SLOT(move()));
+    //connect(timer,SIGNAL(timeout()),this,SLOT(move()));
 
     timer->start(50);
 
 }
 
-Collector *collector = new Collector();
+//Collector *collector = new Collector();
+
+
 
 void Bullet::move() {
+    /*
     setPos(x() + 15, y());
+
     if (pos().x() > 800) {
-        collector->insertar_collector((void *) this);
-        std::cout << "Bullet added to collector" << std::endl;
-        //emit positionOutOfRange(); //para el collector
-        scene()->removeItem(this);
-        delete this;
+        //emit collisionDetected();
+        // Out of range
+        //scene()->removeItem(this);
     }
-    std::cout << collector->collector_size()<< std::endl;
+     */
 }
 
 
 
+void Bullet::handleCollision()
+{
+    QList<QGraphicsItem *> CollidingItems = collidingItems();
+    for (int i = 0; i < CollidingItems.size(); ++i) {
+        if (dynamic_cast<Enemy_1*>(CollidingItems[i]) || dynamic_cast<Enemy_2*>(CollidingItems[i])) {
+            emit collisionDetected();
+        }
+    }
+}
 
+void Bullet::reduceDamage() {
+    bullet_damage = bullet_damage*0.8;
+}

@@ -8,7 +8,7 @@
 #include <QTimer>
 
 class Easy_game: public QGraphicsView{
-    Q_OBJECT
+Q_OBJECT
 public:
     Easy_game(QWidget * parent=0);
     //label y timer de los bulllets

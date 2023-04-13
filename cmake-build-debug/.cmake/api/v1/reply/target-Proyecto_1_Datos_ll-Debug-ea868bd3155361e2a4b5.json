@@ -115,7 +115,7 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "/home/mrr/Desktop/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/include"
+					"path" : "/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Proyecto_1_Datos_ll_autogen/include"
 				},
 				{
 					"backtrace" : 3,
@@ -168,15 +168,12 @@
 				21,
 				23,
 				24,
-				28
+				27
 			]
 		}
 	],
 	"dependencies" : 
 	[
-		{
-			"id" : "Proyecto_1_Datos_ll_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
 		{
 			"backtrace" : 0,
 			"id" : "Proyecto_1_Datos_ll_autogen::@6890427a1f51a3e7e1df"
@@ -254,7 +251,7 @@
 				21,
 				23,
 				24,
-				28
+				27
 			]
 		},
 		{
@@ -279,16 +276,14 @@
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				20,
-				27
+				20
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				29,
-				30
+				28
 			]
 		}
 	],
@@ -446,22 +441,10 @@
 		},
 		{
 			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "cmake-build-debug/Proyecto_1_Datos_ll_autogen/timestamp",
-			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 0,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
 			"path" : "cmake-build-debug/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp",
 			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "cmake-build-debug/Proyecto_1_Datos_ll_autogen/timestamp.rule",
-			"sourceGroupIndex" : 3
 		},
 		{
 			"backtrace" : 0,

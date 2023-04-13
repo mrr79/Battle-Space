@@ -27,11 +27,16 @@ Normal_Game::Normal_Game(int bullet_speed, int bullets, int ships_number, int he
     bullets_label = new QGraphicsTextItem("Bullets: " + QString::number(bullets_number));
     bullets_label->setDefaultTextColor(Qt::red);
 
+
+
     line = new QGraphicsLineItem(10, 10, 10, 600);
     scene->addItem(line);
 
-    //Item en la escena
-    Player *player = new Player(bullets_number);
+    //Collector collector;
+
+    //PLayer en la scene
+
+    Player *player = new Player(collector, bullets_number);
     player->setPixmap(QPixmap(":/Images/myship.png").scaled(50,50));
 
     health_label = new QGraphicsTextItem("Health: " + QString::number(health));
@@ -45,6 +50,7 @@ Normal_Game::Normal_Game(int bullet_speed, int bullets, int ships_number, int he
     scene->addItem(bullets_label);
     scene->addItem(health_label);
     health_label->setPos(0,20);
+
 
     //Hacer rectangulo focusiable
     player->setFlag(QGraphicsItem::ItemIsFocusable);
@@ -89,7 +95,7 @@ Normal_Game::Normal_Game(int bullet_speed, int bullets, int ships_number, int he
 
 void Normal_Game::decrease_bullets()
 {
-    if (bullets_number == 0){
+    if (bullets_number == 0 && collector.collector_size() == 0){
         timer_bullets->stop();
     }
     else{

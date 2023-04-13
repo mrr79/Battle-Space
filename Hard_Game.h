@@ -14,7 +14,7 @@ Q_OBJECT
 public:
     Hard_Game(QWidget * parent=0);
 
-
+    Collector collector;
     //label y timer de los bulllets
     QTimer *timer_bullets = new QTimer;
     int bullets_number = 200;

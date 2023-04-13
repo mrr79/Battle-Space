@@ -1,8 +1,10 @@
-/home/mrr/Desktop/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/moc_Hard_Game.cpp: /home/mrr/Desktop/Battle-Space/Hard_Game.h \
-  /home/mrr/Desktop/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/moc_predefs.h \
-  /home/mrr/Desktop/Battle-Space/Collector.h \
-  /home/mrr/Desktop/Battle-Space/NodeC.h \
-  /home/mrr/Desktop/Battle-Space/Player.h \
+/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/moc_Hard_Game.cpp: /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Hard_Game.h \
+  /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Proyecto_1_Datos_ll_autogen/moc_predefs.h \
+  /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Bullet.h \
+  /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Collector.h \
+  /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Enemy_1.h \
+  /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/NodeC.h \
+  /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Player.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/assert.h \
@@ -329,6 +331,7 @@
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsPixmapItem \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsRectItem \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsScene \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \

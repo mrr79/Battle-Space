@@ -4,6 +4,23 @@
 #include <stdlib.h>
 #include <QList>
 #include "Bullet.h"
+#include "Collector.h"
+#include "NodeC.h"
+#include "Player.h"
+#include "Player.h"
+#include <QKeyEvent>
+#include <QGraphicsScene>
+
+#include "Enemy_2.h"
+#include "Enemy_1.h"
+#include "Enemy.h"
+#include "NodeC.h"
+#include "Collector.h"
+#include <iostream>
+#include "Easy_game.h"
+#include "Bullet.h"
+
+
 
 Enemy_1::Enemy_1()
 {
@@ -22,7 +39,6 @@ Enemy_1::Enemy_1()
 
 void Enemy_1::move()
 {
-    //if bullet collides with enemy, destroy both
     QList<QGraphicsItem *> colliding_items = collidingItems();
     for (int i = 0, n = colliding_items.size(); i < n; ++i){
         if (typeid(*(colliding_items[i])) == typeid(Bullet)){
@@ -34,16 +50,13 @@ void Enemy_1::move()
                 scene()->removeItem(colliding_items[i]);
                 scene()->removeItem(this);
                 delete this;
-                // delete them both
-                delete colliding_items[i];
                 return;
                 std::cout<<"DANO EN LA BALA " << damage <<std::endl;
             }
             else{
                 enemy1_life--;
                 damage--;
-                scene()->removeItem(colliding_items[i]);
-                delete colliding_items[i];
+                scene()->removeItem(colliding_items[i]); // Remove bullet from scene
                 return;
 
             }
@@ -58,4 +71,5 @@ void Enemy_1::move()
         delete this;
     }
 }
+
 
