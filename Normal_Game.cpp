@@ -126,8 +126,10 @@ void Normal_Game::check_health()
     else{
         QList<QGraphicsItem *> colliding_items = line->collidingItems();
         for (int i = 0, n = colliding_items.size(); i < n; ++i){
-            if (typeid(*(colliding_items[i])) == typeid(Enemy_2) || typeid(*(colliding_items[i])) == typeid(Enemy_1)){
-
+            if (typeid(*(colliding_items[i])) == typeid(Enemy_1)){
+                decrease_health();
+            }
+            if (typeid(*(colliding_items[i])) == typeid(Enemy_2)){
                 decrease_health();
             }
         }

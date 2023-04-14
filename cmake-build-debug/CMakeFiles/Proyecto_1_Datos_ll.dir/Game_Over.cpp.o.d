@@ -1,7 +1,7 @@
 CMakeFiles/Proyecto_1_Datos_ll.dir/Game_Over.cpp.o: \
- /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Game_Over.cpp \
+ /home/mrr/Desktop/prueba2/Battle-Space/Game_Over.cpp \
  /usr/include/stdc-predef.h \
- /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Game_Over.h \
+ /home/mrr/Desktop/prueba2/Battle-Space/Game_Over.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsview.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
@@ -290,7 +290,7 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Game_Over.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsScene \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsscene.h \
- /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Dificulties_Window.h \
+ /home/mrr/Desktop/prueba2/Battle-Space/Dificulties_Window.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsProxyWidget \

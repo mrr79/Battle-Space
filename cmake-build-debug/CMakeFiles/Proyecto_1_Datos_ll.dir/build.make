@@ -53,10 +53,10 @@ RM = /snap/clion/234/bin/cmake/linux/x64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d
+CMAKE_SOURCE_DIR = /home/mrr/Desktop/prueba2/Battle-Space
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug
+CMAKE_BINARY_DIR = /home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Proyecto_1_Datos_ll.dir/depend.make
@@ -69,226 +69,226 @@ include CMakeFiles/Proyecto_1_Datos_ll.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Proyecto_1_Datos_ll.dir/flags.make
 
-Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp: /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Resources.qrc
+Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp: /home/mrr/Desktop/prueba2/Battle-Space/Resources.qrc
 Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp: CMakeFiles/Proyecto_1_Datos_ll_autogen.dir/AutoRcc_Resources_EWIEGA46WW_Info.json
-Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp: /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/myship.png
-Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp: /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/e1.png
-Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp: /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/bullet.png
-Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp: /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/BG.png
-Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp: /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/E2.png
+Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp: /home/mrr/Desktop/prueba2/Battle-Space/myship.png
+Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp: /home/mrr/Desktop/prueba2/Battle-Space/e1.png
+Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp: /home/mrr/Desktop/prueba2/Battle-Space/bullet.png
+Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp: /home/mrr/Desktop/prueba2/Battle-Space/BG.png
+Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp: /home/mrr/Desktop/prueba2/Battle-Space/E2.png
 Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp: /usr/lib/qt5/bin/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for Resources.qrc"
-	/snap/clion/234/bin/cmake/linux/x64/bin/cmake -E cmake_autorcc /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/CMakeFiles/Proyecto_1_Datos_ll_autogen.dir/AutoRcc_Resources_EWIEGA46WW_Info.json Debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for Resources.qrc"
+	/snap/clion/234/bin/cmake/linux/x64/bin/cmake -E cmake_autorcc /home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug/CMakeFiles/Proyecto_1_Datos_ll_autogen.dir/AutoRcc_Resources_EWIEGA46WW_Info.json Debug
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/mocs_compilation.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/flags.make
 CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/mocs_compilation.cpp.o: Proyecto_1_Datos_ll_autogen/mocs_compilation.cpp
 CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/mocs_compilation.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/mocs_compilation.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/mocs_compilation.cpp.o -c /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Proyecto_1_Datos_ll_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/mocs_compilation.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/mocs_compilation.cpp.o -c /home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/mocs_compilation.cpp
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Proyecto_1_Datos_ll_autogen/mocs_compilation.cpp > CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/mocs_compilation.cpp > CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Proyecto_1_Datos_ll_autogen/mocs_compilation.cpp -o CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/mocs_compilation.cpp -o CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/main.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/flags.make
-CMakeFiles/Proyecto_1_Datos_ll.dir/main.cpp.o: /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/main.cpp
+CMakeFiles/Proyecto_1_Datos_ll.dir/main.cpp.o: /home/mrr/Desktop/prueba2/Battle-Space/main.cpp
 CMakeFiles/Proyecto_1_Datos_ll.dir/main.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/main.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/main.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/main.cpp.o -c /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/main.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/main.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/main.cpp.o -c /home/mrr/Desktop/prueba2/Battle-Space/main.cpp
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Datos_ll.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/main.cpp > CMakeFiles/Proyecto_1_Datos_ll.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrr/Desktop/prueba2/Battle-Space/main.cpp > CMakeFiles/Proyecto_1_Datos_ll.dir/main.cpp.i
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Datos_ll.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/main.cpp -o CMakeFiles/Proyecto_1_Datos_ll.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrr/Desktop/prueba2/Battle-Space/main.cpp -o CMakeFiles/Proyecto_1_Datos_ll.dir/main.cpp.s
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/flags.make
-CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.o: /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Easy_game.cpp
+CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.o: /home/mrr/Desktop/prueba2/Battle-Space/Easy_game.cpp
 CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.o -c /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Easy_game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.o -c /home/mrr/Desktop/prueba2/Battle-Space/Easy_game.cpp
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Easy_game.cpp > CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrr/Desktop/prueba2/Battle-Space/Easy_game.cpp > CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.i
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Easy_game.cpp -o CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrr/Desktop/prueba2/Battle-Space/Easy_game.cpp -o CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.s
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Normal_Game.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/flags.make
-CMakeFiles/Proyecto_1_Datos_ll.dir/Normal_Game.cpp.o: /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Normal_Game.cpp
+CMakeFiles/Proyecto_1_Datos_ll.dir/Normal_Game.cpp.o: /home/mrr/Desktop/prueba2/Battle-Space/Normal_Game.cpp
 CMakeFiles/Proyecto_1_Datos_ll.dir/Normal_Game.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Normal_Game.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Normal_Game.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Normal_Game.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Normal_Game.cpp.o -c /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Normal_Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Normal_Game.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Normal_Game.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Normal_Game.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Normal_Game.cpp.o -c /home/mrr/Desktop/prueba2/Battle-Space/Normal_Game.cpp
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Normal_Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Datos_ll.dir/Normal_Game.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Normal_Game.cpp > CMakeFiles/Proyecto_1_Datos_ll.dir/Normal_Game.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrr/Desktop/prueba2/Battle-Space/Normal_Game.cpp > CMakeFiles/Proyecto_1_Datos_ll.dir/Normal_Game.cpp.i
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Normal_Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Datos_ll.dir/Normal_Game.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Normal_Game.cpp -o CMakeFiles/Proyecto_1_Datos_ll.dir/Normal_Game.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrr/Desktop/prueba2/Battle-Space/Normal_Game.cpp -o CMakeFiles/Proyecto_1_Datos_ll.dir/Normal_Game.cpp.s
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Hard_Game.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/flags.make
-CMakeFiles/Proyecto_1_Datos_ll.dir/Hard_Game.cpp.o: /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Hard_Game.cpp
+CMakeFiles/Proyecto_1_Datos_ll.dir/Hard_Game.cpp.o: /home/mrr/Desktop/prueba2/Battle-Space/Hard_Game.cpp
 CMakeFiles/Proyecto_1_Datos_ll.dir/Hard_Game.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Hard_Game.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Hard_Game.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Hard_Game.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Hard_Game.cpp.o -c /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Hard_Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Hard_Game.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Hard_Game.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Hard_Game.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Hard_Game.cpp.o -c /home/mrr/Desktop/prueba2/Battle-Space/Hard_Game.cpp
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Hard_Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Datos_ll.dir/Hard_Game.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Hard_Game.cpp > CMakeFiles/Proyecto_1_Datos_ll.dir/Hard_Game.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrr/Desktop/prueba2/Battle-Space/Hard_Game.cpp > CMakeFiles/Proyecto_1_Datos_ll.dir/Hard_Game.cpp.i
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Hard_Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Datos_ll.dir/Hard_Game.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Hard_Game.cpp -o CMakeFiles/Proyecto_1_Datos_ll.dir/Hard_Game.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrr/Desktop/prueba2/Battle-Space/Hard_Game.cpp -o CMakeFiles/Proyecto_1_Datos_ll.dir/Hard_Game.cpp.s
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/flags.make
-CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o: /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Player.cpp
+CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o: /home/mrr/Desktop/prueba2/Battle-Space/Player.cpp
 CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o -c /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o -c /home/mrr/Desktop/prueba2/Battle-Space/Player.cpp
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Player.cpp > CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrr/Desktop/prueba2/Battle-Space/Player.cpp > CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.i
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Player.cpp -o CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrr/Desktop/prueba2/Battle-Space/Player.cpp -o CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.s
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Bullet.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/flags.make
-CMakeFiles/Proyecto_1_Datos_ll.dir/Bullet.cpp.o: /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Bullet.cpp
+CMakeFiles/Proyecto_1_Datos_ll.dir/Bullet.cpp.o: /home/mrr/Desktop/prueba2/Battle-Space/Bullet.cpp
 CMakeFiles/Proyecto_1_Datos_ll.dir/Bullet.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Bullet.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Bullet.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Bullet.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Bullet.cpp.o -c /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Bullet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Bullet.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Bullet.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Bullet.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Bullet.cpp.o -c /home/mrr/Desktop/prueba2/Battle-Space/Bullet.cpp
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Bullet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Datos_ll.dir/Bullet.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Bullet.cpp > CMakeFiles/Proyecto_1_Datos_ll.dir/Bullet.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrr/Desktop/prueba2/Battle-Space/Bullet.cpp > CMakeFiles/Proyecto_1_Datos_ll.dir/Bullet.cpp.i
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Bullet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Datos_ll.dir/Bullet.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Bullet.cpp -o CMakeFiles/Proyecto_1_Datos_ll.dir/Bullet.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrr/Desktop/prueba2/Battle-Space/Bullet.cpp -o CMakeFiles/Proyecto_1_Datos_ll.dir/Bullet.cpp.s
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/flags.make
-CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy.cpp.o: /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Enemy.cpp
+CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy.cpp.o: /home/mrr/Desktop/prueba2/Battle-Space/Enemy.cpp
 CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy.cpp.o -c /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Enemy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy.cpp.o -c /home/mrr/Desktop/prueba2/Battle-Space/Enemy.cpp
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Enemy.cpp > CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrr/Desktop/prueba2/Battle-Space/Enemy.cpp > CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy.cpp.i
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Enemy.cpp -o CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrr/Desktop/prueba2/Battle-Space/Enemy.cpp -o CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy.cpp.s
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_2.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/flags.make
-CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_2.cpp.o: /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Enemy_2.cpp
+CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_2.cpp.o: /home/mrr/Desktop/prueba2/Battle-Space/Enemy_2.cpp
 CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_2.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_2.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_2.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_2.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_2.cpp.o -c /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Enemy_2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_2.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_2.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_2.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_2.cpp.o -c /home/mrr/Desktop/prueba2/Battle-Space/Enemy_2.cpp
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_2.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Enemy_2.cpp > CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_2.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrr/Desktop/prueba2/Battle-Space/Enemy_2.cpp > CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_2.cpp.i
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_2.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Enemy_2.cpp -o CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_2.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrr/Desktop/prueba2/Battle-Space/Enemy_2.cpp -o CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_2.cpp.s
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_1.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/flags.make
-CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_1.cpp.o: /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Enemy_1.cpp
+CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_1.cpp.o: /home/mrr/Desktop/prueba2/Battle-Space/Enemy_1.cpp
 CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_1.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_1.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_1.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_1.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_1.cpp.o -c /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Enemy_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_1.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_1.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_1.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_1.cpp.o -c /home/mrr/Desktop/prueba2/Battle-Space/Enemy_1.cpp
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_1.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Enemy_1.cpp > CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_1.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrr/Desktop/prueba2/Battle-Space/Enemy_1.cpp > CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_1.cpp.i
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_1.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Enemy_1.cpp -o CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_1.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrr/Desktop/prueba2/Battle-Space/Enemy_1.cpp -o CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_1.cpp.s
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/flags.make
-CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.o: /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Dificulties_Window.cpp
+CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.o: /home/mrr/Desktop/prueba2/Battle-Space/Dificulties_Window.cpp
 CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.o -c /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Dificulties_Window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.o -c /home/mrr/Desktop/prueba2/Battle-Space/Dificulties_Window.cpp
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Dificulties_Window.cpp > CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrr/Desktop/prueba2/Battle-Space/Dificulties_Window.cpp > CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.i
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Dificulties_Window.cpp -o CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrr/Desktop/prueba2/Battle-Space/Dificulties_Window.cpp -o CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.s
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Game_Over.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/flags.make
-CMakeFiles/Proyecto_1_Datos_ll.dir/Game_Over.cpp.o: /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Game_Over.cpp
+CMakeFiles/Proyecto_1_Datos_ll.dir/Game_Over.cpp.o: /home/mrr/Desktop/prueba2/Battle-Space/Game_Over.cpp
 CMakeFiles/Proyecto_1_Datos_ll.dir/Game_Over.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Game_Over.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Game_Over.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Game_Over.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Game_Over.cpp.o -c /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Game_Over.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Game_Over.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Game_Over.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Game_Over.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Game_Over.cpp.o -c /home/mrr/Desktop/prueba2/Battle-Space/Game_Over.cpp
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Game_Over.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Datos_ll.dir/Game_Over.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Game_Over.cpp > CMakeFiles/Proyecto_1_Datos_ll.dir/Game_Over.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrr/Desktop/prueba2/Battle-Space/Game_Over.cpp > CMakeFiles/Proyecto_1_Datos_ll.dir/Game_Over.cpp.i
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Game_Over.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Datos_ll.dir/Game_Over.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Game_Over.cpp -o CMakeFiles/Proyecto_1_Datos_ll.dir/Game_Over.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrr/Desktop/prueba2/Battle-Space/Game_Over.cpp -o CMakeFiles/Proyecto_1_Datos_ll.dir/Game_Over.cpp.s
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/NodeC.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/flags.make
-CMakeFiles/Proyecto_1_Datos_ll.dir/NodeC.cpp.o: /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/NodeC.cpp
+CMakeFiles/Proyecto_1_Datos_ll.dir/NodeC.cpp.o: /home/mrr/Desktop/prueba2/Battle-Space/NodeC.cpp
 CMakeFiles/Proyecto_1_Datos_ll.dir/NodeC.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/NodeC.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/NodeC.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/NodeC.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/NodeC.cpp.o -c /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/NodeC.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/NodeC.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/NodeC.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/NodeC.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/NodeC.cpp.o -c /home/mrr/Desktop/prueba2/Battle-Space/NodeC.cpp
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/NodeC.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Datos_ll.dir/NodeC.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/NodeC.cpp > CMakeFiles/Proyecto_1_Datos_ll.dir/NodeC.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrr/Desktop/prueba2/Battle-Space/NodeC.cpp > CMakeFiles/Proyecto_1_Datos_ll.dir/NodeC.cpp.i
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/NodeC.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Datos_ll.dir/NodeC.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/NodeC.cpp -o CMakeFiles/Proyecto_1_Datos_ll.dir/NodeC.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrr/Desktop/prueba2/Battle-Space/NodeC.cpp -o CMakeFiles/Proyecto_1_Datos_ll.dir/NodeC.cpp.s
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Collector.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/flags.make
-CMakeFiles/Proyecto_1_Datos_ll.dir/Collector.cpp.o: /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Collector.cpp
+CMakeFiles/Proyecto_1_Datos_ll.dir/Collector.cpp.o: /home/mrr/Desktop/prueba2/Battle-Space/Collector.cpp
 CMakeFiles/Proyecto_1_Datos_ll.dir/Collector.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Collector.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Collector.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Collector.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Collector.cpp.o -c /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Collector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Collector.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Collector.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Collector.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Collector.cpp.o -c /home/mrr/Desktop/prueba2/Battle-Space/Collector.cpp
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Collector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Datos_ll.dir/Collector.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Collector.cpp > CMakeFiles/Proyecto_1_Datos_ll.dir/Collector.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrr/Desktop/prueba2/Battle-Space/Collector.cpp > CMakeFiles/Proyecto_1_Datos_ll.dir/Collector.cpp.i
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Collector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Datos_ll.dir/Collector.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Collector.cpp -o CMakeFiles/Proyecto_1_Datos_ll.dir/Collector.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrr/Desktop/prueba2/Battle-Space/Collector.cpp -o CMakeFiles/Proyecto_1_Datos_ll.dir/Collector.cpp.s
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/flags.make
 CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.o: Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp
 CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.o -c /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.o -c /home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp > CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp > CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.i
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp -o CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp -o CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.s
 
 # Object files for target Proyecto_1_Datos_ll
 Proyecto_1_Datos_ll_OBJECTS = \
@@ -331,7 +331,7 @@ Proyecto_1_Datos_ll: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.6
 Proyecto_1_Datos_ll: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.6
 Proyecto_1_Datos_ll: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.6
 Proyecto_1_Datos_ll: CMakeFiles/Proyecto_1_Datos_ll.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable Proyecto_1_Datos_ll"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable Proyecto_1_Datos_ll"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Proyecto_1_Datos_ll.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -343,6 +343,6 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/clean:
 .PHONY : CMakeFiles/Proyecto_1_Datos_ll.dir/clean
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/depend: Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp
-	cd /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/CMakeFiles/Proyecto_1_Datos_ll.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mrr/Desktop/prueba2/Battle-Space /home/mrr/Desktop/prueba2/Battle-Space /home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug /home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug /home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug/CMakeFiles/Proyecto_1_Datos_ll.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Proyecto_1_Datos_ll.dir/depend
 

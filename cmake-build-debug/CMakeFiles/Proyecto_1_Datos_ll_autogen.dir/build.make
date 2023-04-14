@@ -53,10 +53,10 @@ RM = /snap/clion/234/bin/cmake/linux/x64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d
+CMAKE_SOURCE_DIR = /home/mrr/Desktop/prueba2/Battle-Space
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug
+CMAKE_BINARY_DIR = /home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug
 
 # Utility rule file for Proyecto_1_Datos_ll_autogen.
 
@@ -67,8 +67,8 @@ include CMakeFiles/Proyecto_1_Datos_ll_autogen.dir/compiler_depend.make
 include CMakeFiles/Proyecto_1_Datos_ll_autogen.dir/progress.make
 
 CMakeFiles/Proyecto_1_Datos_ll_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target Proyecto_1_Datos_ll"
-	/snap/clion/234/bin/cmake/linux/x64/bin/cmake -E cmake_autogen /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/CMakeFiles/Proyecto_1_Datos_ll_autogen.dir/AutogenInfo.json Debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target Proyecto_1_Datos_ll"
+	/snap/clion/234/bin/cmake/linux/x64/bin/cmake -E cmake_autogen /home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug/CMakeFiles/Proyecto_1_Datos_ll_autogen.dir/AutogenInfo.json Debug
 
 Proyecto_1_Datos_ll_autogen: CMakeFiles/Proyecto_1_Datos_ll_autogen
 Proyecto_1_Datos_ll_autogen: CMakeFiles/Proyecto_1_Datos_ll_autogen.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/Proyecto_1_Datos_ll_autogen.dir/clean:
 .PHONY : CMakeFiles/Proyecto_1_Datos_ll_autogen.dir/clean
 
 CMakeFiles/Proyecto_1_Datos_ll_autogen.dir/depend:
-	cd /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/CMakeFiles/Proyecto_1_Datos_ll_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mrr/Desktop/prueba2/Battle-Space /home/mrr/Desktop/prueba2/Battle-Space /home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug /home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug /home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug/CMakeFiles/Proyecto_1_Datos_ll_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Proyecto_1_Datos_ll_autogen.dir/depend
 

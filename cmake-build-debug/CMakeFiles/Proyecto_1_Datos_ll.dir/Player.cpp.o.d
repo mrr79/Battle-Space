@@ -1,9 +1,9 @@
 CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o: \
- /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Player.cpp \
+ /home/mrr/Desktop/prueba2/Battle-Space/Player.cpp \
  /usr/include/stdc-predef.h \
- /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Player.h \
- /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Collector.h \
- /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/NodeC.h \
+ /home/mrr/Desktop/prueba2/Battle-Space/Player.h \
+ /home/mrr/Desktop/prueba2/Battle-Space/Collector.h \
+ /home/mrr/Desktop/prueba2/Battle-Space/NodeC.h \
  /usr/include/c++/12/iostream \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -293,9 +293,9 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h \
- /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Bullet.h \
+ /home/mrr/Desktop/prueba2/Battle-Space/Bullet.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsRectItem \
- /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Enemy_1.h \
+ /home/mrr/Desktop/prueba2/Battle-Space/Enemy_1.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QKeyEvent \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
@@ -311,9 +311,9 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h \
- /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Enemy_2.h \
- /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Enemy.h \
- /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Easy_game.h \
+ /home/mrr/Desktop/prueba2/Battle-Space/Enemy_2.h \
+ /home/mrr/Desktop/prueba2/Battle-Space/Enemy.h \
+ /home/mrr/Desktop/prueba2/Battle-Space/Easy_game.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsview.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainter.h \

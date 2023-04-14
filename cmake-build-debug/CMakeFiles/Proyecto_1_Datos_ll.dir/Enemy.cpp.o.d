@@ -1,7 +1,7 @@
 CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy.cpp.o: \
- /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Enemy.cpp \
+ /home/mrr/Desktop/prueba2/Battle-Space/Enemy.cpp \
  /usr/include/stdc-predef.h \
- /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Enemy.h \
+ /home/mrr/Desktop/prueba2/Battle-Space/Enemy.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsRectItem \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsitem.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \

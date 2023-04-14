@@ -1,7 +1,7 @@
 CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.o: \
- /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Dificulties_Window.cpp \
+ /home/mrr/Desktop/prueba2/Battle-Space/Dificulties_Window.cpp \
  /usr/include/stdc-predef.h \
- /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Dificulties_Window.h \
+ /home/mrr/Desktop/prueba2/Battle-Space/Dificulties_Window.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsview.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
@@ -290,10 +290,10 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsScene \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsscene.h \
- /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Easy_game.h \
- /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Player.h \
- /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Collector.h \
- /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/NodeC.h \
+ /home/mrr/Desktop/prueba2/Battle-Space/Easy_game.h \
+ /home/mrr/Desktop/prueba2/Battle-Space/Player.h \
+ /home/mrr/Desktop/prueba2/Battle-Space/Collector.h \
+ /home/mrr/Desktop/prueba2/Battle-Space/NodeC.h \
  /usr/include/c++/12/iostream /usr/include/c++/12/ostream \
  /usr/include/c++/12/ios /usr/include/c++/12/bits/basic_ios.h \
  /usr/include/c++/12/bits/locale_facets.h /usr/include/c++/12/cwctype \
@@ -315,11 +315,11 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h \
- /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Bullet.h \
+ /home/mrr/Desktop/prueba2/Battle-Space/Bullet.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsRectItem \
- /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Enemy_1.h \
- /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Normal_Game.h \
- /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Hard_Game.h \
+ /home/mrr/Desktop/prueba2/Battle-Space/Enemy_1.h \
+ /home/mrr/Desktop/prueba2/Battle-Space/Normal_Game.h \
+ /home/mrr/Desktop/prueba2/Battle-Space/Hard_Game.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h \

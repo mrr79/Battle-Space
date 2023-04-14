@@ -1,5 +1,5 @@
 CMakeFiles/Proyecto_1_Datos_ll.dir/NodeC.cpp.o: \
- /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/NodeC.cpp \
+ /home/mrr/Desktop/prueba2/Battle-Space/NodeC.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/12/iostream \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -148,4 +148,4 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/NodeC.cpp.o: \
  /usr/include/c++/12/bits/basic_ios.tcc \
  /usr/include/c++/12/bits/ostream.tcc /usr/include/c++/12/istream \
  /usr/include/c++/12/bits/istream.tcc \
- /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/NodeC.h
+ /home/mrr/Desktop/prueba2/Battle-Space/NodeC.h

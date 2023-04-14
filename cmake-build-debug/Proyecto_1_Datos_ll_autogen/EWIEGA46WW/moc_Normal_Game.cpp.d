@@ -1,10 +1,10 @@
-/home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/moc_Normal_Game.cpp: /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Normal_Game.h \
-  /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/cmake-build-debug/Proyecto_1_Datos_ll_autogen/moc_predefs.h \
-  /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Bullet.h \
-  /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Collector.h \
-  /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Enemy_1.h \
-  /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/NodeC.h \
-  /home/mrr/Desktop/prueba/Battle-Space-315dffdd652ec90cbfacc82203107cb26ac4c09d/Player.h \
+/home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/moc_Normal_Game.cpp: /home/mrr/Desktop/prueba2/Battle-Space/Normal_Game.h \
+  /home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/moc_predefs.h \
+  /home/mrr/Desktop/prueba2/Battle-Space/Bullet.h \
+  /home/mrr/Desktop/prueba2/Battle-Space/Collector.h \
+  /home/mrr/Desktop/prueba2/Battle-Space/Enemy_1.h \
+  /home/mrr/Desktop/prueba2/Battle-Space/NodeC.h \
+  /home/mrr/Desktop/prueba2/Battle-Space/Player.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/assert.h \

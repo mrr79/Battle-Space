@@ -7,7 +7,7 @@
 #include <iostream>
 using namespace std;
 
-Enemy_2::Enemy_2()
+Enemy_2::Enemy_2(Collector& collector) : collector(collector)
 {
     int random_number = rand() % 550;
 
@@ -28,12 +28,14 @@ void Enemy_2::move()
     for (int i = 0, n = colliding_items.size(); i < n; ++i) {
         if (typeid(*(colliding_items[i])) == typeid(Bullet)) {
             Bullet* bullet = dynamic_cast<Bullet*>(colliding_items[i]);
+            collector.eliminar_nodo_collector(bullet);
+            cout << "Se borro el malo otro malo de collector " << endl;
             int damage = bullet->bullet_damage;
 
             if (enemy2_life == 0 && damage == 0) {
                 // remove both bullet and enemy
                 scene()->removeItem(colliding_items[i]);
-                delete colliding_items[i];
+                //delete colliding_items[i];
                 scene()->removeItem(this);
                 delete this;
                 return;

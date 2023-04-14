@@ -19,10 +19,11 @@
 #include <iostream>
 #include "Easy_game.h"
 #include "Bullet.h"
+#include <iostream>
+using namespace std;
 
 
-
-Enemy_1::Enemy_1()
+Enemy_1::Enemy_1(Collector& collector) : collector(collector)
 {
     int random_number = rand() % 550;
 
@@ -43,6 +44,8 @@ void Enemy_1::move()
     for (int i = 0, n = colliding_items.size(); i < n; ++i){
         if (typeid(*(colliding_items[i])) == typeid(Bullet)){
             Bullet* bullet = dynamic_cast<Bullet*>(colliding_items[i]);
+            collector.eliminar_nodo_collector(bullet);
+            cout << "Se borro el malo del collector " << endl;
             int damage = bullet->bullet_damage;
 
             if (enemy1_life == 0 && damage==0){
@@ -66,7 +69,7 @@ void Enemy_1::move()
 
     /// 5 es la verdadera velocidaD DE LA BALA
     setPos(x() - enemy1_speed,y());
-    if (pos().x() <= 0){
+    if (pos().x() < 0){
         scene()->removeItem(this);
         delete this;
     }

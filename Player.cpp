@@ -139,14 +139,15 @@ void Player::moveBullets(){
 }
 
 
-void Player::spawn_enemies_1(){
-    Enemy_1 *enemy_1 = new Enemy_1();
+void Player::spawn_enemies_1()
+{
+    Enemy_1 *enemy_1 = new Enemy_1(collector);
     scene()->addItem(enemy_1);
 }
 
 void Player::spawn_enemies_2()
 {
-    Enemy_2 *enemy_2 = new Enemy_2();
+    Enemy_2 *enemy_2 = new Enemy_2(collector);
     scene()->addItem(enemy_2);
 }
 
@@ -155,4 +156,3 @@ void Player::spawn_enemies()
     Enemy *enemy = new Enemy();
     scene()->addItem(enemy);
 }
-
