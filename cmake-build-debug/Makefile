@@ -57,10 +57,10 @@ RM = /snap/clion/234/bin/cmake/linux/x64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mrr/Desktop/prueba2/Battle-Space
+CMAKE_SOURCE_DIR = /home/mrr/Desktop/Battle-Space
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug
+CMAKE_BINARY_DIR = /home/mrr/Desktop/Battle-Space/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug/CMakeFiles /home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles /home/mrr/Desktop/Battle-Space/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mrr/Desktop/prueba2/Battle-Space/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -306,6 +306,54 @@ Enemy.s: Enemy.cpp.s
 Enemy.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto_1_Datos_ll.dir/build.make CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy.cpp.s
 .PHONY : Enemy.cpp.s
+
+EnemyList.o: EnemyList.cpp.o
+.PHONY : EnemyList.o
+
+# target to build an object file
+EnemyList.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto_1_Datos_ll.dir/build.make CMakeFiles/Proyecto_1_Datos_ll.dir/EnemyList.cpp.o
+.PHONY : EnemyList.cpp.o
+
+EnemyList.i: EnemyList.cpp.i
+.PHONY : EnemyList.i
+
+# target to preprocess a source file
+EnemyList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto_1_Datos_ll.dir/build.make CMakeFiles/Proyecto_1_Datos_ll.dir/EnemyList.cpp.i
+.PHONY : EnemyList.cpp.i
+
+EnemyList.s: EnemyList.cpp.s
+.PHONY : EnemyList.s
+
+# target to generate assembly for a file
+EnemyList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto_1_Datos_ll.dir/build.make CMakeFiles/Proyecto_1_Datos_ll.dir/EnemyList.cpp.s
+.PHONY : EnemyList.cpp.s
+
+EnemyNode.o: EnemyNode.cpp.o
+.PHONY : EnemyNode.o
+
+# target to build an object file
+EnemyNode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto_1_Datos_ll.dir/build.make CMakeFiles/Proyecto_1_Datos_ll.dir/EnemyNode.cpp.o
+.PHONY : EnemyNode.cpp.o
+
+EnemyNode.i: EnemyNode.cpp.i
+.PHONY : EnemyNode.i
+
+# target to preprocess a source file
+EnemyNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto_1_Datos_ll.dir/build.make CMakeFiles/Proyecto_1_Datos_ll.dir/EnemyNode.cpp.i
+.PHONY : EnemyNode.cpp.i
+
+EnemyNode.s: EnemyNode.cpp.s
+.PHONY : EnemyNode.s
+
+# target to generate assembly for a file
+EnemyNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto_1_Datos_ll.dir/build.make CMakeFiles/Proyecto_1_Datos_ll.dir/EnemyNode.cpp.s
+.PHONY : EnemyNode.cpp.s
 
 Enemy_1.o: Enemy_1.cpp.o
 .PHONY : Enemy_1.o
@@ -576,6 +624,12 @@ help:
 	@echo "... Enemy.o"
 	@echo "... Enemy.i"
 	@echo "... Enemy.s"
+	@echo "... EnemyList.o"
+	@echo "... EnemyList.i"
+	@echo "... EnemyList.s"
+	@echo "... EnemyNode.o"
+	@echo "... EnemyNode.i"
+	@echo "... EnemyNode.s"
 	@echo "... Enemy_1.o"
 	@echo "... Enemy_1.i"
 	@echo "... Enemy_1.s"
