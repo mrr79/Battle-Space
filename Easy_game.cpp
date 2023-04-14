@@ -25,7 +25,7 @@ Easy_game::Easy_game(QWidget *parent){
 
     //PLayer en la scene
 
-    Player *player = new Player(collector, bullets_number);
+    Player *player = new Player(collector, bullets_number,8);
     player->setPixmap(QPixmap(":/Images/myship.png").scaled(50,50));
 
     bullets_label->setDefaultTextColor(Qt::red);

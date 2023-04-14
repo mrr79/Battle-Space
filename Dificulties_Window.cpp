@@ -9,25 +9,25 @@
 
 void Dificulties::easy()
 {
-    Normal_Game * easy = new  Normal_Game(800, 20, 2, 100);
+    Normal_Game * easy = new  Normal_Game(800, 20, 5, 100);
     easy->show();
     this->close();
 }
 
 void Dificulties::normal()
 {
-    Normal_Game * normal = new Normal_Game(1000, 15, 4, 100);
+    Normal_Game * normal = new Normal_Game(1000, 15, 6, 100);
     normal->show();
     this->close();
 }
-
+/*
 void Dificulties::hard()
 {
     Hard_Game * hard = new Hard_Game();
     hard->show();
     this->close();
 }
-
+*/
 
 Dificulties::Dificulties(QWidget *parent)
 {
@@ -54,7 +54,7 @@ Dificulties::Dificulties(QWidget *parent)
     proxy->setWidget(easy_mode);
     scene->addItem(proxy);
     proxy->setPos(320,150);
-    connect(easy_mode, &QPushButton::released, this, &Dificulties::easy);
+    //connect(easy_mode, &QPushButton::released, this, &Dificulties::easy);
 
     //Creaction and configuration of normal mode button
     QPushButton * normal_mode = new QPushButton("Normal");
@@ -72,7 +72,7 @@ Dificulties::Dificulties(QWidget *parent)
     proxy_hard->setWidget(hard_mode);
     scene->addItem(proxy_hard);
     proxy_hard->setPos(320,330);
-    connect(hard_mode, &QPushButton::released, this, &Dificulties::hard);
+    //connect(hard_mode, &QPushButton::released, this, &Dificulties::hard);
 
     //Configuration of the scene
     setScene(scene);

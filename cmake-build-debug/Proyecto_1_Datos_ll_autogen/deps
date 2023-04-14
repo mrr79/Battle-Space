@@ -10,6 +10,10 @@ Proyecto_1_Datos_ll_autogen/timestamp: \
 	/home/mrr/Desktop/Battle-Space/Easy_game.h \
 	/home/mrr/Desktop/Battle-Space/Enemy.cpp \
 	/home/mrr/Desktop/Battle-Space/Enemy.h \
+	/home/mrr/Desktop/Battle-Space/EnemyList.cpp \
+	/home/mrr/Desktop/Battle-Space/EnemyList.h \
+	/home/mrr/Desktop/Battle-Space/EnemyNode.cpp \
+	/home/mrr/Desktop/Battle-Space/EnemyNode.h \
 	/home/mrr/Desktop/Battle-Space/Enemy_1.cpp \
 	/home/mrr/Desktop/Battle-Space/Enemy_1.h \
 	/home/mrr/Desktop/Battle-Space/Enemy_2.cpp \
@@ -29,21 +33,21 @@ Proyecto_1_Datos_ll_autogen/timestamp: \
 	/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles/3.25.2/CMakeSystem.cmake \
 	/home/mrr/Desktop/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/moc_predefs.h \
 	/home/mrr/Desktop/Battle-Space/main.cpp \
-	/snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake \
-	/snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake \
-	/snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake \
-	/snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake \
-	/snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake \
-	/snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeParseArguments.cmake \
-	/snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake \
-	/snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake \
-	/snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-	/snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake \
-	/snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake \
-	/snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-CXX.cmake \
-	/snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake \
-	/snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux.cmake \
-	/snap/clion/233/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/UnixPaths.cmake \
+	/snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake \
+	/snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake \
+	/snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake \
+	/snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake \
+	/snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake \
+	/snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeParseArguments.cmake \
+	/snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake \
+	/snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake \
+	/snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+	/snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake \
+	/snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake \
+	/snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-CXX.cmake \
+	/snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake \
+	/snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux.cmake \
+	/snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/UnixPaths.cmake \
 	/usr/include/asm-generic/errno-base.h \
 	/usr/include/asm-generic/errno.h \
 	/usr/include/assert.h \
@@ -369,6 +373,7 @@ Proyecto_1_Datos_ll_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
+	/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsItem \
 	/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsPixmapItem \
 	/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsRectItem \
 	/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsScene \
@@ -430,4 +435,4 @@ Proyecto_1_Datos_ll_autogen/timestamp: \
 	/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake \
 	/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake \
 	/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake \
-	/snap/clion/233/bin/cmake/linux/x64/bin/cmake
+	/snap/clion/234/bin/cmake/linux/x64/bin/cmake

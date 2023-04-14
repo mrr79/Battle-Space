@@ -12,6 +12,8 @@
 #include "Game_Over.h"
 #include <QGraphicsScene>
 #include <QList>
+#include "Player.h"
+#include <iostream>
 
 Normal_Game::Normal_Game(int bullet_speed, int bullets, int ships_number, int health, QWidget *parent){
     //Escena
@@ -23,20 +25,24 @@ Normal_Game::Normal_Game(int bullet_speed, int bullets, int ships_number, int he
 
     this->bullets_number = bullets;
     this->health_number = health;
+    this->shipsnumber =ships_number ;
+
+    this->round=1;
 
     bullets_label = new QGraphicsTextItem("Bullets: " + QString::number(bullets_number));
     bullets_label->setDefaultTextColor(Qt::red);
 
-
+    round_label = new QGraphicsTextItem("Round FASE: " + QString::number(round));
+    round_label->setDefaultTextColor(Qt::red);
 
     line = new QGraphicsLineItem(10, 10, 10, 600);
     scene->addItem(line);
 
-    //Collector collector;
+
 
     //PLayer en la scene
 
-    Player *player = new Player(collector, bullets_number);
+    Player *player = new Player(collector, bullets,shipsnumber);
     player->setPixmap(QPixmap(":/Images/myship.png").scaled(50,50));
 
     health_label = new QGraphicsTextItem("Health: " + QString::number(health));
@@ -51,6 +57,9 @@ Normal_Game::Normal_Game(int bullet_speed, int bullets, int ships_number, int he
     scene->addItem(health_label);
     health_label->setPos(0,20);
 
+
+    scene->addItem(round_label);
+    round_label->setPos(500,20);
 
     //Hacer rectangulo focusiable
     player->setFlag(QGraphicsItem::ItemIsFocusable);
@@ -69,20 +78,24 @@ Normal_Game::Normal_Game(int bullet_speed, int bullets, int ships_number, int he
     QTimer *timer_bullets = new QTimer;
     QObject::connect(timer_bullets,SIGNAL(timeout()),player,SLOT(bullets()));
     timer_bullets->start(bullet_speed);
-
+    /*
     //Timer de los enemigos
     QTimer *timer_enemies_1 = new QTimer;
     QObject::connect(timer_enemies_1, SIGNAL(timeout()), player, SLOT(spawn_enemies_1()));
-    timer_enemies_1->start(2000);
+    timer_enemies_1->start(2000);*/
 
     //Timer de los enemigos
     QTimer *timer_enemies_2 = new QTimer;
-    QObject::connect(timer_enemies_2, SIGNAL(timeout()), player, SLOT(spawn_enemies_2()));
+    QObject::connect(timer_enemies_2, SIGNAL(timeout()), player, SLOT(spawn_random_enemies()));
     timer_enemies_2->start(3000);
 
     //CONTADOR DE BALAS
     QObject::connect(timer_bullets,SIGNAL(timeout()),this,SLOT(decrease_bullets()));
     timer_bullets->start(bullet_speed);
+
+
+    //  PARA CAMBIAR DE ROUNDS=FASES
+    QObject::connect(player, SIGNAL(roundChanged()), this, SLOT(handleRoundChanged()));
 
 
 
@@ -133,5 +146,17 @@ void Normal_Game::check_health()
                 decrease_health();
             }
         }
+    }
+}
+
+void Normal_Game::handleRoundChanged() {
+    std::cout << "acomodar rounds" << std::endl;
+    round++;
+    round_label->setPlainText("Rounds: " + QString::number(round));
+    if (round == 5) {
+        // Stop the game
+        // You can add your implementation here to stop the game once the round is 5
+        std::cout << "ver que hacer con el juego: perdio o gano " << std::endl;
+
     }
 }

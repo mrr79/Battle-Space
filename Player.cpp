@@ -1,7 +1,7 @@
 #include "Player.h"
 #include <QKeyEvent>
 #include <QGraphicsScene>
-
+#include <QtGlobal>
 #include <iostream>
 #include <QTimer>
 #include "Enemy_2.h"
@@ -12,7 +12,15 @@
 #include <iostream>
 #include "Easy_game.h"
 #include "Bullet.h"
-using namespace std;
+#include <QtCore>
+#include "Normal_Game.h"
+#include <iostream>
+#include <iostream>
+
+using namespace std
+
+
+;
 // mover jugador arriba y abajo
 void Player::keyPressEvent(QKeyEvent *event){
     if (event->key() == Qt::Key_Up){
@@ -27,10 +35,11 @@ void Player::keyPressEvent(QKeyEvent *event){
     }
 }
 
-Player::Player(Collector& collector, int bullets_number)
-        : collector(collector), bullets_number(bullets_number)
+Player::Player(Collector& collector, int bullets_number, int ships_number)
+        : collector(collector), bullets_number(bullets_number), ships_number(ships_number)
 {
     this->bullets_number = bullets_number;
+    this->ships_number = ships_number;
     connect(this, &Player::handleBulletCollision, this, &Player::handleBulletCollision);
 
     QTimer *timer = new QTimer(this);
@@ -125,7 +134,7 @@ void Player::handleBulletCollision()
 }
 
 void Player::moveBullets(){
-    cout << "Se deberia de poder mover la bala: " << endl;
+    //cout << "Se deberia de poder mover la bala: " << endl;
     for (int i = 0; i < collector.collector_size(); i++){
         Bullet* bullet = static_cast<Bullet*>(collector.getPos(i));
         bullet -> setPos(bullet->pos().x() + 10, bullet -> pos().y());
@@ -143,12 +152,66 @@ void Player::spawn_enemies_1()
 {
     Enemy_1 *enemy_1 = new Enemy_1(collector);
     scene()->addItem(enemy_1);
+    enemyList.append(enemy_1);
 }
 
 void Player::spawn_enemies_2()
 {
     Enemy_2 *enemy_2 = new Enemy_2(collector);
     scene()->addItem(enemy_2);
+    enemyList.append(enemy_2);
+
+}
+
+
+void Player::spawn_random_enemies() {
+    num_enemies = 0;
+    num_enemies_1 = 0;
+    num_enemies_2 = 0;
+
+    while (num_enemies < ships_number) {
+        if (num_enemies_1 < 4 && num_enemies_2 < 4 && qrand() % 2 == 0) {
+            QTimer::singleShot((1000 * (num_enemies_2 + num_enemies)), this, [=](){
+            spawn_enemies_2();
+                num_enemies_2 +=  1;
+
+
+                if (enemyList.size() == ships_number) {
+                    std::cout << "lista llena: revisar si hay 8 pt1" << std::endl;
+                    enemyList.printList();
+                    // emit signal to change the round
+                    emit roundChanged();
+                    QTimer::singleShot((2000+(enemyList.size()*2500)), this, [=]() {
+                        enemyList.clear();
+                        std::cout << "lista vacia: revisar si hay 0 pt2" << std::endl;
+                        enemyList.printList();
+                        spawn_random_enemies();
+                    });
+                }
+
+            });
+        } else {
+            QTimer::singleShot((1000 * (num_enemies_1*num_enemies_1 + num_enemies)), this, [=]() {
+                spawn_enemies_1();
+                num_enemies_1 +=  1;
+
+
+                if (enemyList.size() == ships_number) {
+                    std::cout << "lista llena: revisar si hay 8 pt2" << std::endl;
+                    enemyList.printList();
+                    // emit signal to change the round
+                    emit roundChanged();
+                    QTimer::singleShot((2000+(enemyList.size()*2500)), this, [=]() {
+                        enemyList.clear();
+                        std::cout << "lista vacia: revisar si hay 0 pt2" << std::endl;
+                        enemyList.printList();
+                        spawn_random_enemies();
+                    });
+                }
+            });
+        }
+        num_enemies++;
+    }
 }
 
 void Player::spawn_enemies()
