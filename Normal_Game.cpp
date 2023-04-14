@@ -96,6 +96,7 @@ Normal_Game::Normal_Game(int bullet_speed, int bullets, int ships_number, int he
 
     //  PARA CAMBIAR DE ROUNDS=FASES
     QObject::connect(player, SIGNAL(roundChanged()), this, SLOT(handleRoundChanged()));
+    connect(this, &Normal_Game::spawnEnemies, player, &Player::spawn_random_enemies);
 
 
 
@@ -159,4 +160,13 @@ void Normal_Game::handleRoundChanged() {
         std::cout << "ver que hacer con el juego: perdio o gano " << std::endl;
 
     }
+
+    else {
+        QTimer::singleShot(3000, this, &Normal_Game::emitSpawnEnemiesSignal);
+    }
+}
+
+
+void Normal_Game::emitSpawnEnemiesSignal() {
+    emit spawnEnemies();
 }

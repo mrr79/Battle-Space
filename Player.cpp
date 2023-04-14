@@ -40,7 +40,10 @@ Player::Player(Collector& collector, int bullets_number, int ships_number)
 {
     this->bullets_number = bullets_number;
     this->ships_number = ships_number;
+
     connect(this, &Player::handleBulletCollision, this, &Player::handleBulletCollision);
+
+
 
     QTimer *timer = new QTimer(this);
     connect(timer, &QTimer::timeout, this, &Player::moveBullets);
@@ -171,7 +174,7 @@ void Player::spawn_random_enemies() {
 
     while (num_enemies < ships_number) {
         if (num_enemies_1 < 4 && num_enemies_2 < 4 && qrand() % 2 == 0) {
-            QTimer::singleShot((1000 * (num_enemies_2 + num_enemies)), this, [=](){
+           QTimer::singleShot((3000 * (num_enemies_2 + num_enemies)), this, [=](){
             spawn_enemies_2();
                 num_enemies_2 +=  1;
 
@@ -181,7 +184,7 @@ void Player::spawn_random_enemies() {
                     enemyList.printList();
                     // emit signal to change the round
                     emit roundChanged();
-                    QTimer::singleShot((2000+(enemyList.size()*2500)), this, [=]() {
+                    QTimer::singleShot((4000+(enemyList.size()*2500)), this, [=]() {
                         enemyList.clear();
                         std::cout << "lista vacia: revisar si hay 0 pt2" << std::endl;
                         enemyList.printList();
@@ -191,7 +194,7 @@ void Player::spawn_random_enemies() {
 
             });
         } else {
-            QTimer::singleShot((1000 * (num_enemies_1*num_enemies_1 + num_enemies)), this, [=]() {
+            QTimer::singleShot((3000 * (num_enemies_1*num_enemies_1 + num_enemies)), this, [=]() {
                 spawn_enemies_1();
                 num_enemies_1 +=  1;
 
@@ -201,7 +204,7 @@ void Player::spawn_random_enemies() {
                     enemyList.printList();
                     // emit signal to change the round
                     emit roundChanged();
-                    QTimer::singleShot((2000+(enemyList.size()*2500)), this, [=]() {
+                    QTimer::singleShot((4000+(enemyList.size()*2500)), this, [=]() {
                         enemyList.clear();
                         std::cout << "lista vacia: revisar si hay 0 pt2" << std::endl;
                         enemyList.printList();

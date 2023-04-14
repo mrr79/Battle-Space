@@ -41,6 +41,7 @@ public slots:
     void decrease_health();
     void check_health();
     void handleRoundChanged();
+    void emitSpawnEnemiesSignal();
 
 private:
     int width = 800;
@@ -50,6 +51,10 @@ private:
     int shipsnumber;
     QVector<EnemyList*> wave;
     int round;
+
+
+signals:
+    void spawnEnemies();
 };
 
 #endif // NORMAL_GAME_H
