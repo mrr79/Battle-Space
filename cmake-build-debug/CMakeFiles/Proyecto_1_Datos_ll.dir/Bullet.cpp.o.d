@@ -319,6 +319,7 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Bullet.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsScene \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsscene.h \
+ /home/mrr/Desktop/Battle-Space/Fase.h \
  /home/mrr/Desktop/Battle-Space/Enemy_1.h \
  /home/mrr/Desktop/Battle-Space/Enemy_2.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug \

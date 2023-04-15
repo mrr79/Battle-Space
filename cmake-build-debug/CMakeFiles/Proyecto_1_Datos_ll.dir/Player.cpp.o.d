@@ -320,6 +320,7 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsScene \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsscene.h \
+ /home/mrr/Desktop/Battle-Space/Fase.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QKeyEvent \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h \

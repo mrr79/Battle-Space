@@ -374,6 +374,7 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Bullet.cpp.o: /home/mrr/Desktop/Battle-Space/
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsScene \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsscene.h \
+  /home/mrr/Desktop/Battle-Space/Fase.h \
   /home/mrr/Desktop/Battle-Space/Enemy_1.h \
   /home/mrr/Desktop/Battle-Space/Enemy_2.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug \
@@ -947,6 +948,7 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.o: /home/mrr/Desktop/B
   /home/mrr/Desktop/Battle-Space/EnemyNode.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsItem \
   /home/mrr/Desktop/Battle-Space/Normal_Game.h \
+  /home/mrr/Desktop/Battle-Space/Fase.h \
   /home/mrr/Desktop/Battle-Space/Hard_Game.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h \
@@ -1345,6 +1347,7 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.o: /home/mrr/Desktop/Battle-Spa
   /home/mrr/Desktop/Battle-Space/EnemyNode.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsItem \
   /home/mrr/Desktop/Battle-Space/Normal_Game.h \
+  /home/mrr/Desktop/Battle-Space/Fase.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsTextItem \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/QFont \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h \
@@ -2725,6 +2728,7 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_1.cpp.o: /home/mrr/Desktop/Battle-Space
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsScene \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsscene.h \
+  /home/mrr/Desktop/Battle-Space/Fase.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QList \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/QKeyEvent \
@@ -3115,6 +3119,7 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_2.cpp.o: /home/mrr/Desktop/Battle-Space
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsScene \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsscene.h \
+  /home/mrr/Desktop/Battle-Space/Fase.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QList \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h
 
@@ -4183,6 +4188,7 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Hard_Game.cpp.o: /home/mrr/Desktop/Battle-Spa
   /home/mrr/Desktop/Battle-Space/EnemyNode.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsItem \
   /home/mrr/Desktop/Battle-Space/Normal_Game.h \
+  /home/mrr/Desktop/Battle-Space/Fase.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsTextItem \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/QFont \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h \
@@ -4748,6 +4754,7 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Normal_Game.cpp.o: /home/mrr/Desktop/Battle-S
   /home/mrr/Desktop/Battle-Space/EnemyList.h \
   /home/mrr/Desktop/Battle-Space/EnemyNode.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsItem \
+  /home/mrr/Desktop/Battle-Space/Fase.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsTextItem \
   /home/mrr/Desktop/Battle-Space/Enemy_2.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug \
@@ -5154,6 +5161,7 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o: /home/mrr/Desktop/Battle-Space/
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsScene \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsscene.h \
+  /home/mrr/Desktop/Battle-Space/Fase.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/QKeyEvent \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h \
@@ -5811,6 +5819,7 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/mocs_compilation.
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsScene \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsscene.h \
+  /home/mrr/Desktop/Battle-Space/Fase.h \
   /home/mrr/Desktop/Battle-Space/Enemy_1.h \
   Proyecto_1_Datos_ll_autogen/EWIEGA46WW/moc_Easy_game.cpp \
   /home/mrr/Desktop/Battle-Space/Easy_game.h \
@@ -6373,8 +6382,6 @@ Proyecto_1_Datos_ll_autogen/mocs_compilation.cpp:
 
 /home/mrr/Desktop/Battle-Space/Game_Over.cpp:
 
-/home/mrr/Desktop/Battle-Space/Fase.h:
-
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qresultstore.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qcommandlineoption.h:
@@ -6460,6 +6467,8 @@ Proyecto_1_Datos_ll_autogen/EWIEGA46WW/moc_Normal_Game.cpp:
 /home/mrr/Desktop/Battle-Space/Enemy_2.h:
 
 /home/mrr/Desktop/Battle-Space/Enemy_1.h:
+
+/home/mrr/Desktop/Battle-Space/Fase.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget:
 

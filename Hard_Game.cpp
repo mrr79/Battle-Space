@@ -13,7 +13,7 @@ Hard_Game::Hard_Game(QWidget *parent){
     int width = 800;
     int height = 600;
     int bullet_speed = 900;
-
+/*
     //Item en la escena
     Player *player = new Player(collector, bullets_number,9);
     player->setPixmap(QPixmap(":/Images/myship.png").scaled(50,50));
@@ -70,6 +70,6 @@ void Hard_Game::decrease()
     else{
         bullets_number--;
         bullets_label->setPlainText("Bullets: " + QString::number(bullets_number));
-    }
+    }*/
 }
 

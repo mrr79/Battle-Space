@@ -8,6 +8,7 @@
 #include <QTimer>
 #include <QTimer>
 #include "Player.h"
+#include "Fase.h"
 class Normal_Game: public QGraphicsView{
     Q_OBJECT
 public:
@@ -29,6 +30,8 @@ public:
     QGraphicsScene * scene;
     //Player * player(collector, bullets_number, ships_number);
     Collector collector;
+    Fase fase1;
+    Fase fase2;
     //QGraphicsTextItem *collector_label;
 
     int enemy_count;

@@ -321,6 +321,7 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Hard_Game.cpp.o: \
  /home/mrr/Desktop/Battle-Space/EnemyNode.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsItem \
  /home/mrr/Desktop/Battle-Space/Normal_Game.h \
+ /home/mrr/Desktop/Battle-Space/Fase.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsTextItem \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QFont \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h \

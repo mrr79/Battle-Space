@@ -7,6 +7,7 @@
 #include "Bullet.h"
 #include "EnemyList.h"
 #include "Normal_Game.h"
+#include "Fase.h"
 
 class Player: public QObject ,public QGraphicsPixmapItem{
 Q_OBJECT
@@ -17,8 +18,10 @@ public:
     int damage = 10;
     Collector collector;
     Collector usedBullets;
+    Fase fase1;
+    Fase fase2;
 
-    Player(Collector& collector, int bullets_number, int ships_number);
+    Player(Collector& collector, int bullets_number, int ships_number, Fase& fase1, Fase& fase2);
     int size_collector;
     int hits;
     QGraphicsTextItem *collector_label;

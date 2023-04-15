@@ -25,7 +25,7 @@ public:
 
 public slots:
     //ir restando los bullets : ver funcion en el cpp
-    void decrease();
+    //void decrease();
 
 };
 

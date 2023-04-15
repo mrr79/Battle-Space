@@ -322,6 +322,7 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.o: \
  /home/mrr/Desktop/Battle-Space/EnemyNode.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsItem \
  /home/mrr/Desktop/Battle-Space/Normal_Game.h \
+ /home/mrr/Desktop/Battle-Space/Fase.h \
  /home/mrr/Desktop/Battle-Space/Hard_Game.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h \

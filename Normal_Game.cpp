@@ -14,6 +14,7 @@
 #include <QList>
 #include "Player.h"
 #include <iostream>
+#include "Fase.h"
 
 Normal_Game::Normal_Game(int bullet_speed, int bullets, int ships_number, int health, QWidget *parent){
     //Escena
@@ -46,7 +47,7 @@ Normal_Game::Normal_Game(int bullet_speed, int bullets, int ships_number, int he
 
     //PLayer en la scene
 
-    Player *player = new Player(collector, bullets,shipsnumber);
+    Player *player = new Player(collector, bullets,shipsnumber,fase1,fase2);
     player->setPixmap(QPixmap(":/Images/myship.png").scaled(50,50));
 
     player->spawn_random_enemies();//ESTE SIRVE
@@ -147,6 +148,9 @@ void Normal_Game::check_health()
         game_over->show();
         this->close();
     }
+    //if(health_number == 0 && ){
+
+   // };
     else{
         QList<QGraphicsItem *> colliding_items = line->collidingItems();
         for (int i = 0, n = colliding_items.size(); i < n; ++i){

@@ -35,11 +35,13 @@ void Player::keyPressEvent(QKeyEvent *event){
     }
 }
 
-Player::Player(Collector& collector, int bullets_number, int ships_number)
-        : collector(collector), bullets_number(bullets_number), ships_number(ships_number)
+Player::Player(Collector& collector, int bullets_number, int ships_number,  Fase& fase1, Fase& fase2)
+        : collector(collector), bullets_number(bullets_number), ships_number(ships_number), fase1(fase1), fase2(fase2)
 {
     this->bullets_number = bullets_number;
     this->ships_number = ships_number;
+    this->fase1=fase1;
+    this->fase2=fase2;
 
     connect(this, &Player::handleBulletCollision, this, &Player::handleBulletCollision);
 
@@ -189,6 +191,9 @@ void Player::spawn_random_enemies() {
                         round_aux++;
                         std::cout << "round: " << round_aux  << std::endl;
                         QTimer::singleShot((1000 + (enemyList.size() * 500)), this, [=]() {
+                            fase1.get_list(round_aux-1) = enemyList;
+                            std::cout << "LISTA PERRITA" << std::endl;
+                            fase1.get_list(0).printList();
                             enemyList.clear();
                             std::cout << "lista vacia: revisar si hay 0 pt2" << std::endl;
                             enemyList.printList();
@@ -211,6 +216,7 @@ void Player::spawn_random_enemies() {
                         round_aux++;
                         std::cout << "round: " << round_aux  << std::endl;
                         QTimer::singleShot((1000 + (enemyList.size() * 500)), this, [=]() {
+                            fase1.get_list(round_aux-1) = enemyList;
                             enemyList.clear();
                             std::cout << "lista vacia: revisar si hay 0 pt2" << std::endl;
                             enemyList.printList();
@@ -255,6 +261,8 @@ void Player::spawn_random_enemies2() {
                         round_aux2++;
                         std::cout << "round: " << round_aux  << std::endl;
                         QTimer::singleShot((1000 + (enemyList.size() * 500)), this, [=]() {
+                            //  QUE GUARDE ENEMYLIST EN OTRA LISTA: OLEADA[I]1
+                            fase2.get_list(round_aux2-1) = enemyList;
                             enemyList.clear();
                             std::cout << "lista vacia: revisar si hay 0 pt2" << std::endl;
                             enemyList.printList();
@@ -277,6 +285,7 @@ void Player::spawn_random_enemies2() {
                         round_aux2++;
                         std::cout << "round: " << round_aux  << std::endl;
                         QTimer::singleShot((1000 + (enemyList.size() * 500)), this, [=]() {
+                            fase2.get_list(round_aux2-1) = enemyList;
                             enemyList.clear();
                             std::cout << "lista vacia: revisar si hay 0 pt2" << std::endl;
                             enemyList.printList();

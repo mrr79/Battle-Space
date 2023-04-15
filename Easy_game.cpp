@@ -14,7 +14,7 @@ Easy_game::Easy_game(QWidget *parent){
     QGraphicsScene *scene = new QGraphicsScene();
     scene->setSceneRect(0,0,800,600);
     scene->setBackgroundBrush(QBrush(QImage(":/Images/BG.png")));
-
+   /*
     int width = 800;
     int height = 600;
     //velocidad de las balas
@@ -25,7 +25,7 @@ Easy_game::Easy_game(QWidget *parent){
 
     //PLayer en la scene
 
-    Player *player = new Player(collector, bullets_number,8);
+    Player *player = new Player(collector, bullets_number,8,, );
     player->setPixmap(QPixmap(":/Images/myship.png").scaled(50,50));
 
     bullets_label->setDefaultTextColor(Qt::red);
@@ -82,6 +82,6 @@ void Easy_game::decrease()
         bullets_number--;
         bullets_label->setPlainText("Bullets: " + QString::number(bullets_number));
         //bullets_label->setPlainText("B en collector: " + QString::number(colec));
-    }
+    }*/
 }
 
