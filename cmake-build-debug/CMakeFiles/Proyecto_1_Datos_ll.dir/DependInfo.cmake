@@ -17,6 +17,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/mrr/Desktop/Battle-Space/EnemyNode.cpp" "CMakeFiles/Proyecto_1_Datos_ll.dir/EnemyNode.cpp.o" "gcc" "CMakeFiles/Proyecto_1_Datos_ll.dir/EnemyNode.cpp.o.d"
   "/home/mrr/Desktop/Battle-Space/Enemy_1.cpp" "CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_1.cpp.o" "gcc" "CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_1.cpp.o.d"
   "/home/mrr/Desktop/Battle-Space/Enemy_2.cpp" "CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_2.cpp.o" "gcc" "CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_2.cpp.o.d"
+  "/home/mrr/Desktop/Battle-Space/Fase.cpp" "CMakeFiles/Proyecto_1_Datos_ll.dir/Fase.cpp.o" "gcc" "CMakeFiles/Proyecto_1_Datos_ll.dir/Fase.cpp.o.d"
   "/home/mrr/Desktop/Battle-Space/Game_Over.cpp" "CMakeFiles/Proyecto_1_Datos_ll.dir/Game_Over.cpp.o" "gcc" "CMakeFiles/Proyecto_1_Datos_ll.dir/Game_Over.cpp.o.d"
   "/home/mrr/Desktop/Battle-Space/Hard_Game.cpp" "CMakeFiles/Proyecto_1_Datos_ll.dir/Hard_Game.cpp.o" "gcc" "CMakeFiles/Proyecto_1_Datos_ll.dir/Hard_Game.cpp.o.d"
   "/home/mrr/Desktop/Battle-Space/NodeC.cpp" "CMakeFiles/Proyecto_1_Datos_ll.dir/NodeC.cpp.o" "gcc" "CMakeFiles/Proyecto_1_Datos_ll.dir/NodeC.cpp.o.d"

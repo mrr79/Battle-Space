@@ -32,6 +32,9 @@ public slots:
     void moveBullets();
     void handleBulletCollision();
     void spawn_random_enemies();
+    void spawn_random_enemies2();
+
+    //void create_new_enemy_lists();
 
 private:
     EnemyList enemyList;
@@ -39,6 +42,8 @@ private:
     int num_enemies = 0;
     int num_enemies_1 = 0;
     int num_enemies_2 = 0;
+    int round_aux = 0;
+    int round_aux2 = 0;
 signals:
     void roundChanged();
 

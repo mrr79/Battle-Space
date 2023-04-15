@@ -403,6 +403,30 @@ Enemy_2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto_1_Datos_ll.dir/build.make CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_2.cpp.s
 .PHONY : Enemy_2.cpp.s
 
+Fase.o: Fase.cpp.o
+.PHONY : Fase.o
+
+# target to build an object file
+Fase.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto_1_Datos_ll.dir/build.make CMakeFiles/Proyecto_1_Datos_ll.dir/Fase.cpp.o
+.PHONY : Fase.cpp.o
+
+Fase.i: Fase.cpp.i
+.PHONY : Fase.i
+
+# target to preprocess a source file
+Fase.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto_1_Datos_ll.dir/build.make CMakeFiles/Proyecto_1_Datos_ll.dir/Fase.cpp.i
+.PHONY : Fase.cpp.i
+
+Fase.s: Fase.cpp.s
+.PHONY : Fase.s
+
+# target to generate assembly for a file
+Fase.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto_1_Datos_ll.dir/build.make CMakeFiles/Proyecto_1_Datos_ll.dir/Fase.cpp.s
+.PHONY : Fase.cpp.s
+
 Game_Over.o: Game_Over.cpp.o
 .PHONY : Game_Over.o
 
@@ -636,6 +660,9 @@ help:
 	@echo "... Enemy_2.o"
 	@echo "... Enemy_2.i"
 	@echo "... Enemy_2.s"
+	@echo "... Fase.o"
+	@echo "... Fase.i"
+	@echo "... Fase.s"
 	@echo "... Game_Over.o"
 	@echo "... Game_Over.i"
 	@echo "... Game_Over.s"

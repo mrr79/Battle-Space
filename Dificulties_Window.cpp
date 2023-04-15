@@ -9,7 +9,7 @@
 
 void Dificulties::easy()
 {
-    Normal_Game * easy = new  Normal_Game(800, 20, 5, 100);
+    Normal_Game * easy = new  Normal_Game(800, 20, 1, 100);
     easy->show();
     this->close();
 }

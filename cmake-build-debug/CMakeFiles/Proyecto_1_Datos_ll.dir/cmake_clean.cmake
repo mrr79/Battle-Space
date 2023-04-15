@@ -20,6 +20,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_1.cpp.o.d"
   "CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_2.cpp.o"
   "CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_2.cpp.o.d"
+  "CMakeFiles/Proyecto_1_Datos_ll.dir/Fase.cpp.o"
+  "CMakeFiles/Proyecto_1_Datos_ll.dir/Fase.cpp.o.d"
   "CMakeFiles/Proyecto_1_Datos_ll.dir/Game_Over.cpp.o"
   "CMakeFiles/Proyecto_1_Datos_ll.dir/Game_Over.cpp.o.d"
   "CMakeFiles/Proyecto_1_Datos_ll.dir/Hard_Game.cpp.o"

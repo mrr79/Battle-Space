@@ -22,6 +22,7 @@ public:
     QGraphicsTextItem *bullets_label;
     QGraphicsTextItem *health_label;
     QGraphicsTextItem *round_label;
+    QGraphicsTextItem *fase_label;
 
     QGraphicsLineItem *line;
 
@@ -51,6 +52,7 @@ private:
     int shipsnumber;
     QVector<EnemyList*> wave;
     int round;
+    int fase;
 
 
 signals:

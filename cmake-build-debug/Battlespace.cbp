@@ -204,6 +204,12 @@
 		<Unit filename="/home/mrr/Desktop/Battle-Space/Enemy_2.h">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
+		<Unit filename="/home/mrr/Desktop/Battle-Space/Fase.cpp">
+			<Option target="Proyecto_1_Datos_ll"/>
+		</Unit>
+		<Unit filename="/home/mrr/Desktop/Battle-Space/Fase.h">
+			<Option target="Proyecto_1_Datos_ll"/>
+		</Unit>
 		<Unit filename="/home/mrr/Desktop/Battle-Space/Game_Over.cpp">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>

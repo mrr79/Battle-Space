@@ -28,12 +28,16 @@ Normal_Game::Normal_Game(int bullet_speed, int bullets, int ships_number, int he
     this->shipsnumber =ships_number ;
 
     this->round=1;
+    this->fase=1;
 
     bullets_label = new QGraphicsTextItem("Bullets: " + QString::number(bullets_number));
     bullets_label->setDefaultTextColor(Qt::red);
 
-    round_label = new QGraphicsTextItem("Round FASE: " + QString::number(round));
+    round_label = new QGraphicsTextItem("Round: " + QString::number(round));
     round_label->setDefaultTextColor(Qt::red);
+
+    fase_label = new QGraphicsTextItem("FASE: " + QString::number(fase));
+    fase_label->setDefaultTextColor(Qt::red);
 
     line = new QGraphicsLineItem(10, 10, 10, 600);
     scene->addItem(line);
@@ -44,6 +48,10 @@ Normal_Game::Normal_Game(int bullet_speed, int bullets, int ships_number, int he
 
     Player *player = new Player(collector, bullets,shipsnumber);
     player->setPixmap(QPixmap(":/Images/myship.png").scaled(50,50));
+
+    player->spawn_random_enemies();//ESTE SIRVE
+
+
 
     health_label = new QGraphicsTextItem("Health: " + QString::number(health));
 
@@ -60,6 +68,9 @@ Normal_Game::Normal_Game(int bullet_speed, int bullets, int ships_number, int he
 
     scene->addItem(round_label);
     round_label->setPos(500,20);
+
+    scene->addItem(fase_label);
+    fase_label->setPos(500,0);
 
     //Hacer rectangulo focusiable
     player->setFlag(QGraphicsItem::ItemIsFocusable);
@@ -85,9 +96,8 @@ Normal_Game::Normal_Game(int bullet_speed, int bullets, int ships_number, int he
     timer_enemies_1->start(2000);*/
 
     //Timer de los enemigos
-    QTimer *timer_enemies_2 = new QTimer;
-    QObject::connect(timer_enemies_2, SIGNAL(timeout()), player, SLOT(spawn_random_enemies()));
-    timer_enemies_2->start(3000);
+
+    //player->spawn_random_enemies();//ESTE SIRVE
 
     //CONTADOR DE BALAS
     QObject::connect(timer_bullets,SIGNAL(timeout()),this,SLOT(decrease_bullets()));
@@ -154,16 +164,19 @@ void Normal_Game::handleRoundChanged() {
     std::cout << "acomodar rounds" << std::endl;
     round++;
     round_label->setPlainText("Rounds: " + QString::number(round));
-    if (round == 5) {
+    if (round >= 5) {
+        round=0;
+        fase=2;
+        fase_label->setPlainText("FASE: " + QString::number(fase));
+        std::cout << "-------------------cambio de fase------------------" << std::endl;
         // Stop the game
         // You can add your implementation here to stop the game once the round is 5
         std::cout << "ver que hacer con el juego: perdio o gano " << std::endl;
 
+
+
     }
 
-    else {
-        QTimer::singleShot(3000, this, &Normal_Game::emitSpawnEnemiesSignal);
-    }
 }
 
 
