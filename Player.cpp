@@ -302,6 +302,7 @@ void Player::spawn_random_enemies2() {
                         enemy_list2[m]=*enemyList.duplicate();
                         m++;
                         // no se que paso
+                        // dios
                         // emit signal to change the round
                         emit roundChanged();
                         round_aux2++;
