@@ -12,7 +12,7 @@ public:
     EnemyList();
     ~EnemyList();
 
-    void append(QGraphicsItem* item);
+    void append(EnemyNode item);
     void remove(QGraphicsItem* item);
     int size() const;
     EnemyNode* getHead() const;

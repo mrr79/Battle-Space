@@ -20,12 +20,18 @@
 #include "Easy_game.h"
 #include "Bullet.h"
 #include <iostream>
+#include "Fase.h"
 using namespace std;
 
 
-Enemy_1::Enemy_1(Collector& collector) : collector(collector)
+Enemy_1::Enemy_1(Collector& collector, EnemyList enemy_list[], EnemyList enemy_list2[])
+        : collector(collector), enemy_list(enemy_list), enemy_list2(enemy_list2)
 {
+    this->enemy_list = enemy_list;
+    this->enemy_list2 = enemy_list2;
+
     int random_number = rand() % 550;
+    self_ptr = this; // Asignar la dirección de memoria del objeto actual al puntero self_ptr
 
     setPos(800,random_number);
 
@@ -36,6 +42,7 @@ Enemy_1::Enemy_1(Collector& collector) : collector(collector)
     connect(timer,SIGNAL(timeout()),this,SLOT(move()));
 
     timer->start(50);
+
 }
 
 void Enemy_1::move()
@@ -44,6 +51,10 @@ void Enemy_1::move()
     for (int i = 0, n = colliding_items.size(); i < n; ++i){
         if (typeid(*(colliding_items[i])) == typeid(Bullet)){
             Bullet* bullet = dynamic_cast<Bullet*>(colliding_items[i]);
+            cout << "Se borro el malo del collector " << endl;
+            cout << this << endl;
+
+            printLists();
             collector.eliminar_nodo_collector(bullet);
             cout << "Se borro el malo del collector " << endl;
             int damage = bullet->bullet_damage;
@@ -53,6 +64,7 @@ void Enemy_1::move()
                 scene()->removeItem(colliding_items[i]);
                 scene()->removeItem(this);
                 delete this;
+                emit hitByBullet();
                 return;
                 std::cout<<"DANO EN LA BALA " << damage <<std::endl;
             }
@@ -74,5 +86,16 @@ void Enemy_1::move()
         delete this;
     }
 }
-
+void Enemy_1::printLists() const {
+    std::cout << "Enemy Lists: " << std::endl;
+    for (int i = 0; i < 5; i++) {
+        std::cout << "List " << i+1 << ": ";
+        EnemyNode* current = enemy_list[i].getHead();
+        while (current != nullptr) {
+            std::cout << current->getEnemy() << " ";
+            current = current->getNext();
+        }
+        std::cout << std::endl;
+    }
+}
 

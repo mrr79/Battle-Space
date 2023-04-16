@@ -5,18 +5,20 @@
 #ifndef BATTLESPACE_ENEMYNODE_H
 #define BATTLESPACE_ENEMYNODE_H
 #include <QGraphicsItem>
+#include "Enemy.h"
 
 
 class EnemyNode {
 public:
-    EnemyNode(QGraphicsItem* item);
+    EnemyNode(Enemy* enemy);
 
-    QGraphicsItem* getItem() const;
+
+    Enemy* getEnemy() const;
     EnemyNode* getNext() const;
     void setNext(EnemyNode* node);
 
 private:
-    QGraphicsItem* m_item;
+    Enemy* m_enemy;
     EnemyNode* m_next;
 };
 

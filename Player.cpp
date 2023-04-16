@@ -17,10 +17,7 @@
 #include <iostream>
 #include <iostream>
 
-using namespace std
-
-
-        ;
+using namespace std;
 // mover jugador arriba y abajo
 void Player::keyPressEvent(QKeyEvent *event){
     if (event->key() == Qt::Key_Up){
@@ -155,16 +152,20 @@ void Player::moveBullets(){
 
 void Player::spawn_enemies_1()
 {
-    Enemy_1 *enemy_1 = new Enemy_1(collector);
+    Enemy_1 *enemy_1 = new Enemy_1(collector, enemy_list, enemy_list2);
     scene()->addItem(enemy_1);
-    enemyList.append(enemy_1);
+    std::cout << "NUEVO ENEMIGO" << std::endl;
+    cout << enemy_1 << endl;
+    enemyList.append(reinterpret_cast<Enemy *>(enemy_1));
+    std::cout << "NUEVO ENEMIGO" << std::endl;
+    enemyList.printList();
 }
 
 void Player::spawn_enemies_2()
 {
     Enemy_2 *enemy_2 = new Enemy_2(collector);
     scene()->addItem(enemy_2);
-    enemyList.append(enemy_2);
+    enemyList.append(reinterpret_cast<Enemy *>(enemy_2));
 
 }
 
@@ -342,7 +343,7 @@ void Player::printLists() const {
         std::cout << "List " << i+1 << ": ";
         EnemyNode* current = enemy_list[i].getHead();
         while (current != nullptr) {
-            std::cout << current->getItem() << " ";
+            std::cout << current->getEnemy() << " ";
             current = current->getNext();
         }
         std::cout << std::endl;
@@ -354,7 +355,7 @@ void Player::printLists2() const {
         std::cout << "List " << i+1 << ": ";
         EnemyNode* current = enemy_list2[i].getHead();
         while (current != nullptr) {
-            std::cout << current->getItem() << " ";
+            std::cout << current->getEnemy() << " ";
             current = current->getNext();
         }
         std::cout << std::endl;

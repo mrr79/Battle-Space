@@ -19,7 +19,7 @@ EnemyList::~EnemyList() {
     }
 }
 
-void EnemyList::append(QGraphicsItem* item) {
+void EnemyList::append(EnemyNode item) {
     EnemyNode* node = new EnemyNode(item);
     if (m_head == nullptr) {
         m_head = node;
@@ -38,7 +38,7 @@ void EnemyList::remove(QGraphicsItem* item) {
     if (m_head == nullptr) {
         return;
     }
-    if (m_head->getItem() == item) {
+    if (m_head->getEnemy() == item) {
         EnemyNode* temp = m_head;
         m_head = m_head->getNext();
         delete temp;
@@ -47,7 +47,7 @@ void EnemyList::remove(QGraphicsItem* item) {
     }
     EnemyNode* current = m_head;
     while (current->getNext() != nullptr) {
-        if (current->getNext()->getItem() == item) {
+        if (current->getNext()->getEnemy() == item) {
             EnemyNode* temp = current->getNext();
             current->setNext(temp->getNext());
             delete temp;
@@ -66,6 +66,7 @@ EnemyNode* EnemyList::getHead() const {
     return m_head;
 }
 
+
 void EnemyList::clear() {
     EnemyNode* current = m_head;
     while (current != nullptr) {
@@ -81,7 +82,7 @@ void EnemyList::printList() const {
     std::cout << "Enemy List: ";
     EnemyNode* current = m_head;
     while (current != nullptr) {
-        std::cout << current->getItem() << " ";
+        std::cout << current->getEnemy() << " ";
         current = current->getNext();
     }
     std::cout << std::endl;
@@ -91,7 +92,7 @@ EnemyList* EnemyList::duplicate() const {
     EnemyList* newList = new EnemyList();
     EnemyNode* current = m_head;
     while (current != nullptr) {
-        QGraphicsItem* item = current->getItem();
+        Enemy* item = current->getEnemy();
         newList->append(item);
         current = current->getNext();
     }

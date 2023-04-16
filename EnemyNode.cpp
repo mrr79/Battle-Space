@@ -3,13 +3,14 @@
 //
 
 #include "EnemyNode.h"
+#include "Enemy.h"
 
-EnemyNode::EnemyNode(QGraphicsItem* item)
-        : m_item(item), m_next(nullptr)
+EnemyNode::EnemyNode(Enemy* enemy)
+: m_enemy(enemy), m_next(nullptr)
 {}
 
-QGraphicsItem* EnemyNode::getItem() const {
-    return m_item;
+Enemy* EnemyNode::getEnemy() const {
+    return m_enemy;
 }
 
 EnemyNode* EnemyNode::getNext() const {
