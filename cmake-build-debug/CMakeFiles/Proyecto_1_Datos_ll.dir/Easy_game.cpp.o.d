@@ -319,6 +319,7 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.o: \
  /home/mrr/Desktop/Battle-Space/EnemyList.h \
  /home/mrr/Desktop/Battle-Space/EnemyNode.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsItem \
+ /home/mrr/Desktop/Battle-Space/Enemy_2.h \
  /home/mrr/Desktop/Battle-Space/Normal_Game.h \
  /home/mrr/Desktop/Battle-Space/Fase.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsTextItem \

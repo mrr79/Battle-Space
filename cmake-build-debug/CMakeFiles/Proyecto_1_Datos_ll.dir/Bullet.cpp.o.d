@@ -296,6 +296,8 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Bullet.cpp.o: \
  /home/mrr/Desktop/Battle-Space/EnemyList.h \
  /home/mrr/Desktop/Battle-Space/EnemyNode.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsItem \
+ /home/mrr/Desktop/Battle-Space/Enemy_1.h \
+ /home/mrr/Desktop/Battle-Space/Enemy_2.h \
  /home/mrr/Desktop/Battle-Space/Normal_Game.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsview.h \
@@ -320,8 +322,6 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Bullet.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsScene \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsscene.h \
  /home/mrr/Desktop/Battle-Space/Fase.h \
- /home/mrr/Desktop/Battle-Space/Enemy_1.h \
- /home/mrr/Desktop/Battle-Space/Enemy_2.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h \

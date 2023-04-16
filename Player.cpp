@@ -176,16 +176,19 @@ void Player::spawn_random_enemies() {
 
     while (num_enemies < ships_number) {
         std::cout << "round: " << round_aux  << std::endl;
-        if (round_aux < 4) {
+        if (round_aux < 5) {
             if (num_enemies_1 < ships_number && num_enemies_2 < ships_number && qrand() % 2 == 0) {
                 QTimer::singleShot((1000 * (num_enemies_2 + num_enemies)), this, [=]() {
                     spawn_enemies_2();
                     num_enemies_2 += 1;
-
-
                     if (enemyList.size() == ships_number) {
                         std::cout << "lista llena: revisar si hay 8 pt1" << std::endl;
                         enemyList.printList();
+                        //enemy_list[n] = enemyList;
+                        //n++;
+                        enemyList.duplicate();
+                        enemy_list[n]=*enemyList.duplicate();
+                        n++;
                         // emit signal to change the round
                         emit roundChanged();
                         round_aux++;
@@ -193,7 +196,9 @@ void Player::spawn_random_enemies() {
                         QTimer::singleShot((1000 + (enemyList.size() * 500)), this, [=]() {
                             fase1.get_list(round_aux-1) = enemyList;
                             std::cout << "LISTA PERRITA" << std::endl;
+
                             fase1.get_list(0).printList();
+
                             enemyList.clear();
                             std::cout << "lista vacia: revisar si hay 0 pt2" << std::endl;
                             enemyList.printList();
@@ -211,12 +216,19 @@ void Player::spawn_random_enemies() {
                     if (enemyList.size() == ships_number) {
                         std::cout << "lista llena: revisar si hay 8 pt2" << std::endl;
                         enemyList.printList();
+                        //enemy_list[n] = enemyList;
+                        //n++;
+
+                        enemyList.duplicate();
+                        enemy_list[n]=*enemyList.duplicate();
+                        n++;
                         // emit signal to change the round
                         emit roundChanged();
                         round_aux++;
                         std::cout << "round: " << round_aux  << std::endl;
                         QTimer::singleShot((1000 + (enemyList.size() * 500)), this, [=]() {
                             fase1.get_list(round_aux-1) = enemyList;
+
                             enemyList.clear();
                             std::cout << "lista vacia: revisar si hay 0 pt2" << std::endl;
                             enemyList.printList();
@@ -230,6 +242,9 @@ void Player::spawn_random_enemies() {
         }
         //round_aux++;
         else{
+            std::cout << "---------------------------1---------------------------" << std::endl;
+            printLists();
+            std::cout << "------------------------------------------------------" << std::endl;
             spawn_random_enemies2();
            ;
         }
@@ -256,6 +271,9 @@ void Player::spawn_random_enemies2() {
                     if (enemyList.size() == ships_number) {
                         std::cout << "lista llena: revisar si hay 8 pt1" << std::endl;
                         enemyList.printList();
+                        enemyList.duplicate();
+                        enemy_list2[m]=*enemyList.duplicate();
+                        m++;
                         // emit signal to change the round
                         emit roundChanged();
                         round_aux2++;
@@ -280,6 +298,9 @@ void Player::spawn_random_enemies2() {
                     if (enemyList.size() == ships_number) {
                         std::cout << "lista llena: revisar si hay 8 pt2" << std::endl;
                         enemyList.printList();
+                        enemyList.duplicate();
+                        enemy_list2[m]=*enemyList.duplicate();
+                        m++;
                         // emit signal to change the round
                         emit roundChanged();
                         round_aux2++;
@@ -299,6 +320,9 @@ void Player::spawn_random_enemies2() {
         }
             //round_aux++;
         else{
+            std::cout << "---------------------------2---------------------------" << std::endl;
+            printLists2();
+            std::cout << "------------------------------------------------------" << std::endl;
             break;
         }
     }
@@ -310,4 +334,29 @@ void Player::spawn_enemies()
 {
     Enemy *enemy = new Enemy();
     scene()->addItem(enemy);
+}
+
+void Player::printLists() const {
+    std::cout << "Enemy Lists: " << std::endl;
+    for (int i = 0; i < 5; i++) {
+        std::cout << "List " << i+1 << ": ";
+        EnemyNode* current = enemy_list[i].getHead();
+        while (current != nullptr) {
+            std::cout << current->getItem() << " ";
+            current = current->getNext();
+        }
+        std::cout << std::endl;
+    }
+}
+void Player::printLists2() const {
+    std::cout << "Enemy Lists2: " << std::endl;
+    for (int i = 0; i < 5; i++) {
+        std::cout << "List " << i+1 << ": ";
+        EnemyNode* current = enemy_list2[i].getHead();
+        while (current != nullptr) {
+            std::cout << current->getItem() << " ";
+            current = current->getNext();
+        }
+        std::cout << std::endl;
+    }
 }

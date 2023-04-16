@@ -36,6 +36,11 @@ public slots:
     void handleBulletCollision();
     void spawn_random_enemies();
     void spawn_random_enemies2();
+    void printLists() const;
+    void printLists2() const;
+
+    //void handleEnemyRemoved(Enemy_1* enemy);
+
 
     //void create_new_enemy_lists();
 
@@ -47,6 +52,10 @@ private:
     int num_enemies_2 = 0;
     int round_aux = 0;
     int round_aux2 = 0;
+    EnemyList enemy_list[5];
+    EnemyList enemy_list2[5];
+    int n = 0;
+    int m = 0;                                                                                                                                                       ;;
 signals:
     void roundChanged();
 
