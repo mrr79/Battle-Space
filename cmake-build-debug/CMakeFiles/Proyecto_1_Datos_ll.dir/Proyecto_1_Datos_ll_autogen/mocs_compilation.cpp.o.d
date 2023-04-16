@@ -297,8 +297,6 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/mocs_compilation.
  /home/mrr/Desktop/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/../../../EnemyList.h \
  /home/mrr/Desktop/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/../../../EnemyNode.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsItem \
- /home/mrr/Desktop/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/../../../Enemy_1.h \
- /home/mrr/Desktop/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/../../../Enemy_2.h \
  /home/mrr/Desktop/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/../../../Normal_Game.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsview.h \
@@ -323,6 +321,7 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/mocs_compilation.
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsScene \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsscene.h \
  /home/mrr/Desktop/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/../../../Fase.h \
+ /home/mrr/Desktop/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/../../../Enemy_1.h \
  /home/mrr/Desktop/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/moc_Easy_game.cpp \
  /home/mrr/Desktop/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/../../../Easy_game.h \
  /home/mrr/Desktop/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/moc_Enemy.cpp \

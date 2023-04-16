@@ -17,8 +17,6 @@ public slots:
     void move();
 private:
     Collector& collector;
-signals:
-    void aboutToBeRemoved(Enemy_1* enemy);
 
 };
 

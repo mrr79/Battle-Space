@@ -97,31 +97,3 @@ EnemyList* EnemyList::duplicate() const {
     }
     return newList;
 }
-void EnemyList::removeEnemy1(Enemy_1* enemy) {
-    if (m_head == nullptr) {
-        return;
-    }
-    if (m_head->getItem() == enemy) {
-        EnemyNode* temp = m_head;
-        m_head = m_head->getNext();
-        delete temp;
-        m_size--;
-        return;
-    }
-    EnemyNode* current = m_head;
-    while (current->getNext() != nullptr) {
-        if (current->getNext()->getItem() == enemy) {
-            EnemyNode* temp = current->getNext();
-            current->setNext(temp->getNext());
-            delete temp;
-            m_size--;
-            return;
-        }
-        current = current->getNext();
-    }
-}
-
-
-
-
-

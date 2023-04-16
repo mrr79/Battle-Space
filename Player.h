@@ -39,8 +39,6 @@ public slots:
     void printLists() const;
     void printLists2() const;
 
-    //void handleEnemyRemoved(Enemy_1* enemy);
-
 
     //void create_new_enemy_lists();
 

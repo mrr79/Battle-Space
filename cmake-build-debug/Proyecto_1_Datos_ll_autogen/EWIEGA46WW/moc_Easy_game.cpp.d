@@ -5,7 +5,6 @@
   /home/mrr/Desktop/Battle-Space/EnemyList.h \
   /home/mrr/Desktop/Battle-Space/EnemyNode.h \
   /home/mrr/Desktop/Battle-Space/Enemy_1.h \
-  /home/mrr/Desktop/Battle-Space/Enemy_2.h \
   /home/mrr/Desktop/Battle-Space/Fase.h \
   /home/mrr/Desktop/Battle-Space/NodeC.h \
   /home/mrr/Desktop/Battle-Space/Normal_Game.h \

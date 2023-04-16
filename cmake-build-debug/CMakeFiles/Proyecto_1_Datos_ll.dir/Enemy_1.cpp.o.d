@@ -297,7 +297,6 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_1.cpp.o: \
  /home/mrr/Desktop/Battle-Space/EnemyList.h \
  /home/mrr/Desktop/Battle-Space/EnemyNode.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsItem \
- /home/mrr/Desktop/Battle-Space/Enemy_2.h \
  /home/mrr/Desktop/Battle-Space/Normal_Game.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsview.h \
@@ -333,5 +332,6 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_1.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h \
+ /home/mrr/Desktop/Battle-Space/Enemy_2.h \
  /home/mrr/Desktop/Battle-Space/Enemy.h \
  /home/mrr/Desktop/Battle-Space/Easy_game.h

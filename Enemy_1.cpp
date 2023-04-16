@@ -52,8 +52,7 @@ void Enemy_1::move()
                 // remove them both
                 scene()->removeItem(colliding_items[i]);
                 scene()->removeItem(this);
-                emit aboutToBeRemoved(this);
-                //delete this;
+                delete this;
                 return;
                 std::cout<<"DANO EN LA BALA " << damage <<std::endl;
             }

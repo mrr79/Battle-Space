@@ -6,8 +6,7 @@
 #define BATTLESPACE_ENEMYLIST_H
 
 #include "EnemyNode.h"
-#include "Enemy_1.h"
-#include "Enemy_2.h"
+
 class EnemyList {
 public:
     EnemyList();
@@ -21,8 +20,6 @@ public:
     void clear();
     void printList() const;
     EnemyList* duplicate() const;
-
-    //void removeEnemy1(Enemy_1* enemy);
 private:
     EnemyNode* m_head;
     int m_size;
