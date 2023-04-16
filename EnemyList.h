@@ -13,7 +13,8 @@ public:
     ~EnemyList();
 
     void append(EnemyNode item);
-    void remove(QGraphicsItem* item);
+    void remove(EnemyNode item);
+    bool buscar(EnemyNode item);
     int size() const;
     EnemyNode* getHead() const;
 
@@ -23,6 +24,8 @@ public:
 private:
     EnemyNode* m_head;
     int m_size;
+
+
 };
 
 

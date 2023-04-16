@@ -61,6 +61,19 @@ void Enemy_1::move()
 
             if (enemy1_life == 0 && damage==0){
                 // remove them both
+                cout << "Se va a morir" << this << endl;
+                for (int i = 0; i < 5; i++) {
+                    if (enemy_list[i].buscar(reinterpret_cast<Enemy *>(this)) == 1) {
+                        enemy_list[i].remove(reinterpret_cast<Enemy *>(this));
+                        break;
+                    }
+                    if (enemy_list2[i].buscar(reinterpret_cast<Enemy *>(this)) == 1) {
+                        enemy_list2[i].remove(reinterpret_cast<Enemy *>(this));
+                        break;
+                    }
+                }
+                printLists();
+                printLists2();
                 scene()->removeItem(colliding_items[i]);
                 scene()->removeItem(this);
                 delete this;
@@ -99,3 +112,15 @@ void Enemy_1::printLists() const {
     }
 }
 
+void Enemy_1::printLists2() const {
+    std::cout << "Enemy Lists: " << std::endl;
+    for (int i = 0; i < 5; i++) {
+        std::cout << "List " << i+1 << ": ";
+        EnemyNode* current = enemy_list2[i].getHead();
+        while (current != nullptr) {
+            std::cout << current->getEnemy() << " ";
+            current = current->getNext();
+        }
+        std::cout << std::endl;
+    }
+}

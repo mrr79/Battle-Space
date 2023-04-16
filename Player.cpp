@@ -163,7 +163,7 @@ void Player::spawn_enemies_1()
 
 void Player::spawn_enemies_2()
 {
-    Enemy_2 *enemy_2 = new Enemy_2(collector);
+    Enemy_2 *enemy_2 = new Enemy_2(collector, enemy_list, enemy_list2);
     scene()->addItem(enemy_2);
     enemyList.append(reinterpret_cast<Enemy *>(enemy_2));
 

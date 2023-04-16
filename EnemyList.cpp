@@ -34,11 +34,11 @@ void EnemyList::append(EnemyNode item) {
     std::cout << "metio un enemigo a lista" << std::endl;
 }
 
-void EnemyList::remove(QGraphicsItem* item) {
+void EnemyList::remove(EnemyNode item) {
     if (m_head == nullptr) {
         return;
     }
-    if (m_head->getEnemy() == item) {
+    if (m_head->getEnemy() == item.getEnemy()) {
         EnemyNode* temp = m_head;
         m_head = m_head->getNext();
         delete temp;
@@ -47,12 +47,28 @@ void EnemyList::remove(QGraphicsItem* item) {
     }
     EnemyNode* current = m_head;
     while (current->getNext() != nullptr) {
-        if (current->getNext()->getEnemy() == item) {
+        if (current->getNext()->getEnemy() == item.getEnemy()) {
             EnemyNode* temp = current->getNext();
             current->setNext(temp->getNext());
             delete temp;
             m_size--;
             return;
+        }
+        current = current->getNext();
+    }
+}
+
+bool EnemyList::buscar(EnemyNode item) {
+    if (m_head == nullptr) {
+        return false;
+    }
+    if (m_head->getEnemy() == item.getEnemy()) {
+        return true;
+    }
+    EnemyNode* current = m_head;
+    while (current->getNext() != nullptr) {
+        if (current->getNext()->getEnemy() == item.getEnemy()) {
+            return true;
         }
         current = current->getNext();
     }

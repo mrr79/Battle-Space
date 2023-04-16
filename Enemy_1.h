@@ -26,6 +26,7 @@ private:
     Collector& collector;
 
     void printLists() const;
+    void printLists2() const;
 };
 
 
