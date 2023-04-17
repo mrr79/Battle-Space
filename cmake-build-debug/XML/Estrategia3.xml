@@ -1,11 +1,11 @@
 <!DOCTYPE Estrategia3>
 <strategy>
  <power name="Poder5">
-  <description>Se mmultiplica el daño de las balas por 1.5</description>
-  <effect>Aqui se agrega el efecto en terminos de codigo</effect>
+  <description>25 bullets mas al cargador</description>
+  <effect>25.0</effect>
  </power>
  <power name="Poder6">
-  <description>Enemigos tienen menos vida</description>
-  <effect>Aqui se agrega el efecto en terminos de codigo</effect>
+  <description>Balas a maxima velocidad permitida</description>
+  <effect>35.0</effect>
  </power>
 </strategy>

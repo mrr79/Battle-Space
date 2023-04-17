@@ -136,6 +136,12 @@
 			null
 		],
 		[
+			"/home/mrr/Desktop/Battle-Space/Enemy_3.h",
+			"MU",
+			"EWIEGA46WW/moc_Enemy_3.cpp",
+			null
+		],
+		[
 			"/home/mrr/Desktop/Battle-Space/Fase.h",
 			"MU",
 			"EWIEGA46WW/moc_Fase.cpp",
@@ -250,6 +256,7 @@
 		[ "/home/mrr/Desktop/Battle-Space/EnemyNode.cpp", "MU", null ],
 		[ "/home/mrr/Desktop/Battle-Space/Enemy_1.cpp", "MU", null ],
 		[ "/home/mrr/Desktop/Battle-Space/Enemy_2.cpp", "MU", null ],
+		[ "/home/mrr/Desktop/Battle-Space/Enemy_3.cpp", "MU", null ],
 		[ "/home/mrr/Desktop/Battle-Space/Fase.cpp", "MU", null ],
 		[ "/home/mrr/Desktop/Battle-Space/Game_Over.cpp", "MU", null ],
 		[ "/home/mrr/Desktop/Battle-Space/Hard_Game.cpp", "MU", null ],

@@ -2,6 +2,7 @@
     <qresource prefix="/Images">
         <file>e1.png</file>
         <file>E2.png</file>
+        <file>E3.png</file>
         <file>bullet.png</file>
         <file>myship.png</file>
         <file>BG.png</file>

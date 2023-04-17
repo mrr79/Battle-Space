@@ -44,18 +44,17 @@ public:
     int Poder7;
     int Poder8;
 
-    int getPoder2();
-    int getPoder3();
-    int getPoder4();
-    int getPoder5();
-    int getPoder6();
-    int getPoder7();
-    int getPoder8();
+    int Potenciometro;
+    int Subir;
+    int Bajar;
+
+
 
 public slots:
     void bullets();
     void spawn_enemies_1();
     void spawn_enemies_2();
+    //void spawn_enemies_3();
     void spawn_enemies();
     void moveBullets();
     void handleBulletCollision();

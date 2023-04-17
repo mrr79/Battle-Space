@@ -35,7 +35,7 @@ set(PROJECT_SOURCES
         Dificulties_Window.cpp
         Resources.qrc
         Game_Over.cpp
-        Game_Over.h NodeC.cpp Collector.cpp NodeC.h Collector.h EnemyNode.cpp EnemyNode.h EnemyList.cpp EnemyList.h Fase.cpp Fase.h Power.cpp Power.h Strategy.cpp Strategy.h Win_Window.cpp Win_Window.h)
+        Game_Over.h NodeC.cpp Collector.cpp NodeC.h Collector.h EnemyNode.cpp EnemyNode.h EnemyList.cpp EnemyList.h Fase.cpp Fase.h Power.cpp Power.h Strategy.cpp Strategy.h Win_Window.cpp Win_Window.h Enemy_3.cpp Enemy_3.h)
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(Proyecto_1_Datos_ll

@@ -71,6 +71,7 @@ include CMakeFiles/Proyecto_1_Datos_ll.dir/flags.make
 
 Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp: /home/mrr/Desktop/Battle-Space/Resources.qrc
 Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp: CMakeFiles/Proyecto_1_Datos_ll_autogen.dir/AutoRcc_Resources_EWIEGA46WW_Info.json
+Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp: /home/mrr/Desktop/Battle-Space/E3.png
 Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp: /home/mrr/Desktop/Battle-Space/myship.png
 Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp: /home/mrr/Desktop/Battle-Space/e1.png
 Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp: /home/mrr/Desktop/Battle-Space/bullet.png
@@ -360,10 +361,24 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Win_Window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Datos_ll.dir/Win_Window.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrr/Desktop/Battle-Space/Win_Window.cpp -o CMakeFiles/Proyecto_1_Datos_ll.dir/Win_Window.cpp.s
 
+CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_3.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/flags.make
+CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_3.cpp.o: /home/mrr/Desktop/Battle-Space/Enemy_3.cpp
+CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_3.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_3.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_3.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_3.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_3.cpp.o -c /home/mrr/Desktop/Battle-Space/Enemy_3.cpp
+
+CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_3.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrr/Desktop/Battle-Space/Enemy_3.cpp > CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_3.cpp.i
+
+CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_3.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrr/Desktop/Battle-Space/Enemy_3.cpp -o CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_3.cpp.s
+
 CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/flags.make
 CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.o: Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp
 CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.o -c /home/mrr/Desktop/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.i: cmake_force
@@ -396,6 +411,7 @@ Proyecto_1_Datos_ll_OBJECTS = \
 "CMakeFiles/Proyecto_1_Datos_ll.dir/Power.cpp.o" \
 "CMakeFiles/Proyecto_1_Datos_ll.dir/Strategy.cpp.o" \
 "CMakeFiles/Proyecto_1_Datos_ll.dir/Win_Window.cpp.o" \
+"CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_3.cpp.o" \
 "CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.o"
 
 # External object files for target Proyecto_1_Datos_ll
@@ -421,6 +437,7 @@ Proyecto_1_Datos_ll: CMakeFiles/Proyecto_1_Datos_ll.dir/Fase.cpp.o
 Proyecto_1_Datos_ll: CMakeFiles/Proyecto_1_Datos_ll.dir/Power.cpp.o
 Proyecto_1_Datos_ll: CMakeFiles/Proyecto_1_Datos_ll.dir/Strategy.cpp.o
 Proyecto_1_Datos_ll: CMakeFiles/Proyecto_1_Datos_ll.dir/Win_Window.cpp.o
+Proyecto_1_Datos_ll: CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_3.cpp.o
 Proyecto_1_Datos_ll: CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.o
 Proyecto_1_Datos_ll: CMakeFiles/Proyecto_1_Datos_ll.dir/build.make
 Proyecto_1_Datos_ll: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.6
@@ -428,7 +445,7 @@ Proyecto_1_Datos_ll: /usr/lib/x86_64-linux-gnu/libQt5Xml.so.5.15.6
 Proyecto_1_Datos_ll: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.6
 Proyecto_1_Datos_ll: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.6
 Proyecto_1_Datos_ll: CMakeFiles/Proyecto_1_Datos_ll.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable Proyecto_1_Datos_ll"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable Proyecto_1_Datos_ll"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Proyecto_1_Datos_ll.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

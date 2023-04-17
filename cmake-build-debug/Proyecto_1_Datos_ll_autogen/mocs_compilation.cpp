@@ -4,6 +4,7 @@
 #include "EWIEGA46WW/moc_Enemy.cpp"
 #include "EWIEGA46WW/moc_Enemy_1.cpp"
 #include "EWIEGA46WW/moc_Enemy_2.cpp"
+#include "EWIEGA46WW/moc_Enemy_3.cpp"
 #include "EWIEGA46WW/moc_Hard_Game.cpp"
 #include "EWIEGA46WW/moc_Normal_Game.cpp"
 #include "EWIEGA46WW/moc_Player.cpp"

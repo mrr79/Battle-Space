@@ -7,6 +7,7 @@
 	"INCLUDE_DIR" : "/home/mrr/Desktop/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/include",
 	"INPUTS" : 
 	[
+		"/home/mrr/Desktop/Battle-Space/E3.png",
 		"/home/mrr/Desktop/Battle-Space/myship.png",
 		"/home/mrr/Desktop/Battle-Space/e1.png",
 		"/home/mrr/Desktop/Battle-Space/bullet.png",

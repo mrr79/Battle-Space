@@ -18,7 +18,6 @@ public:
     Bullet();
     int bullet_damage = 1;
     Collector *collector = new Collector();
-
 public slots:
     void move();
 

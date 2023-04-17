@@ -12,6 +12,7 @@
 
 Bullet::Bullet(): bullet_damage()
 {
+
     setPixmap(QPixmap(":/Images/bullet.png").scaled(20,30));
 
     QTimer *timer = new QTimer;
@@ -37,7 +38,6 @@ void Bullet::move() {
     }
      */
 }
-
 
 
 void Bullet::handleCollision()

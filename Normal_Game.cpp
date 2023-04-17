@@ -24,7 +24,6 @@ Normal_Game::Normal_Game(int bullet_speed, int bullets, int ships_number, int he
     scene->setBackgroundBrush(QBrush(QImage(":/Images/BG.png")));
 
 
-
     this->bullets_number = bullets;
     this->health_number = health;
     this->shipsnumber =ships_number ;
@@ -52,7 +51,6 @@ Normal_Game::Normal_Game(int bullet_speed, int bullets, int ships_number, int he
     player->setPixmap(QPixmap(":/Images/myship.png").scaled(50,50));
 
     player->spawn_random_enemies();//ESTE SIRVE
-
 
 
     health_label = new QGraphicsTextItem("Health: " + QString::number(health));
@@ -85,7 +83,6 @@ Normal_Game::Normal_Game(int bullet_speed, int bullets, int ships_number, int he
     setFixedSize(800,600);
 
     player->setPos(0,150);
-
 
     //Timer de las balas
     QTimer *timer_bullets = new QTimer;
@@ -132,6 +129,7 @@ void Normal_Game::decrease_bullets()
 
 void Normal_Game::decrease_health()
 {
+
     if (health_number == 0){
         return;
     }
@@ -139,6 +137,8 @@ void Normal_Game::decrease_health()
         health_number--;
         health_label->setPlainText("Health: " + QString::number(health_number));
     }
+
+
 }
 
 void Normal_Game::check_health()
@@ -207,7 +207,6 @@ void Normal_Game::ganar(){
         });
     }
 }
-
 
 void Normal_Game::emitSpawnEnemiesSignal() {
     emit spawnEnemies();

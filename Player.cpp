@@ -186,12 +186,15 @@ void Player::keyPressEvent(QKeyEvent *event){
     }
     else if (event->key() == Qt::Key_3){
         utilizar_poder("Poder3", strategies);
+        bullets_number = bullets_number + 15;
     }
     else if (event->key() == Qt::Key_4){
         utilizar_poder("Poder4", strategies);
+
     }
     else if (event->key() == Qt::Key_5){
         utilizar_poder("Poder5", strategies);
+        bullets_number = bullets_number + 25;
     }
     else if (event->key() == Qt::Key_6){
         utilizar_poder("Poder6", strategies);
@@ -223,6 +226,10 @@ Player::Player(Collector& collector, int bullets_number, int ships_number,  Fase
     Poder6 = 1;
     Poder7 = 1;
     Poder8 = 1;
+
+    Potenciometro = 1023;
+    Subir = 0;
+    Bajar = 0;
 
 
     connect(this, &Player::handleBulletCollision, this, &Player::handleBulletCollision);
@@ -280,11 +287,53 @@ void Player::moveBullets(){
     //cout << "Se deberia de poder mover la bala: " << endl;
     for (int i = 0; i < collector.collector_size(); i++){
         Bullet* bullet = static_cast<Bullet*>(collector.getPos(i));
-        bullet -> setPos(bullet->pos().x() + 10, bullet -> pos().y());
+        if (Potenciometro <= 341){
+            if (Poder2 == 2){
+                bullet -> setPos(bullet->pos().x() + 20, bullet -> pos().y());
+
+            }
+            else if (Poder6 == 2){
+                bullet -> setPos(bullet->pos().x() + 35, bullet -> pos().y());
+            }
+            else{
+                bullet -> setPos(bullet->pos().x() + 10, bullet -> pos().y());
+            }
+        }
+        else if (Potenciometro >= 681){
+            if (Poder2 == 2){
+                bullet -> setPos(bullet->pos().x() + 20 + 30, bullet -> pos().y());
+
+            }
+            else if (Poder6 == 2){
+                bullet -> setPos(bullet->pos().x() + 35 + 30, bullet -> pos().y());
+            }
+            else{
+                bullet -> setPos(bullet->pos().x() + 10 + 30, bullet -> pos().y());
+            }
+        }
+        else {
+            if (Poder2 == 2){
+                bullet -> setPos(bullet->pos().x() + 20 + 15, bullet -> pos().y());
+
+            }
+            else if (Poder6 == 2){
+                bullet -> setPos(bullet->pos().x() + 35 + 15, bullet -> pos().y());
+            }
+            else{
+                bullet -> setPos(bullet->pos().x() + 10 + 15, bullet -> pos().y());
+            }
+        }
+
         if (bullet -> pos().x() > 800){
             cout << "SE SALIO " << endl;
             collector.elimPos(i);
-            bullet -> reduceDamage();
+            if (Poder4 == 2){
+                cout << "NO SE REDUCE LOS BULLETS" << endl;
+            }
+            else{
+               bullet -> reduceDamage();
+               cout << "SE REDUCE LOS BULLETS" << endl;
+            }
             usedBullets.insertar_collector((void *) bullet);
         }
     }
@@ -309,6 +358,15 @@ void Player::spawn_enemies_2()
     enemyList.append(reinterpret_cast<Enemy *>(enemy_2));
 
 }
+/*
+void Player::spawn_enemies_3()
+{
+    Enemy_3 *enemy_3 = new Enemy_3(collector, enemy_list, enemy_list2);
+    scene()->addItem(enemy_3);
+    enemyList.append(reinterpret_cast<Enemy *>(enemy_3));
+
+}
+*/
 
 void Player::spawn_random_enemies() {
     num_enemies = 0;
@@ -377,7 +435,6 @@ void Player::spawn_random_enemies() {
             std::cout << "------------------------------------------------------" << std::endl;
             reset_powers();
             spawn_random_enemies2();
-           ;
         }
         }
 
@@ -400,7 +457,6 @@ void Player::spawn_random_enemies2() {
 
 
                     if (enemyList.size() == ships_number) {
-                        std::cout << "lista llena: revisar si hay 8 pt1" << std::endl;
                         enemyList.printList();
                         enemyList.duplicate();
                         enemy_list2[m]=*enemyList.duplicate();
@@ -413,7 +469,6 @@ void Player::spawn_random_enemies2() {
                             //  QUE GUARDE ENEMYLIST EN OTRA LISTA: OLEADA[I]1
                             fase2.get_list(round_aux2-1) = enemyList;
                             enemyList.clear();
-                            std::cout << "lista vacia: revisar si hay 0 pt2" << std::endl;
                             enemyList.printList();
                             spawn_random_enemies2();
                         });
@@ -427,7 +482,6 @@ void Player::spawn_random_enemies2() {
 
 
                     if (enemyList.size() == ships_number) {
-                        std::cout << "lista llena: revisar si hay 8 pt2" << std::endl;
                         enemyList.printList();
                         enemyList.duplicate();
                         enemy_list2[m]=*enemyList.duplicate();
@@ -439,7 +493,6 @@ void Player::spawn_random_enemies2() {
                         QTimer::singleShot((1000 + (enemyList.size() * 500)), this, [=]() {
                             fase2.get_list(round_aux2-1) = enemyList;
                             enemyList.clear();
-                            std::cout << "lista vacia: revisar si hay 0 pt2" << std::endl;
                             enemyList.printList();
                             spawn_random_enemies2();
                         });
@@ -501,8 +554,4 @@ void Player::reset_powers() {
     Poder6 = 1;
     Poder7 = 1;
     Poder8 = 1;
-}
-
-int Player::getPoder2() {
-    return Poder2;
 }
