@@ -5,21 +5,21 @@
 		<Option title="Battlespace"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Xml\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Xml\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5SerialPort\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/mrr/Desktop/Battle-Space/cmake-build-debug"/>
+				<Option working_dir="/home/henry/CLionProjects/Battle-Space/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Proyecto_1_Datos_ll">
-				<Option output="/home/mrr/Desktop/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/mrr/Desktop/Battle-Space/cmake-build-debug"/>
+				<Option output="/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/henry/CLionProjects/Battle-Space/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="0"/>
 				<Option compiler="gcc"/>
@@ -28,31 +28,33 @@
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
 					<Add option="-DQT_XML_LIB"/>
-					<Add directory="/home/mrr/Desktop/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/include"/>
+					<Add option="-DQT_SERIALPORT_LIB"/>
+					<Add directory="/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtXml"/>
-					<Add directory="/usr/include/c++/12"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
-					<Add directory="/usr/include/c++/12/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSerialPort"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto_1_Datos_ll"/>
-					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto_1_Datos_ll"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Proyecto_1_Datos_ll/fast">
-				<Option output="/home/mrr/Desktop/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/mrr/Desktop/Battle-Space/cmake-build-debug"/>
+				<Option output="/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/henry/CLionProjects/Battle-Space/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="0"/>
 				<Option compiler="gcc"/>
@@ -61,356 +63,364 @@
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
 					<Add option="-DQT_XML_LIB"/>
-					<Add directory="/home/mrr/Desktop/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/include"/>
+					<Add option="-DQT_SERIALPORT_LIB"/>
+					<Add directory="/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtXml"/>
-					<Add directory="/usr/include/c++/12"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
-					<Add directory="/usr/include/c++/12/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSerialPort"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto_1_Datos_ll/fast"/>
-					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto_1_Datos_ll/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/mrr/Desktop/Battle-Space/cmake-build-debug"/>
+				<Option working_dir="/home/henry/CLionProjects/Battle-Space/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/mrr/Desktop/Battle-Space/cmake-build-debug"/>
+				<Option working_dir="/home/henry/CLionProjects/Battle-Space/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="list_install_components">
-				<Option working_dir="/home/mrr/Desktop/Battle-Space/cmake-build-debug"/>
+				<Option working_dir="/home/henry/CLionProjects/Battle-Space/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
-					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install">
-				<Option working_dir="/home/mrr/Desktop/Battle-Space/cmake-build-debug"/>
+				<Option working_dir="/home/henry/CLionProjects/Battle-Space/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
-					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install/local">
-				<Option working_dir="/home/mrr/Desktop/Battle-Space/cmake-build-debug"/>
+				<Option working_dir="/home/henry/CLionProjects/Battle-Space/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
-					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install/strip">
-				<Option working_dir="/home/mrr/Desktop/Battle-Space/cmake-build-debug"/>
+				<Option working_dir="/home/henry/CLionProjects/Battle-Space/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
-					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Proyecto_1_Datos_ll_autogen">
-				<Option working_dir="/home/mrr/Desktop/Battle-Space/cmake-build-debug"/>
+				<Option working_dir="/home/henry/CLionProjects/Battle-Space/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto_1_Datos_ll_autogen"/>
-					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/mrr/Desktop/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto_1_Datos_ll_autogen"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/Bullet.cpp">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/Bullet.cpp">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/Bullet.h">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/Bullet.h">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/Collector.cpp">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/Collector.cpp">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/Collector.h">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/Collector.h">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/Dificulties_Window.cpp">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/Dificulties_Window.cpp">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/Dificulties_Window.h">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/Dificulties_Window.h">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/Easy_game.cpp">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/Easy_game.cpp">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/Easy_game.h">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/Easy_game.h">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/Enemy.cpp">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/Enemy.cpp">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/Enemy.h">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/Enemy.h">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/EnemyList.cpp">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/EnemyList.cpp">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/EnemyList.h">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/EnemyList.h">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/EnemyNode.cpp">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/EnemyNode.cpp">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/EnemyNode.h">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/EnemyNode.h">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/Enemy_1.cpp">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/Enemy_1.cpp">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/Enemy_1.h">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/Enemy_1.h">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/Enemy_2.cpp">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/Enemy_2.cpp">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/Enemy_2.h">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/Enemy_2.h">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/Enemy_3.cpp">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/Enemy_3.cpp">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/Enemy_3.h">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/Enemy_3.h">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/Fase.cpp">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/Fase.cpp">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/Fase.h">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/Fase.h">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/Game_Over.cpp">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/Game_Over.cpp">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/Game_Over.h">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/Game_Over.h">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/Hard_Game.cpp">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/Hard_Game.cpp">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/Hard_Game.h">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/Hard_Game.h">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/NodeC.cpp">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/NodeC.cpp">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/NodeC.h">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/NodeC.h">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/Normal_Game.cpp">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/Normal_Game.cpp">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/Normal_Game.h">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/Normal_Game.h">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/Player.cpp">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/Player.cpp">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/Player.h">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/Player.h">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/Power.cpp">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/Power.cpp">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/Power.h">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/Power.h">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/Resources.qrc">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/Resources.qrc">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/Strategy.cpp">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/Strategy.cpp">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/Strategy.h">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/Strategy.h">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/Win_Window.cpp">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/Win_Window.cpp">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/Win_Window.h">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/Win_Window.h">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.rule">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.rule">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/mocs_compilation.cpp">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/mocs_compilation.cpp">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/main.cpp">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/main.cpp">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/CMakeLists.txt">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/Resources.qrc">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/Resources.qrc">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Xml/Qt5XmlConfig.cmake">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Xml/Qt5XmlConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Xml\"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Xml/Qt5XmlConfigVersion.cmake">
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Xml/Qt5XmlConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Xml\"/>
+		</Unit>
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5SerialPort/Qt5SerialPortConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5SerialPort\"/>
+		</Unit>
+		<Unit filename="/home/henry/CLionProjects/Battle-Space/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5SerialPort/Qt5SerialPortConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5SerialPort\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

@@ -6,14 +6,17 @@
 #include <QTimer>
 #include "Bullet.h"
 #include "EnemyList.h"
-#include "Normal_Game.h"
 #include "Fase.h"
 #include "Strategy.h"
 #include "Power.h"
+#include <QtSerialPort/QSerialPort>
 
 class Player: public QObject ,public QGraphicsPixmapItem{
 Q_OBJECT
 public:
+    void buscaYconectaArduino();
+    void on_pushButton_2_clicked();
+
     int bullets_number;
     void keyPressEvent(QKeyEvent * event);
     void reset_powers();
@@ -67,6 +70,9 @@ public slots:
 
 
     //void create_new_enemy_lists();
+private slots:
+
+    void on_pushButton_3_clicked();
 
 private:
     EnemyList enemyList;
@@ -80,10 +86,25 @@ private:
     EnemyList enemy_list[5];
     EnemyList enemy_list2[5];
     int n = 0;
-    int m = 0;                                                                                                                                                       ;;
+    int m = 0;
+    QSerialPort *arduino;
+    QTimer* timer;
+    static const quint16 arduino_uno_vendor_id = 9025;
+    static const quint16 arduino_UNO = 66;
+    static const quint16 arduino_MEGA = 67;
+    QString arduino_puerto;
+    bool arduino_esta_disponible;
+    void ssegmentos (int round);
+    void ssegmentos2 (int round);
+    void set_5();
+    void set_4();
+    void set_3();
+    void set_2();
+    void set_1();
+    void set_0();
+    void movimiento();
 signals:
     void roundChanged();
-
 
 
 

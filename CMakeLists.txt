@@ -12,6 +12,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 find_package(Qt5 COMPONENTS Xml REQUIRED)
+find_package(Qt5SerialPort)
 
 set(PROJECT_SOURCES
         main.cpp
@@ -61,7 +62,8 @@ else()
 endif()
 
 target_link_libraries(Proyecto_1_Datos_ll PRIVATE Qt${QT_VERSION_MAJOR}::Widgets
-        Qt5::Xml)
+        Qt5::Xml
+        Qt5::SerialPort)
 
 set_target_properties(Proyecto_1_Datos_ll PROPERTIES
         MACOSX_BUNDLE_GUI_IDENTIFIER my.example.com

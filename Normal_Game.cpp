@@ -47,7 +47,11 @@ Normal_Game::Normal_Game(int bullet_speed, int bullets, int ships_number, int he
 
     //PLayer en la scene
 
-    Player *player = new Player(collector, bullets,shipsnumber,fase1,fase2);
+    player = new Player(collector, bullets,shipsnumber,fase1,fase2);
+    player->buscaYconectaArduino();
+    timer = new QTimer(this);
+    connect(timer, SIGNAL(timeout()), player, SLOT(on_pushButton_3_clicked()));
+    timer->start(500); // Trigger every 1 second
     player->setPixmap(QPixmap(":/Images/myship.png").scaled(50,50));
 
     player->spawn_random_enemies();//ESTE SIRVE
@@ -156,9 +160,11 @@ void Normal_Game::check_health()
         QList<QGraphicsItem *> colliding_items = line->collidingItems();
         for (int i = 0, n = colliding_items.size(); i < n; ++i){
             if (typeid(*(colliding_items[i])) == typeid(Enemy_1)){
+                player->on_pushButton_2_clicked();
                 decrease_health();
             }
             if (typeid(*(colliding_items[i])) == typeid(Enemy_2)){
+
                 decrease_health();
             }
         }

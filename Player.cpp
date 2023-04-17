@@ -20,7 +20,9 @@
 #include "Enemy_3.h"
 #include <QtXml>
 #include <thread>
-
+#include <QtSerialPort/QSerialPort>
+#include <QtSerialPort/QSerialPortInfo>
+#include <QRegularExpression>
 
 using namespace std;
 
@@ -387,7 +389,7 @@ void Player::spawn_random_enemies() {
     num_enemies_1 = 0;
     num_enemies_2 = 0;
     reset_powers();
-
+    ssegmentos(round_aux);
     while (num_enemies < ships_number) {
         std::cout << "round: " << round_aux  << std::endl;
         if (round_aux < 5) {
@@ -405,6 +407,8 @@ void Player::spawn_random_enemies() {
                         // emit signal to change the round
                         emit roundChanged();
                         round_aux++;
+                        ssegmentos(round_aux);
+
                         std::cout << "round: " << round_aux  << std::endl;
                         QTimer::singleShot((1000 + (enemyList.size() * 500)), this, [=]() {
                             fase1.get_list(round_aux-1) = enemyList;
@@ -430,6 +434,8 @@ void Player::spawn_random_enemies() {
                         // emit signal to change the round
                         emit roundChanged();
                         round_aux++;
+                        ssegmentos(round_aux);
+
                         QTimer::singleShot((1000 + (enemyList.size() * 500)), this, [=]() {
                             fase1.get_list(round_aux-1) = enemyList;
 
@@ -444,6 +450,8 @@ void Player::spawn_random_enemies() {
         }
         //round_aux++;
         else{
+            //
+            // ssegmentos(round_aux);
             std::cout << "---------------------------1---------------------------" << std::endl;
             printLists();
             std::cout << "------------------------------------------------------" << std::endl;
@@ -460,10 +468,11 @@ void Player::spawn_random_enemies2() {
     num_enemies_2 = 0;
 
     //round_aux++
-
+    ssegmentos2(round_aux);
     while (num_enemies < ships_number) {
         std::cout << "round: " << round_aux2  << std::endl;
         if (round_aux2 < 5) {
+
             if (num_enemies_1 < ships_number && num_enemies_2 < ships_number && qrand() % 2 == 0) {
                 QTimer::singleShot((1000 * (num_enemies_2 + num_enemies)), this, [=]() {
                     spawn_enemies_2();
@@ -478,6 +487,7 @@ void Player::spawn_random_enemies2() {
                         // emit signal to change the round
                         emit roundChanged();
                         round_aux2++;
+                        ssegmentos2(round_aux);
                         std::cout << "round: " << round_aux  << std::endl;
                         QTimer::singleShot((1000 + (enemyList.size() * 500)), this, [=]() {
                             //  QUE GUARDE ENEMYLIST EN OTRA LISTA: OLEADA[I]1
@@ -503,6 +513,7 @@ void Player::spawn_random_enemies2() {
                         // emit signal to change the round
                         emit roundChanged();
                         round_aux2++;
+                        ssegmentos2(round_aux);
                         std::cout << "round: " << round_aux  << std::endl;
                         QTimer::singleShot((1000 + (enemyList.size() * 500)), this, [=]() {
                             fase2.get_list(round_aux2-1) = enemyList;
@@ -518,6 +529,7 @@ void Player::spawn_random_enemies2() {
         }
             //round_aux++;
         else{
+            //ssegmentos2(round_aux);
             std::cout << "---------------------------2---------------------------" << std::endl;
             printLists2();
             std::cout << "------------------------------------------------------" << std::endl;
@@ -712,4 +724,198 @@ void Player::spawn_random_enemies2HARD() {
         }
     }
 
+}
+
+
+void Player::buscaYconectaArduino(){
+    arduino_esta_disponible = false;
+    arduino_puerto = "";
+    arduino = new QSerialPort;
+
+    QString nombreDispositivoSerial = "";
+    int nombreProductID = 0;
+
+    qDebug() << "Puertos disponibles: " << QSerialPortInfo::availablePorts().length();
+            foreach (const QSerialPortInfo &serialPortInfo, QSerialPortInfo::availablePorts()) {
+            qDebug() << "Identificador del fabricante (VENDOR ID): " << serialPortInfo.hasVendorIdentifier();
+            if(serialPortInfo.hasVendorIdentifier()){
+                qDebug() << "ID Vendedor " << serialPortInfo.vendorIdentifier();
+                qDebug() << "ID Producto: " << serialPortInfo.productIdentifier();
+
+                if(serialPortInfo.productIdentifier() == arduino_UNO || serialPortInfo.productIdentifier() == arduino_MEGA){
+                    arduino_esta_disponible = true;
+                    nombreDispositivoSerial = serialPortInfo.portName();
+                    nombreProductID = serialPortInfo.productIdentifier();
+                }
+            }
+
+        }
+
+    if(arduino_esta_disponible){
+        arduino_puerto = nombreDispositivoSerial;
+        arduino ->setPortName(arduino_puerto);
+        arduino->open(QIODevice::ReadWrite);
+        arduino->setDataBits(QSerialPort::Data8);
+        arduino ->setBaudRate(QSerialPort::Baud115200);
+        arduino->setParity(QSerialPort::NoParity);
+        arduino->setStopBits(QSerialPort::OneStop);
+        arduino->setFlowControl(QSerialPort::NoFlowControl);
+        qDebug() << "Producto: " << nombreProductID;
+
+
+    }
+    else{
+    }
+}
+void Player::on_pushButton_2_clicked()
+{
+    if(arduino_esta_disponible && arduino->isWritable()) {
+        arduino->write("1\n");
+    }
+}
+
+void Player::on_pushButton_3_clicked()
+{
+    if(arduino_esta_disponible && arduino->isWritable()){
+        arduino->write("3\n");
+        if(arduino->isReadable()){
+            QByteArray datoLeido = arduino->readAll();
+            QString str(datoLeido); // convert QByteArray to QString
+            QStringList tokens = str.split(","); // split the string into substrings
+            if (tokens.size() == 3) { // make sure we received three integers
+                int analogValue = std::stoi(tokens[0].toStdString());
+                int upButton = std::stoi(tokens[1].toStdString());
+                int downButton = std::stoi(tokens[2].toStdString());
+                qDebug() << "Potenciometro:" << analogValue << "Up:" << upButton << "Down:" << downButton;
+                if (upButton == 1){
+                    std::cout<<"yendo pa rriba" << std::endl;
+                    Subir = 1;
+                    QKeyEvent* keyEvent = new QKeyEvent(QEvent::KeyPress, Qt::Key_Up, Qt::NoModifier);
+                    keyPressEvent(keyEvent);
+                }
+                if (downButton == 1){
+                    std::cout<<"yendo pa bajo" << std::endl;
+                    Bajar = 1;
+                    QKeyEvent* keyEvent = new QKeyEvent(QEvent::KeyPress, Qt::Key_Down, Qt::NoModifier);
+                    keyPressEvent(keyEvent);
+
+                }
+                Potenciometro = analogValue;
+            }
+        }
+
+    }
+}
+
+void Player::set_5()
+{
+    if(arduino_esta_disponible && arduino->isWritable()) {
+        arduino->write("2\n");
+    }
+}
+void Player::set_4()
+{
+    if(arduino_esta_disponible && arduino->isWritable()) {
+        arduino->write("4\n");
+    }
+}
+void Player::set_3()
+{
+    if(arduino_esta_disponible && arduino->isWritable()) {
+        arduino->write("5\n");
+    }
+}
+void Player::set_2()
+{
+    if(arduino_esta_disponible && arduino->isWritable()) {
+        arduino->write("6\n");
+    }
+}
+void Player::set_1()
+{
+    if(arduino_esta_disponible && arduino->isWritable()) {
+        arduino->write("7\n");
+    }
+}
+void Player::set_0()
+{
+    if(arduino_esta_disponible && arduino->isWritable()) {
+        arduino->write("8\n");
+    }
+}
+void Player::ssegmentos(int round) {
+    if (round_aux == 0){
+        set_5();
+    }
+    if (round_aux == 1){
+        set_4();
+    }
+    if (round_aux == 2){
+        set_3();
+    }
+    if (round_aux == 3){
+        set_2();
+    }
+    if (round_aux == 4){
+        set_1();
+    }
+    if (round_aux == 5){
+        set_0();
+    }
+}
+void Player::ssegmentos2(int round) {
+    if (round_aux2 == 0){
+        set_5();
+    }
+    if (round_aux2 == 1){
+        set_4();
+    }
+    if (round_aux2 == 2){
+        set_3();
+    }
+    if (round_aux2 == 3){
+        set_2();
+    }
+    if (round_aux2 == 4){
+        set_1();
+    }
+    if (round_aux2 == 5){
+        set_0();
+    }
+}
+void Player::movimiento() {
+    if (Subir == 1){
+        std::cout <<"ESTADO DE PODER:" << Poder1 << std::endl;
+        if (Poder1 == 2){
+            std::cout <<"PODER ACTIVADO" << std::endl;
+            if (pos().y() > 0){
+                setPos(x(),y()-50);
+            }
+        }
+        else {
+            if (pos().y() > 0){
+                setPos(x(),y()-10);
+            }
+        }
+        Subir = 0;
+
+
+
+    }
+    else if (Bajar == 1) {
+        std::cout <<"ESTADO DE PODER:" << Poder1 << std::endl;
+
+        if (Poder1 == 2){
+            std::cout <<"PODER ACTIVADO" << std::endl;
+            if (pos().y() < 500) {
+                setPos(x(), y() + 50);
+            }
+        } else {
+            if (pos().y() < 500) {
+                setPos(x(), y() + 10);
+            }
+        }
+        Bajar = 0;
+
+    }
 }

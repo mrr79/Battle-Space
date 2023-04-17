@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'Player.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.15.6)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.15.2)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -13,7 +13,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'Player.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.15.6. It"
+#error "This file was generated using the moc from 5.15.2. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_Player_t {
-    QByteArrayData data[16];
-    char stringdata0[243];
+    QByteArrayData data[17];
+    char stringdata0[267];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -47,7 +47,8 @@ QT_MOC_LITERAL(11, 146, 21), // "spawn_random_enemies2"
 QT_MOC_LITERAL(12, 168, 25), // "spawn_random_enemies2HARD"
 QT_MOC_LITERAL(13, 194, 25), // "spawn_random_enemies_Hard"
 QT_MOC_LITERAL(14, 220, 10), // "printLists"
-QT_MOC_LITERAL(15, 231, 11) // "printLists2"
+QT_MOC_LITERAL(15, 231, 11), // "printLists2"
+QT_MOC_LITERAL(16, 243, 23) // "on_pushButton_3_clicked"
 
     },
     "Player\0roundChanged\0\0bullets\0"
@@ -56,7 +57,7 @@ QT_MOC_LITERAL(15, 231, 11) // "printLists2"
     "handleBulletCollision\0spawn_random_enemies\0"
     "spawn_random_enemies2\0spawn_random_enemies2HARD\0"
     "spawn_random_enemies_Hard\0printLists\0"
-    "printLists2"
+    "printLists2\0on_pushButton_3_clicked"
 };
 #undef QT_MOC_LITERAL
 
@@ -66,7 +67,7 @@ static const uint qt_meta_data_Player[] = {
        8,       // revision
        0,       // classname
        0,    0, // classinfo
-      14,   14, // methods
+      15,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -74,27 +75,29 @@ static const uint qt_meta_data_Player[] = {
        1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    0,   84,    2, 0x06 /* Public */,
+       1,    0,   89,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       3,    0,   85,    2, 0x0a /* Public */,
-       4,    0,   86,    2, 0x0a /* Public */,
-       5,    0,   87,    2, 0x0a /* Public */,
-       6,    0,   88,    2, 0x0a /* Public */,
-       7,    0,   89,    2, 0x0a /* Public */,
-       8,    0,   90,    2, 0x0a /* Public */,
-       9,    0,   91,    2, 0x0a /* Public */,
-      10,    0,   92,    2, 0x0a /* Public */,
-      11,    0,   93,    2, 0x0a /* Public */,
-      12,    0,   94,    2, 0x0a /* Public */,
-      13,    0,   95,    2, 0x0a /* Public */,
-      14,    0,   96,    2, 0x0a /* Public */,
-      15,    0,   97,    2, 0x0a /* Public */,
+       3,    0,   90,    2, 0x0a /* Public */,
+       4,    0,   91,    2, 0x0a /* Public */,
+       5,    0,   92,    2, 0x0a /* Public */,
+       6,    0,   93,    2, 0x0a /* Public */,
+       7,    0,   94,    2, 0x0a /* Public */,
+       8,    0,   95,    2, 0x0a /* Public */,
+       9,    0,   96,    2, 0x0a /* Public */,
+      10,    0,   97,    2, 0x0a /* Public */,
+      11,    0,   98,    2, 0x0a /* Public */,
+      12,    0,   99,    2, 0x0a /* Public */,
+      13,    0,  100,    2, 0x0a /* Public */,
+      14,    0,  101,    2, 0x0a /* Public */,
+      15,    0,  102,    2, 0x0a /* Public */,
+      16,    0,  103,    2, 0x08 /* Private */,
 
  // signals: parameters
     QMetaType::Void,
 
  // slots: parameters
+    QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
@@ -116,7 +119,7 @@ void Player::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<Player *>(_o);
-        (void)_t;
+        Q_UNUSED(_t)
         switch (_id) {
         case 0: _t->roundChanged(); break;
         case 1: _t->bullets(); break;
@@ -132,6 +135,7 @@ void Player::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void
         case 11: _t->spawn_random_enemies_Hard(); break;
         case 12: _t->printLists(); break;
         case 13: _t->printLists2(); break;
+        case 14: _t->on_pushButton_3_clicked(); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -144,7 +148,7 @@ void Player::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void
             }
         }
     }
-    (void)_a;
+    Q_UNUSED(_a);
 }
 
 QT_INIT_METAOBJECT const QMetaObject Player::staticMetaObject = { {
@@ -178,13 +182,13 @@ int Player::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 14)
+        if (_id < 15)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 14;
+        _id -= 15;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 14)
+        if (_id < 15)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 14;
+        _id -= 15;
     }
     return _id;
 }

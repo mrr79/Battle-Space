@@ -1,31 +1,31 @@
 {
-	"BUILD_DIR" : "/home/mrr/Desktop/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen",
-	"CMAKE_BINARY_DIR" : "/home/mrr/Desktop/Battle-Space/cmake-build-debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/mrr/Desktop/Battle-Space/cmake-build-debug",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/mrr/Desktop/Battle-Space",
-	"CMAKE_EXECUTABLE" : "/snap/clion/234/bin/cmake/linux/x64/bin/cmake",
+	"BUILD_DIR" : "/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen",
+	"CMAKE_BINARY_DIR" : "/home/henry/CLionProjects/Battle-Space/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/henry/CLionProjects/Battle-Space/cmake-build-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/henry/CLionProjects/Battle-Space",
+	"CMAKE_EXECUTABLE" : "/home/henry/CLion/clion-2022.3.2/bin/cmake/linux/x64/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/mrr/Desktop/Battle-Space/CMakeLists.txt",
-		"/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles/3.25.2/CMakeSystem.cmake",
-		"/snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake",
-		"/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles/3.25.2/CMakeCXXCompiler.cmake",
-		"/snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake",
-		"/snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake",
-		"/snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake",
-		"/snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux.cmake",
-		"/snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/UnixPaths.cmake",
-		"/snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeFindCodeBlocks.cmake",
-		"/snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake",
-		"/snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/ProcessorCount.cmake",
-		"/snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake",
-		"/snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake",
-		"/snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake",
-		"/snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake",
-		"/snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
-		"/snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-CXX.cmake",
-		"/snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake",
-		"/snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake",
+		"/home/henry/CLionProjects/Battle-Space/CMakeLists.txt",
+		"/home/henry/CLionProjects/Battle-Space/cmake-build-debug/CMakeFiles/3.24.2/CMakeSystem.cmake",
+		"/home/henry/CLion/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake",
+		"/home/henry/CLionProjects/Battle-Space/cmake-build-debug/CMakeFiles/3.24.2/CMakeCXXCompiler.cmake",
+		"/home/henry/CLion/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake",
+		"/home/henry/CLion/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake",
+		"/home/henry/CLion/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake",
+		"/home/henry/CLion/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux.cmake",
+		"/home/henry/CLion/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/UnixPaths.cmake",
+		"/home/henry/CLion/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeFindCodeBlocks.cmake",
+		"/home/henry/CLion/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake",
+		"/home/henry/CLion/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/ProcessorCount.cmake",
+		"/home/henry/CLion/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake",
+		"/home/henry/CLion/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake",
+		"/home/henry/CLion/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake",
+		"/home/henry/CLion/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake",
+		"/home/henry/CLion/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"/home/henry/CLion/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU-CXX.cmake",
+		"/home/henry/CLion/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU.cmake",
+		"/home/henry/CLion/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake",
@@ -40,7 +40,7 @@
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake",
-		"/snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeParseArguments.cmake",
+		"/home/henry/CLion/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeParseArguments.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake",
@@ -68,138 +68,147 @@
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
-		"/snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeParseArguments.cmake",
+		"/home/henry/CLion/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeParseArguments.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Xml/Qt5XmlConfigVersion.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Xml/Qt5XmlConfig.cmake",
-		"/home/mrr/Desktop/Battle-Space/Resources.qrc"
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5SerialPort/Qt5SerialPortConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5SerialPort/Qt5SerialPortConfig.cmake",
+		"/home/henry/CLionProjects/Battle-Space/Resources.qrc"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/mrr/Desktop/Battle-Space",
+	"CMAKE_SOURCE_DIR" : "/home/henry/CLionProjects/Battle-Space",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"/home/mrr/Desktop/Battle-Space/Bullet.h",
+			"/home/henry/CLionProjects/Battle-Space/Bullet.h",
 			"MU",
 			"EWIEGA46WW/moc_Bullet.cpp",
 			null
 		],
 		[
-			"/home/mrr/Desktop/Battle-Space/Collector.h",
+			"/home/henry/CLionProjects/Battle-Space/Collector.h",
 			"MU",
 			"EWIEGA46WW/moc_Collector.cpp",
 			null
 		],
 		[
-			"/home/mrr/Desktop/Battle-Space/Dificulties_Window.h",
+			"/home/henry/CLionProjects/Battle-Space/Dificulties_Window.h",
 			"MU",
 			"EWIEGA46WW/moc_Dificulties_Window.cpp",
 			null
 		],
 		[
-			"/home/mrr/Desktop/Battle-Space/Easy_game.h",
+			"/home/henry/CLionProjects/Battle-Space/Easy_game.h",
 			"MU",
 			"EWIEGA46WW/moc_Easy_game.cpp",
 			null
 		],
 		[
-			"/home/mrr/Desktop/Battle-Space/Enemy.h",
+			"/home/henry/CLionProjects/Battle-Space/Enemy.h",
 			"MU",
 			"EWIEGA46WW/moc_Enemy.cpp",
 			null
 		],
 		[
-			"/home/mrr/Desktop/Battle-Space/EnemyList.h",
+			"/home/henry/CLionProjects/Battle-Space/EnemyList.h",
 			"MU",
 			"EWIEGA46WW/moc_EnemyList.cpp",
 			null
 		],
 		[
-			"/home/mrr/Desktop/Battle-Space/EnemyNode.h",
+			"/home/henry/CLionProjects/Battle-Space/EnemyNode.h",
 			"MU",
 			"EWIEGA46WW/moc_EnemyNode.cpp",
 			null
 		],
 		[
-			"/home/mrr/Desktop/Battle-Space/Enemy_1.h",
+			"/home/henry/CLionProjects/Battle-Space/Enemy_1.h",
 			"MU",
 			"EWIEGA46WW/moc_Enemy_1.cpp",
 			null
 		],
 		[
-			"/home/mrr/Desktop/Battle-Space/Enemy_2.h",
+			"/home/henry/CLionProjects/Battle-Space/Enemy_2.h",
 			"MU",
 			"EWIEGA46WW/moc_Enemy_2.cpp",
 			null
 		],
 		[
-			"/home/mrr/Desktop/Battle-Space/Enemy_3.h",
+			"/home/henry/CLionProjects/Battle-Space/Enemy_3.h",
 			"MU",
 			"EWIEGA46WW/moc_Enemy_3.cpp",
 			null
 		],
 		[
-			"/home/mrr/Desktop/Battle-Space/Fase.h",
+			"/home/henry/CLionProjects/Battle-Space/Fase.h",
 			"MU",
 			"EWIEGA46WW/moc_Fase.cpp",
 			null
 		],
 		[
-			"/home/mrr/Desktop/Battle-Space/Game_Over.h",
+			"/home/henry/CLionProjects/Battle-Space/Game_Over.h",
 			"MU",
 			"EWIEGA46WW/moc_Game_Over.cpp",
 			null
 		],
 		[
-			"/home/mrr/Desktop/Battle-Space/Hard_Game.h",
+			"/home/henry/CLionProjects/Battle-Space/Hard_Game.h",
 			"MU",
 			"EWIEGA46WW/moc_Hard_Game.cpp",
 			null
 		],
 		[
-			"/home/mrr/Desktop/Battle-Space/NodeC.h",
+			"/home/henry/CLionProjects/Battle-Space/NodeC.h",
 			"MU",
 			"EWIEGA46WW/moc_NodeC.cpp",
 			null
 		],
 		[
-			"/home/mrr/Desktop/Battle-Space/Normal_Game.h",
+			"/home/henry/CLionProjects/Battle-Space/Normal_Game.h",
 			"MU",
 			"EWIEGA46WW/moc_Normal_Game.cpp",
 			null
 		],
 		[
-			"/home/mrr/Desktop/Battle-Space/Player.h",
+			"/home/henry/CLionProjects/Battle-Space/Player.h",
 			"MU",
 			"EWIEGA46WW/moc_Player.cpp",
 			null
 		],
 		[
-			"/home/mrr/Desktop/Battle-Space/Power.h",
+			"/home/henry/CLionProjects/Battle-Space/Power.h",
 			"MU",
 			"EWIEGA46WW/moc_Power.cpp",
 			null
 		],
 		[
-			"/home/mrr/Desktop/Battle-Space/Strategy.h",
+			"/home/henry/CLionProjects/Battle-Space/Strategy.h",
 			"MU",
 			"EWIEGA46WW/moc_Strategy.cpp",
 			null
 		],
 		[
-			"/home/mrr/Desktop/Battle-Space/Win_Window.h",
+			"/home/henry/CLionProjects/Battle-Space/Win_Window.h",
 			"MU",
 			"EWIEGA46WW/moc_Win_Window.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/mrr/Desktop/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/mrr/Desktop/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB", "QT_XML_LIB" ],
+	"INCLUDE_DIR" : "/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_SERIALPORT_LIB",
+		"QT_WIDGETS_LIB",
+		"QT_XML_LIB"
+	],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -215,10 +224,11 @@
 		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
 		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
 		"/usr/include/x86_64-linux-gnu/qt5/QtXml",
-		"/usr/include/c++/12",
-		"/usr/include/x86_64-linux-gnu/c++/12",
-		"/usr/include/c++/12/backward",
-		"/usr/lib/gcc/x86_64-linux-gnu/12/include",
+		"/usr/include/x86_64-linux-gnu/qt5/QtSerialPort",
+		"/usr/include/c++/10",
+		"/usr/include/x86_64-linux-gnu/c++/10",
+		"/usr/include/c++/10/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/10/include",
 		"/usr/local/include",
 		"/usr/include/x86_64-linux-gnu",
 		"/usr/include"
@@ -232,41 +242,45 @@
 		"-dM",
 		"-E",
 		"-c",
-		"/snap/clion/234/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp"
+		"/home/henry/CLion/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/mrr/Desktop/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
-	"PARALLEL" : 8,
-	"PARSE_CACHE_FILE" : "/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles/Proyecto_1_Datos_ll_autogen.dir/ParseCache.txt",
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/henry/CLionProjects/Battle-Space/cmake-build-debug/CMakeFiles/Proyecto_1_Datos_ll_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
 	"QT_UIC_EXECUTABLE" : "/usr/lib/qt5/bin/uic",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 15,
-	"SETTINGS_FILE" : "/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles/Proyecto_1_Datos_ll_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/henry/CLionProjects/Battle-Space/cmake-build-debug/CMakeFiles/Proyecto_1_Datos_ll_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/mrr/Desktop/Battle-Space/Bullet.cpp", "MU", null ],
-		[ "/home/mrr/Desktop/Battle-Space/Collector.cpp", "MU", null ],
-		[ "/home/mrr/Desktop/Battle-Space/Dificulties_Window.cpp", "MU", null ],
-		[ "/home/mrr/Desktop/Battle-Space/Easy_game.cpp", "MU", null ],
-		[ "/home/mrr/Desktop/Battle-Space/Enemy.cpp", "MU", null ],
-		[ "/home/mrr/Desktop/Battle-Space/EnemyList.cpp", "MU", null ],
-		[ "/home/mrr/Desktop/Battle-Space/EnemyNode.cpp", "MU", null ],
-		[ "/home/mrr/Desktop/Battle-Space/Enemy_1.cpp", "MU", null ],
-		[ "/home/mrr/Desktop/Battle-Space/Enemy_2.cpp", "MU", null ],
-		[ "/home/mrr/Desktop/Battle-Space/Enemy_3.cpp", "MU", null ],
-		[ "/home/mrr/Desktop/Battle-Space/Fase.cpp", "MU", null ],
-		[ "/home/mrr/Desktop/Battle-Space/Game_Over.cpp", "MU", null ],
-		[ "/home/mrr/Desktop/Battle-Space/Hard_Game.cpp", "MU", null ],
-		[ "/home/mrr/Desktop/Battle-Space/NodeC.cpp", "MU", null ],
-		[ "/home/mrr/Desktop/Battle-Space/Normal_Game.cpp", "MU", null ],
-		[ "/home/mrr/Desktop/Battle-Space/Player.cpp", "MU", null ],
-		[ "/home/mrr/Desktop/Battle-Space/Power.cpp", "MU", null ],
-		[ "/home/mrr/Desktop/Battle-Space/Strategy.cpp", "MU", null ],
-		[ "/home/mrr/Desktop/Battle-Space/Win_Window.cpp", "MU", null ],
-		[ "/home/mrr/Desktop/Battle-Space/main.cpp", "MU", null ]
+		[ "/home/henry/CLionProjects/Battle-Space/Bullet.cpp", "MU", null ],
+		[ "/home/henry/CLionProjects/Battle-Space/Collector.cpp", "MU", null ],
+		[
+			"/home/henry/CLionProjects/Battle-Space/Dificulties_Window.cpp",
+			"MU",
+			null
+		],
+		[ "/home/henry/CLionProjects/Battle-Space/Easy_game.cpp", "MU", null ],
+		[ "/home/henry/CLionProjects/Battle-Space/Enemy.cpp", "MU", null ],
+		[ "/home/henry/CLionProjects/Battle-Space/EnemyList.cpp", "MU", null ],
+		[ "/home/henry/CLionProjects/Battle-Space/EnemyNode.cpp", "MU", null ],
+		[ "/home/henry/CLionProjects/Battle-Space/Enemy_1.cpp", "MU", null ],
+		[ "/home/henry/CLionProjects/Battle-Space/Enemy_2.cpp", "MU", null ],
+		[ "/home/henry/CLionProjects/Battle-Space/Enemy_3.cpp", "MU", null ],
+		[ "/home/henry/CLionProjects/Battle-Space/Fase.cpp", "MU", null ],
+		[ "/home/henry/CLionProjects/Battle-Space/Game_Over.cpp", "MU", null ],
+		[ "/home/henry/CLionProjects/Battle-Space/Hard_Game.cpp", "MU", null ],
+		[ "/home/henry/CLionProjects/Battle-Space/NodeC.cpp", "MU", null ],
+		[ "/home/henry/CLionProjects/Battle-Space/Normal_Game.cpp", "MU", null ],
+		[ "/home/henry/CLionProjects/Battle-Space/Player.cpp", "MU", null ],
+		[ "/home/henry/CLionProjects/Battle-Space/Power.cpp", "MU", null ],
+		[ "/home/henry/CLionProjects/Battle-Space/Strategy.cpp", "MU", null ],
+		[ "/home/henry/CLionProjects/Battle-Space/Win_Window.cpp", "MU", null ],
+		[ "/home/henry/CLionProjects/Battle-Space/main.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
