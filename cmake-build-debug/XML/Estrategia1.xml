@@ -1,0 +1,11 @@
+<!DOCTYPE Estrategia1>
+<strategy>
+ <power name="Poder1">
+  <description>Jugador se mueve con mas velocidad</description>
+  <effect>20.0</effect>
+ </power>
+ <power name="Poder2">
+  <description>Aumento en la velocidad de las balas</description>
+  <effect>Aqui se agrega el efecto en terminos de codigo</effect>
+ </power>
+</strategy>

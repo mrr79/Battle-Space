@@ -4,6 +4,7 @@
 #include <QTimer>
 #include <QGraphicsScene>
 #include <QList>
+#include "Player.h"
 
 Bullet::Bullet()
 {

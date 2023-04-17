@@ -10,6 +10,7 @@
 #include "Enemy_2.h"
 #include "Enemy_1.h"
 #include "Game_Over.h"
+#include "Win_Window.h"
 #include <QGraphicsScene>
 #include <QList>
 #include "Player.h"
@@ -142,15 +143,15 @@ void Normal_Game::decrease_health()
 
 void Normal_Game::check_health()
 {
-    if (health_number == 0){
+    if (fase == 2 && round == 5 && health_number >= 1){
+        ganar();
+    }
+    else if (health_number == 0){
         check->stop();
         Game_Over *game_over = new Game_Over();
         game_over->show();
         this->close();
     }
-    //if(health_number == 0 && ){
-
-   // };
     else{
         QList<QGraphicsItem *> colliding_items = line->collidingItems();
         for (int i = 0, n = colliding_items.size(); i < n; ++i){
@@ -164,26 +165,51 @@ void Normal_Game::check_health()
     }
 }
 
+
 void Normal_Game::handleRoundChanged() {
-    std::cout << "acomodar rounds" << std::endl;
-    round++;
-    round_label->setPlainText("Rounds: " + QString::number(round));
-    if (round >= 5) {
-        round=0;
-        fase=2;
+    if (fase == 1 && round < 5) {
+        round++;
+        round_label->setPlainText("Rounds: " + QString::number(round));
+    } else if (fase == 1 && round == 5) {
+        fase = 2;
         fase_label->setPlainText("FASE: " + QString::number(fase));
-        std::cout << "-------------------cambio de fase------------------" << std::endl;
+        round = 1;
+        round_label->setPlainText("Rounds: " + QString::number(round));
+    } else if (fase == 2 && round < 5) {
+        round++;
+        round_label->setPlainText("Rounds: " + QString::number(round));
+    } else if (fase == 2 && round == 5) {
         // Stop the game
         // You can add your implementation here to stop the game once the round is 5
-        std::cout << "ver que hacer con el juego: perdio o gano " << std::endl;
-
-
-
+        std::cout << "tienes que ganar " << std::endl;
+        check_health();
     }
+}
 
+void Normal_Game::ganar(){
+    if (fase == 2 && round == 5 && health_number >= 1) {
+
+        QTimer::singleShot(15000, this, [this]() {
+            if (fase == 2 && round == 5 && health_number >= 1) {
+                std::cout << "---------------------HAS GANADO REINA" << std::endl;
+                check->stop();
+                Win_Window *win = new Win_Window();
+                win->show();
+                this->close();
+            }
+            else if (fase == 2 && round == 5 && health_number <= 0){
+                std::cout << "---------------------tristemente perdiste REINA" << std::endl;
+                check->stop();
+                Game_Over *game_over = new Game_Over();
+                game_over->show();
+                this->close();
+            }
+        });
+    }
 }
 
 
 void Normal_Game::emitSpawnEnemiesSignal() {
     emit spawnEnemies();
 }
+

@@ -31,13 +31,11 @@ void Enemy_2::move()
         if (typeid(*(colliding_items[i])) == typeid(Bullet)) {
             Bullet* bullet = dynamic_cast<Bullet*>(colliding_items[i]);
             collector.eliminar_nodo_collector(bullet);
-            cout << "Se borro el malo otro malo de collector " << endl;
             int damage = bullet->bullet_damage;
 
             if (enemy2_life == 0 && damage == 0) {
                 // remove both bullet and enemy
                 for (int i = 0; i < 5; i++) {
-                    cout << "Se va a morir" << this << endl;
                     if (enemy_list[i].buscar(reinterpret_cast<Enemy *>(this)) == 1) {
                         enemy_list[i].remove(reinterpret_cast<Enemy *>(this));
                         break;
@@ -48,8 +46,6 @@ void Enemy_2::move()
                     }
                 }
 
-                printLists();
-                printLists2();
                 scene()->removeItem(colliding_items[i]);
                 //delete colliding_items[i];
                 scene()->removeItem(this);

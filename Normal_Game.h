@@ -46,6 +46,7 @@ public slots:
     void check_health();
     void handleRoundChanged();
     void emitSpawnEnemiesSignal();
+    void ganar();
 
 private:
     int width = 800;

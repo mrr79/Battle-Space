@@ -1,0 +1,11 @@
+<!DOCTYPE Estrategia2>
+<strategy>
+ <power name="Poder3">
+  <description>Se agregan 15 balas al cargador</description>
+  <effect>Aqui se agrega el efecto en terminos de codigo</effect>
+ </power>
+ <power name="Poder4">
+  <description>Enemigos van mas lento</description>
+  <effect>Aqui se agrega el efecto en terminos de codigo</effect>
+ </power>
+</strategy>

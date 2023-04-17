@@ -31,7 +31,6 @@ void EnemyList::append(EnemyNode item) {
         current->setNext(node);
     }
     m_size++;
-    std::cout << "metio un enemigo a lista" << std::endl;
 }
 
 void EnemyList::remove(EnemyNode item) {

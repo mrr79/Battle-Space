@@ -8,12 +8,15 @@
 #include "EnemyList.h"
 #include "Normal_Game.h"
 #include "Fase.h"
+#include "Strategy.h"
+#include "Power.h"
 
 class Player: public QObject ,public QGraphicsPixmapItem{
 Q_OBJECT
 public:
     int bullets_number;
     void keyPressEvent(QKeyEvent * event);
+    void reset_powers();
 
     int damage = 10;
     Collector collector;
@@ -26,7 +29,29 @@ public:
     int hits;
     QGraphicsTextItem *collector_label;
     QGraphicsTextItem *hits_label;
-    //Normal_Game* normal_game= Normal_Game;
+    void utilizar_poder(QString poder, Strategy strategies[]);
+    bool verificar_si_hay_poder(QString poder, Strategy strategies[]);
+    Strategy cargar_xml(QString n);
+
+
+    Strategy strategies[2] = {cargar_xml("XML/Estrategia1.xml"), cargar_xml("XML/Estrategia2.xml")};
+    int Poder1;
+    int Poder2;
+    int Poder3;
+    int Poder4;
+    int Poder5;
+    int Poder6;
+    int Poder7;
+    int Poder8;
+
+    int getPoder2();
+    int getPoder3();
+    int getPoder4();
+    int getPoder5();
+    int getPoder6();
+    int getPoder7();
+    int getPoder8();
+
 public slots:
     void bullets();
     void spawn_enemies_1();

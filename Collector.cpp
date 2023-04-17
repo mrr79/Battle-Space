@@ -15,7 +15,6 @@ void Collector::insertar_collector_private(NodeC* &cabeza, void* valor){
 
     cabeza = nuevo_nodo;
     cabeza->next = aux;
-    std::cout<<"Nuevo puntero ingresado a collector con el valor de: " << valor <<std::endl;
 }
 
 NodeC* Collector::getHead() {
@@ -35,13 +34,11 @@ void Collector::eliminar_nodo_collector(void* valor) {
                 prev->next = current->next;
             }
             delete current;
-            std::cout << "Node with value " << valor << " deleted from collector" << std::endl;
             return;
         }
         prev = current;
         current = current->next;
     }
-    std::cout << "Node with value " << valor << " not found in collector" << std::endl;
 }
 
 void Collector::mostrar_collector_private(NodeC *cabeza){
@@ -55,7 +52,6 @@ void Collector::mostrar_collector_private(NodeC *cabeza){
 }
 
 void Collector::insertar_collector(void *valor){
-    std::cout<<"El puntero que se va a insertar a collector es " << valor <<std::endl;
     insertar_collector_private(inicio, valor);
 }
 

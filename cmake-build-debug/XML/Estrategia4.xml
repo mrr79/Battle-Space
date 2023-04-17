@@ -1,0 +1,11 @@
+<!DOCTYPE Estrategia4>
+<strategy>
+ <power name="Poder7">
+  <description>Enemigos aparecen en un solo lugar</description>
+  <effect>Aqui se agrega el efecto en terminos de codigo</effect>
+ </power>
+ <power name="Poder8">
+  <description>Se mueren todos los enemigos de la oleada</description>
+  <effect>Aqui se agrega el efecto en terminos de codigo</effect>
+ </power>
+</strategy>
