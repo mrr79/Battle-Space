@@ -17,8 +17,10 @@
 #include "Strategy.h"
 #include <iostream>
 #include <iostream>
+#include "Enemy_3.h"
 #include <QtXml>
 #include <thread>
+
 
 using namespace std;
 
@@ -201,6 +203,7 @@ void Player::keyPressEvent(QKeyEvent *event){
     }
     else if (event->key() == Qt::Key_7){
         utilizar_poder("Poder7", strategies);
+        bullets_number = bullets_number + 40;
     }
     else if (event->key() == Qt::Key_8){
         utilizar_poder("Poder8", strategies);
@@ -227,7 +230,7 @@ Player::Player(Collector& collector, int bullets_number, int ships_number,  Fase
     Poder7 = 1;
     Poder8 = 1;
 
-    Potenciometro = 1023;
+    Potenciometro = 250;
     Subir = 0;
     Bajar = 0;
 
@@ -295,6 +298,10 @@ void Player::moveBullets(){
             else if (Poder6 == 2){
                 bullet -> setPos(bullet->pos().x() + 35, bullet -> pos().y());
             }
+            else if (Poder8 == 2){
+                bullet -> setPos(bullet->pos().x() + 10, bullet -> pos().y() + 10);
+
+            }
             else{
                 bullet -> setPos(bullet->pos().x() + 10, bullet -> pos().y());
             }
@@ -307,6 +314,10 @@ void Player::moveBullets(){
             else if (Poder6 == 2){
                 bullet -> setPos(bullet->pos().x() + 35 + 30, bullet -> pos().y());
             }
+            else if (Poder8 == 2){
+                bullet -> setPos(bullet->pos().x() + 10 + 30, bullet -> pos().y() + 10);
+
+            }
             else{
                 bullet -> setPos(bullet->pos().x() + 10 + 30, bullet -> pos().y());
             }
@@ -318,6 +329,10 @@ void Player::moveBullets(){
             }
             else if (Poder6 == 2){
                 bullet -> setPos(bullet->pos().x() + 35 + 15, bullet -> pos().y());
+            }
+            else if (Poder8 == 2){
+                bullet -> setPos(bullet->pos().x() + 10 + 15, bullet -> pos().y() + 10);
+
             }
             else{
                 bullet -> setPos(bullet->pos().x() + 10 + 15, bullet -> pos().y());
@@ -358,7 +373,7 @@ void Player::spawn_enemies_2()
     enemyList.append(reinterpret_cast<Enemy *>(enemy_2));
 
 }
-/*
+
 void Player::spawn_enemies_3()
 {
     Enemy_3 *enemy_3 = new Enemy_3(collector, enemy_list, enemy_list2);
@@ -366,7 +381,6 @@ void Player::spawn_enemies_3()
     enemyList.append(reinterpret_cast<Enemy *>(enemy_3));
 
 }
-*/
 
 void Player::spawn_random_enemies() {
     num_enemies = 0;
@@ -554,4 +568,148 @@ void Player::reset_powers() {
     Poder6 = 1;
     Poder7 = 1;
     Poder8 = 1;
+}
+
+void Player::spawn_random_enemies_Hard() {
+    num_enemies = 0;
+    num_enemies_3 = 0;
+    num_enemies_2 = 0;
+    reset_powers();
+
+    while (num_enemies < ships_number) {
+        std::cout << "round: " << round_aux  << std::endl;
+        if (round_aux < 5) {
+            if (num_enemies_3 < ships_number && num_enemies_2 < ships_number && qrand() % 2 == 0) {
+                QTimer::singleShot((1000 * (num_enemies_2 + num_enemies)), this, [=]() {
+                    spawn_enemies_2();
+                    num_enemies_2 += 1;
+                    if (enemyList.size() == ships_number) {
+                        std::cout << "lista llena: revisar si hay 8 pt1" << std::endl;
+                        //enemy_list[n] = enemyList;
+                        //n++;
+                        enemyList.duplicate();
+                        enemy_list[n]=*enemyList.duplicate();
+                        n++;
+                        // emit signal to change the round
+                        emit roundChanged();
+                        round_aux++;
+                        std::cout << "round: " << round_aux  << std::endl;
+                        QTimer::singleShot((1000 + (enemyList.size() * 500)), this, [=]() {
+                            fase1.get_list(round_aux-1) = enemyList;
+                            enemyList.clear();
+                            spawn_random_enemies();
+                        });
+                    }
+
+                });
+            } else {
+                QTimer::singleShot((1000 * (num_enemies_3 * num_enemies_3 + num_enemies)), this, [=]() {
+                    spawn_enemies_1();
+                    num_enemies_3 += 1;
+
+
+                    if (enemyList.size() == ships_number) {
+                        //enemy_list[n] = enemyList;
+                        //n++;
+
+                        enemyList.duplicate();
+                        enemy_list[n]=*enemyList.duplicate();
+                        n++;
+                        // emit signal to change the round
+                        emit roundChanged();
+                        round_aux++;
+                        QTimer::singleShot((1000 + (enemyList.size() * 500)), this, [=]() {
+                            fase1.get_list(round_aux-1) = enemyList;
+
+                            enemyList.clear();
+                            spawn_random_enemies();
+                        });
+                    }
+                });
+            }
+            num_enemies++;
+
+        }
+            //round_aux++;
+        else{
+            std::cout << "---------------------------1---------------------------" << std::endl;
+            printLists();
+            std::cout << "------------------------------------------------------" << std::endl;
+            reset_powers();
+            spawn_random_enemies2();
+        }
+    }
+
+}
+void Player::spawn_random_enemies2HARD() {
+    num_enemies = 0;
+    num_enemies_3 = 0;
+    num_enemies_2 = 0;
+
+    //round_aux++
+
+    while (num_enemies < ships_number) {
+        std::cout << "round: " << round_aux2  << std::endl;
+        if (round_aux2 < 5) {
+            if (num_enemies_3 < ships_number && num_enemies_2 < ships_number && qrand() % 2 == 0) {
+                QTimer::singleShot((1000 * (num_enemies_2 + num_enemies)), this, [=]() {
+                    spawn_enemies_2();
+                    num_enemies_2 += 1;
+
+
+                    if (enemyList.size() == ships_number) {
+                        enemyList.printList();
+                        enemyList.duplicate();
+                        enemy_list2[m]=*enemyList.duplicate();
+                        m++;
+                        // emit signal to change the round
+                        emit roundChanged();
+                        round_aux2++;
+                        std::cout << "round: " << round_aux  << std::endl;
+                        QTimer::singleShot((1000 + (enemyList.size() * 500)), this, [=]() {
+                            //  QUE GUARDE ENEMYLIST EN OTRA LISTA: OLEADA[I]1
+                            fase2.get_list(round_aux2-1) = enemyList;
+                            enemyList.clear();
+                            enemyList.printList();
+                            spawn_random_enemies2();
+                        });
+                    }
+
+                });
+            } else {
+                QTimer::singleShot((1000 * (num_enemies_3 * num_enemies_3 + num_enemies)), this, [=]() {
+                    spawn_enemies_3();
+                    num_enemies_3 += 1;
+
+
+                    if (enemyList.size() == ships_number) {
+                        enemyList.printList();
+                        enemyList.duplicate();
+                        enemy_list2[m]=*enemyList.duplicate();
+                        m++;
+                        // emit signal to change the round
+                        emit roundChanged();
+                        round_aux2++;
+                        std::cout << "round: " << round_aux  << std::endl;
+                        QTimer::singleShot((1000 + (enemyList.size() * 500)), this, [=]() {
+                            fase2.get_list(round_aux2-1) = enemyList;
+                            enemyList.clear();
+                            enemyList.printList();
+                            spawn_random_enemies2();
+                        });
+                    }
+                });
+            }
+            num_enemies++;
+
+        }
+            //round_aux++;
+        else{
+            std::cout << "---------------------------2---------------------------" << std::endl;
+            printLists2();
+            std::cout << "------------------------------------------------------" << std::endl;
+            break;
+        }
+    }
+
 }

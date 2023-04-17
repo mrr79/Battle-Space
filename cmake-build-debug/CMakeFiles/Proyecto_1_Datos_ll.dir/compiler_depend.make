@@ -5895,6 +5895,7 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o: /home/mrr/Desktop/Battle-Space/
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qwineventnotifier.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qxmlstream.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcoreversion.h \
+  /home/mrr/Desktop/Battle-Space/Enemy_3.h \
   /usr/include/x86_64-linux-gnu/qt5/QtXml/QtXml \
   /usr/include/x86_64-linux-gnu/qt5/QtXml/QtXmlDepends \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore \
@@ -6437,6 +6438,7 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/mocs_compilation.
   Proyecto_1_Datos_ll_autogen/EWIEGA46WW/moc_Enemy_2.cpp \
   /home/mrr/Desktop/Battle-Space/Enemy_2.h \
   Proyecto_1_Datos_ll_autogen/EWIEGA46WW/moc_Enemy_3.cpp \
+  /home/mrr/Desktop/Battle-Space/Enemy_3.h \
   Proyecto_1_Datos_ll_autogen/EWIEGA46WW/moc_Hard_Game.cpp \
   /home/mrr/Desktop/Battle-Space/Hard_Game.h \
   Proyecto_1_Datos_ll_autogen/EWIEGA46WW/moc_Normal_Game.cpp \

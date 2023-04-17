@@ -54,12 +54,14 @@ public slots:
     void bullets();
     void spawn_enemies_1();
     void spawn_enemies_2();
-    //void spawn_enemies_3();
+    void spawn_enemies_3();
     void spawn_enemies();
     void moveBullets();
     void handleBulletCollision();
     void spawn_random_enemies();
     void spawn_random_enemies2();
+    void spawn_random_enemies2HARD();
+    void spawn_random_enemies_Hard();
     void printLists() const;
     void printLists2() const;
 
@@ -72,6 +74,7 @@ private:
     int num_enemies = 0;
     int num_enemies_1 = 0;
     int num_enemies_2 = 0;
+    int num_enemies_3 = 0;
     int round_aux = 0;
     int round_aux2 = 0;
     EnemyList enemy_list[5];

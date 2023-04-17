@@ -596,6 +596,7 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qwineventnotifier.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qxmlstream.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcoreversion.h \
+ /home/mrr/Desktop/Battle-Space/Enemy_3.h \
  /usr/include/x86_64-linux-gnu/qt5/QtXml/QtXml \
  /usr/include/x86_64-linux-gnu/qt5/QtXml/QtXmlDepends \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore \

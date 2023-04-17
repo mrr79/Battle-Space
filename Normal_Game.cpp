@@ -191,14 +191,14 @@ void Normal_Game::ganar(){
 
         QTimer::singleShot(15000, this, [this]() {
             if (fase == 2 && round == 5 && health_number >= 1) {
-                std::cout << "---------------------HAS GANADO REINA" << std::endl;
+                //std::cout << "---------------------HAS GANADO REINA" << std::endl;
                 check->stop();
                 Win_Window *win = new Win_Window();
                 win->show();
                 this->close();
             }
             else if (fase == 2 && round == 5 && health_number <= 0){
-                std::cout << "---------------------tristemente perdiste REINA" << std::endl;
+                //std::cout << "---------------------tristemente perdiste REINA" << std::endl;
                 check->stop();
                 Game_Over *game_over = new Game_Over();
                 game_over->show();

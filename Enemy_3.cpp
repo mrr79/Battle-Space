@@ -28,7 +28,7 @@
 #include "Fase.h"
 using namespace std;
 
-/*
+
 Enemy_3::Enemy_3(Collector& collector, EnemyList enemy_list[], EnemyList enemy_list2[])
         : collector(collector), enemy_list(enemy_list), enemy_list2(enemy_list2)
 {
@@ -138,4 +138,4 @@ void Enemy_3::printLists2() const {
         }
         std::cout << std::endl;
     }
-}*/
+}

@@ -20,14 +20,14 @@ void Dificulties::normal()
     normal->show();
     this->close();
 }
-/*
+
 void Dificulties::hard()
 {
-    Hard_Game * hard = new Hard_Game();
+    Hard_Game * hard = new Hard_Game(1000, 15, 3, 100);
     hard->show();
     this->close();
 }
-*/
+
 
 Dificulties::Dificulties(QWidget *parent)
 {

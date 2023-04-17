@@ -13,8 +13,7 @@
 #include "Collector.h"
 #include "Fase.h"
 
-class Enemy_3{};
-/*: public QObject , public QGraphicsPixmapItem{
+class Enemy_3: public QObject , public QGraphicsPixmapItem{
 Q_OBJECT
 public:
     EnemyList* enemy_list;
@@ -34,6 +33,6 @@ private:
     void printLists() const;
     void printLists2() const;
 };
-*/
+
 
 #endif //BATTLESPACE_ENEMY_3_H
