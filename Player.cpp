@@ -152,7 +152,7 @@ void Player::keyPressEvent(QKeyEvent *event){
         if (Poder1 == 2){
             std::cout <<"PODER ACTIVADO" << std::endl;
             if (pos().y() > 0){
-                setPos(x(),y()-50);
+                setPos(x(),y()- strategies->getPower1().getEffect());
             }
         }
         else {
@@ -170,7 +170,7 @@ void Player::keyPressEvent(QKeyEvent *event){
         if (Poder1 == 2){
             std::cout <<"PODER ACTIVADO" << std::endl;
             if (pos().y() < 500) {
-                setPos(x(), y() + 50);
+                setPos(x(), y() + strategies->getPower1().getEffect());
             }
         } else {
           if (pos().y() < 500) {
@@ -293,14 +293,14 @@ void Player::moveBullets(){
         Bullet* bullet = static_cast<Bullet*>(collector.getPos(i));
         if (Potenciometro <= 341){
             if (Poder2 == 2){
-                bullet -> setPos(bullet->pos().x() + 20, bullet -> pos().y());
+                bullet -> setPos(bullet->pos().x() + strategies->getPower2().getEffect(), bullet -> pos().y());
 
             }
             else if (Poder6 == 2){
-                bullet -> setPos(bullet->pos().x() + 35, bullet -> pos().y());
+                bullet -> setPos(bullet->pos().x() + strategies->getPower2().getEffect(), bullet -> pos().y());
             }
             else if (Poder8 == 2){
-                bullet -> setPos(bullet->pos().x() + 10, bullet -> pos().y() + 10);
+                bullet -> setPos(bullet->pos().x() + 10, bullet -> pos().y() + strategies->getPower2().getEffect());
 
             }
             else{
@@ -309,14 +309,14 @@ void Player::moveBullets(){
         }
         else if (Potenciometro >= 681){
             if (Poder2 == 2){
-                bullet -> setPos(bullet->pos().x() + 20 + 30, bullet -> pos().y());
+                bullet -> setPos(bullet->pos().x() + strategies->getPower2().getEffect() + 30, bullet -> pos().y());
 
             }
             else if (Poder6 == 2){
-                bullet -> setPos(bullet->pos().x() + 35 + 30, bullet -> pos().y());
+                bullet -> setPos(bullet->pos().x() + strategies->getPower2().getEffect() + 30, bullet -> pos().y());
             }
             else if (Poder8 == 2){
-                bullet -> setPos(bullet->pos().x() + 10 + 30, bullet -> pos().y() + 10);
+                bullet -> setPos(bullet->pos().x() + 10 + 30, bullet -> pos().y() + strategies->getPower2().getEffect());
 
             }
             else{
@@ -325,14 +325,14 @@ void Player::moveBullets(){
         }
         else {
             if (Poder2 == 2){
-                bullet -> setPos(bullet->pos().x() + 20 + 15, bullet -> pos().y());
+                bullet -> setPos(bullet->pos().x() + strategies->getPower2().getEffect() + 15, bullet -> pos().y());
 
             }
             else if (Poder6 == 2){
-                bullet -> setPos(bullet->pos().x() + 35 + 15, bullet -> pos().y());
+                bullet -> setPos(bullet->pos().x() + strategies->getPower2().getEffect() + 15, bullet -> pos().y());
             }
             else if (Poder8 == 2){
-                bullet -> setPos(bullet->pos().x() + 10 + 15, bullet -> pos().y() + 10);
+                bullet -> setPos(bullet->pos().x() + 10 + 15, bullet -> pos().y() + strategies->getPower2().getEffect());
 
             }
             else{
@@ -586,6 +586,7 @@ void Player::spawn_random_enemies_Hard() {
     num_enemies_3 = 0;
     num_enemies_2 = 0;
     reset_powers();
+    ssegmentos(round_aux);
 
     while (num_enemies < ships_number) {
         std::cout << "round: " << round_aux  << std::endl;
@@ -604,6 +605,7 @@ void Player::spawn_random_enemies_Hard() {
                         // emit signal to change the round
                         emit roundChangedHARD();
                         round_aux++;
+                        ssegmentos(round_aux);
                         std::cout << "round: " << round_aux  << std::endl;
                         QTimer::singleShot((1000 + (enemyList.size() * 500)), this, [=]() {
                             fase1.get_list(round_aux-1) = enemyList;
@@ -629,6 +631,7 @@ void Player::spawn_random_enemies_Hard() {
                         // emit signal to change the round
                         emit roundChangedHARD();
                         round_aux++;
+                        ssegmentos(round_aux);
                         QTimer::singleShot((1000 + (enemyList.size() * 500)), this, [=]() {
                             fase1.get_list(round_aux-1) = enemyList;
 
@@ -658,7 +661,7 @@ void Player::spawn_random_enemies2HARD() {
     num_enemies_2 = 0;
 
     //round_aux++
-
+    ssegmentos2(round_aux2);
     while (num_enemies < ships_number) {
         std::cout << "round: " << round_aux2  << std::endl;
         if (round_aux2 < 5) {
@@ -676,6 +679,7 @@ void Player::spawn_random_enemies2HARD() {
                         // emit signal to change the round
                         emit roundChangedHARD();
                         round_aux2++;
+                        ssegmentos2(round_aux2);
                         std::cout << "round: " << round_aux  << std::endl;
                         QTimer::singleShot((1000 + (enemyList.size() * 500)), this, [=]() {
                             //  QUE GUARDE ENEMYLIST EN OTRA LISTA: OLEADA[I]1
@@ -701,6 +705,7 @@ void Player::spawn_random_enemies2HARD() {
                         // emit signal to change the round
                         emit roundChangedHARD();
                         round_aux2++;
+                        ssegmentos2(round_aux2);
                         std::cout << "round: " << round_aux  << std::endl;
                         QTimer::singleShot((1000 + (enemyList.size() * 500)), this, [=]() {
                             fase2.get_list(round_aux2-1) = enemyList;

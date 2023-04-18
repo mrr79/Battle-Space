@@ -2,7 +2,7 @@
 <strategy>
  <power name="Poder1">
   <description>Jugador se mueve con mas velocidad</description>
-  <effect>20.0</effect>
+  <effect>50.0</effect>
  </power>
  <power name="Poder2">
   <description>Aumento medio en la velocidad de las balas</description>
