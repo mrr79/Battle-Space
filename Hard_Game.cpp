@@ -194,9 +194,10 @@ void Hard_Game::handleRoundChanged() {
         check_health();
     }
 }
-
+bool ganar_ejecutadoHARD = false;
 void Hard_Game::ganar(){
-    if (fase == 2 && round == 5 && health_number >= 1) {
+    if (fase == 2 && round == 5 && health_number >= 1  && !ganar_ejecutadoHARD) {
+        ganar_ejecutadoHARD = true;
 
         QTimer::singleShot(15000, this, [this]() {
             if (fase == 2 && round == 5 && health_number >= 1) {

@@ -191,9 +191,10 @@ void Normal_Game::handleRoundChanged() {
         check_health();
     }
 }
-
+bool ganar_ejecutado = false;
 void Normal_Game::ganar(){
-    if (fase == 2 && round == 5 && health_number >= 1) {
+    if (fase == 2 && round == 5 && health_number >= 1  && !ganar_ejecutado) {
+        ganar_ejecutado = true;
 
         QTimer::singleShot(15000, this, [this]() {
             if (fase == 2 && round == 5 && health_number >= 1) {

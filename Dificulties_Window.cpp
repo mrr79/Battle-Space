@@ -8,22 +8,22 @@
 #include <QRectF>
 
 void Dificulties::easy()
-{
-    Normal_Game * easy = new  Normal_Game(800, 20, 1, 100);
+{//bulllet speed velocidad con que se dispara una vala de la otra
+    Normal_Game * easy = new  Normal_Game(700, 50, 3, 20);
     easy->show();
     this->close();
 }
 
 void Dificulties::normal()
 {
-    Normal_Game * normal = new Normal_Game(1000, 15, 3, 100);
+    Normal_Game * normal = new Normal_Game(1000, 40, 5, 25);
     normal->show();
     this->close();
 }
 
 void Dificulties::hard()
 {
-    Hard_Game * hard = new Hard_Game(1000, 15, 4, 100);
+    Hard_Game * hard = new Hard_Game(1000, 65, 4, 80);
     hard->show();
     this->close();
 }
@@ -54,7 +54,7 @@ Dificulties::Dificulties(QWidget *parent)
     proxy->setWidget(easy_mode);
     scene->addItem(proxy);
     proxy->setPos(320,150);
-    //connect(easy_mode, &QPushButton::released, this, &Dificulties::easy);
+    connect(easy_mode, &QPushButton::released, this, &Dificulties::easy);
 
     //Creaction and configuration of normal mode button
     QPushButton * normal_mode = new QPushButton("Normal");
