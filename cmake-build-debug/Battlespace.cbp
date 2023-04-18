@@ -176,12 +176,6 @@
 		<Unit filename="/home/mrr/Desktop/Battle-Space/Dificulties_Window.h">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/Easy_game.cpp">
-			<Option target="Proyecto_1_Datos_ll"/>
-		</Unit>
-		<Unit filename="/home/mrr/Desktop/Battle-Space/Easy_game.h">
-			<Option target="Proyecto_1_Datos_ll"/>
-		</Unit>
 		<Unit filename="/home/mrr/Desktop/Battle-Space/Enemy.cpp">
 			<Option target="Proyecto_1_Datos_ll"/>
 		</Unit>

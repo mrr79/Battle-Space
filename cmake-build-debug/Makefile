@@ -259,30 +259,6 @@ Dificulties_Window.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto_1_Datos_ll.dir/build.make CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.s
 .PHONY : Dificulties_Window.cpp.s
 
-Easy_game.o: Easy_game.cpp.o
-.PHONY : Easy_game.o
-
-# target to build an object file
-Easy_game.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto_1_Datos_ll.dir/build.make CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.o
-.PHONY : Easy_game.cpp.o
-
-Easy_game.i: Easy_game.cpp.i
-.PHONY : Easy_game.i
-
-# target to preprocess a source file
-Easy_game.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto_1_Datos_ll.dir/build.make CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.i
-.PHONY : Easy_game.cpp.i
-
-Easy_game.s: Easy_game.cpp.s
-.PHONY : Easy_game.s
-
-# target to generate assembly for a file
-Easy_game.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto_1_Datos_ll.dir/build.make CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.s
-.PHONY : Easy_game.cpp.s
-
 Enemy.o: Enemy.cpp.o
 .PHONY : Enemy.o
 
@@ -738,9 +714,6 @@ help:
 	@echo "... Dificulties_Window.o"
 	@echo "... Dificulties_Window.i"
 	@echo "... Dificulties_Window.s"
-	@echo "... Easy_game.o"
-	@echo "... Easy_game.i"
-	@echo "... Easy_game.s"
 	@echo "... Enemy.o"
 	@echo "... Enemy.i"
 	@echo "... Enemy.s"

@@ -11,7 +11,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/mrr/Desktop/Battle-Space/Bullet.cpp" "CMakeFiles/Proyecto_1_Datos_ll.dir/Bullet.cpp.o" "gcc" "CMakeFiles/Proyecto_1_Datos_ll.dir/Bullet.cpp.o.d"
   "/home/mrr/Desktop/Battle-Space/Collector.cpp" "CMakeFiles/Proyecto_1_Datos_ll.dir/Collector.cpp.o" "gcc" "CMakeFiles/Proyecto_1_Datos_ll.dir/Collector.cpp.o.d"
   "/home/mrr/Desktop/Battle-Space/Dificulties_Window.cpp" "CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.o" "gcc" "CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.o.d"
-  "/home/mrr/Desktop/Battle-Space/Easy_game.cpp" "CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.o" "gcc" "CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.o.d"
   "/home/mrr/Desktop/Battle-Space/Enemy.cpp" "CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy.cpp.o" "gcc" "CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy.cpp.o.d"
   "/home/mrr/Desktop/Battle-Space/EnemyList.cpp" "CMakeFiles/Proyecto_1_Datos_ll.dir/EnemyList.cpp.o" "gcc" "CMakeFiles/Proyecto_1_Datos_ll.dir/EnemyList.cpp.o.d"
   "/home/mrr/Desktop/Battle-Space/EnemyNode.cpp" "CMakeFiles/Proyecto_1_Datos_ll.dir/EnemyNode.cpp.o" "gcc" "CMakeFiles/Proyecto_1_Datos_ll.dir/EnemyNode.cpp.o.d"

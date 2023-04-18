@@ -16,8 +16,6 @@ find_package(Qt5SerialPort)
 
 set(PROJECT_SOURCES
         main.cpp
-        Easy_game.h
-        Easy_game.cpp
         Normal_Game.h
         Normal_Game.cpp
         Hard_Game.h

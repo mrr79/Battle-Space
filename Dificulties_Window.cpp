@@ -1,5 +1,5 @@
 #include "Dificulties_Window.h"
-#include "Easy_game.h"
+
 #include "Normal_Game.h"
 #include "Hard_Game.h"
 #include <QPushButton>

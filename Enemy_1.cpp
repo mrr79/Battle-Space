@@ -17,7 +17,7 @@
 #include "NodeC.h"
 #include "Collector.h"
 #include <iostream>
-#include "Easy_game.h"
+
 #include "Bullet.h"
 #include <iostream>
 #include "Fase.h"

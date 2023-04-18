@@ -290,7 +290,7 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsScene \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsscene.h \
- /home/mrr/Desktop/Battle-Space/Easy_game.h \
+ /home/mrr/Desktop/Battle-Space/Normal_Game.h \
  /home/mrr/Desktop/Battle-Space/Player.h \
  /home/mrr/Desktop/Battle-Space/Collector.h \
  /home/mrr/Desktop/Battle-Space/NodeC.h /usr/include/c++/12/iostream \
@@ -328,7 +328,6 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtSerialPort/QSerialPort \
  /usr/include/x86_64-linux-gnu/qt5/QtSerialPort/qserialport.h \
  /usr/include/x86_64-linux-gnu/qt5/QtSerialPort/qserialportglobal.h \
- /home/mrr/Desktop/Battle-Space/Normal_Game.h \
  /home/mrr/Desktop/Battle-Space/Hard_Game.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h \

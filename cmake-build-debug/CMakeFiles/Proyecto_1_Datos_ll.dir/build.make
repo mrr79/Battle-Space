@@ -109,24 +109,10 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Datos_ll.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrr/Desktop/Battle-Space/main.cpp -o CMakeFiles/Proyecto_1_Datos_ll.dir/main.cpp.s
 
-CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/flags.make
-CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.o: /home/mrr/Desktop/Battle-Space/Easy_game.cpp
-CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.o -c /home/mrr/Desktop/Battle-Space/Easy_game.cpp
-
-CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mrr/Desktop/Battle-Space/Easy_game.cpp > CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.i
-
-CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mrr/Desktop/Battle-Space/Easy_game.cpp -o CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.s
-
 CMakeFiles/Proyecto_1_Datos_ll.dir/Normal_Game.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/flags.make
 CMakeFiles/Proyecto_1_Datos_ll.dir/Normal_Game.cpp.o: /home/mrr/Desktop/Battle-Space/Normal_Game.cpp
 CMakeFiles/Proyecto_1_Datos_ll.dir/Normal_Game.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Normal_Game.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Normal_Game.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Normal_Game.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Normal_Game.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Normal_Game.cpp.o -c /home/mrr/Desktop/Battle-Space/Normal_Game.cpp
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Normal_Game.cpp.i: cmake_force
@@ -140,7 +126,7 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Normal_Game.cpp.s: cmake_force
 CMakeFiles/Proyecto_1_Datos_ll.dir/Hard_Game.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/flags.make
 CMakeFiles/Proyecto_1_Datos_ll.dir/Hard_Game.cpp.o: /home/mrr/Desktop/Battle-Space/Hard_Game.cpp
 CMakeFiles/Proyecto_1_Datos_ll.dir/Hard_Game.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Hard_Game.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Hard_Game.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Hard_Game.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Hard_Game.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Hard_Game.cpp.o -c /home/mrr/Desktop/Battle-Space/Hard_Game.cpp
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Hard_Game.cpp.i: cmake_force
@@ -154,7 +140,7 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Hard_Game.cpp.s: cmake_force
 CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/flags.make
 CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o: /home/mrr/Desktop/Battle-Space/Player.cpp
 CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o -c /home/mrr/Desktop/Battle-Space/Player.cpp
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.i: cmake_force
@@ -168,7 +154,7 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.s: cmake_force
 CMakeFiles/Proyecto_1_Datos_ll.dir/Bullet.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/flags.make
 CMakeFiles/Proyecto_1_Datos_ll.dir/Bullet.cpp.o: /home/mrr/Desktop/Battle-Space/Bullet.cpp
 CMakeFiles/Proyecto_1_Datos_ll.dir/Bullet.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Bullet.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Bullet.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Bullet.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Bullet.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Bullet.cpp.o -c /home/mrr/Desktop/Battle-Space/Bullet.cpp
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Bullet.cpp.i: cmake_force
@@ -182,7 +168,7 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Bullet.cpp.s: cmake_force
 CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/flags.make
 CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy.cpp.o: /home/mrr/Desktop/Battle-Space/Enemy.cpp
 CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy.cpp.o -c /home/mrr/Desktop/Battle-Space/Enemy.cpp
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy.cpp.i: cmake_force
@@ -196,7 +182,7 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy.cpp.s: cmake_force
 CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_2.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/flags.make
 CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_2.cpp.o: /home/mrr/Desktop/Battle-Space/Enemy_2.cpp
 CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_2.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_2.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_2.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_2.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_2.cpp.o -c /home/mrr/Desktop/Battle-Space/Enemy_2.cpp
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_2.cpp.i: cmake_force
@@ -210,7 +196,7 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_2.cpp.s: cmake_force
 CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_1.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/flags.make
 CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_1.cpp.o: /home/mrr/Desktop/Battle-Space/Enemy_1.cpp
 CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_1.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_1.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_1.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_1.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_1.cpp.o -c /home/mrr/Desktop/Battle-Space/Enemy_1.cpp
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_1.cpp.i: cmake_force
@@ -224,7 +210,7 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_1.cpp.s: cmake_force
 CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/flags.make
 CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.o: /home/mrr/Desktop/Battle-Space/Dificulties_Window.cpp
 CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.o -c /home/mrr/Desktop/Battle-Space/Dificulties_Window.cpp
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.i: cmake_force
@@ -238,7 +224,7 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.s: cmake_force
 CMakeFiles/Proyecto_1_Datos_ll.dir/Game_Over.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/flags.make
 CMakeFiles/Proyecto_1_Datos_ll.dir/Game_Over.cpp.o: /home/mrr/Desktop/Battle-Space/Game_Over.cpp
 CMakeFiles/Proyecto_1_Datos_ll.dir/Game_Over.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Game_Over.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Game_Over.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Game_Over.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Game_Over.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Game_Over.cpp.o -c /home/mrr/Desktop/Battle-Space/Game_Over.cpp
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Game_Over.cpp.i: cmake_force
@@ -252,7 +238,7 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Game_Over.cpp.s: cmake_force
 CMakeFiles/Proyecto_1_Datos_ll.dir/NodeC.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/flags.make
 CMakeFiles/Proyecto_1_Datos_ll.dir/NodeC.cpp.o: /home/mrr/Desktop/Battle-Space/NodeC.cpp
 CMakeFiles/Proyecto_1_Datos_ll.dir/NodeC.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/NodeC.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/NodeC.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/NodeC.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/NodeC.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/NodeC.cpp.o -c /home/mrr/Desktop/Battle-Space/NodeC.cpp
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/NodeC.cpp.i: cmake_force
@@ -266,7 +252,7 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/NodeC.cpp.s: cmake_force
 CMakeFiles/Proyecto_1_Datos_ll.dir/Collector.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/flags.make
 CMakeFiles/Proyecto_1_Datos_ll.dir/Collector.cpp.o: /home/mrr/Desktop/Battle-Space/Collector.cpp
 CMakeFiles/Proyecto_1_Datos_ll.dir/Collector.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Collector.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Collector.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Collector.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Collector.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Collector.cpp.o -c /home/mrr/Desktop/Battle-Space/Collector.cpp
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Collector.cpp.i: cmake_force
@@ -280,7 +266,7 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Collector.cpp.s: cmake_force
 CMakeFiles/Proyecto_1_Datos_ll.dir/EnemyNode.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/flags.make
 CMakeFiles/Proyecto_1_Datos_ll.dir/EnemyNode.cpp.o: /home/mrr/Desktop/Battle-Space/EnemyNode.cpp
 CMakeFiles/Proyecto_1_Datos_ll.dir/EnemyNode.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/EnemyNode.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/EnemyNode.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/EnemyNode.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/EnemyNode.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/EnemyNode.cpp.o -c /home/mrr/Desktop/Battle-Space/EnemyNode.cpp
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/EnemyNode.cpp.i: cmake_force
@@ -294,7 +280,7 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/EnemyNode.cpp.s: cmake_force
 CMakeFiles/Proyecto_1_Datos_ll.dir/EnemyList.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/flags.make
 CMakeFiles/Proyecto_1_Datos_ll.dir/EnemyList.cpp.o: /home/mrr/Desktop/Battle-Space/EnemyList.cpp
 CMakeFiles/Proyecto_1_Datos_ll.dir/EnemyList.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/EnemyList.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/EnemyList.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/EnemyList.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/EnemyList.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/EnemyList.cpp.o -c /home/mrr/Desktop/Battle-Space/EnemyList.cpp
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/EnemyList.cpp.i: cmake_force
@@ -308,7 +294,7 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/EnemyList.cpp.s: cmake_force
 CMakeFiles/Proyecto_1_Datos_ll.dir/Fase.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/flags.make
 CMakeFiles/Proyecto_1_Datos_ll.dir/Fase.cpp.o: /home/mrr/Desktop/Battle-Space/Fase.cpp
 CMakeFiles/Proyecto_1_Datos_ll.dir/Fase.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Fase.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Fase.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Fase.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Fase.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Fase.cpp.o -c /home/mrr/Desktop/Battle-Space/Fase.cpp
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Fase.cpp.i: cmake_force
@@ -322,7 +308,7 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Fase.cpp.s: cmake_force
 CMakeFiles/Proyecto_1_Datos_ll.dir/Power.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/flags.make
 CMakeFiles/Proyecto_1_Datos_ll.dir/Power.cpp.o: /home/mrr/Desktop/Battle-Space/Power.cpp
 CMakeFiles/Proyecto_1_Datos_ll.dir/Power.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Power.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Power.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Power.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Power.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Power.cpp.o -c /home/mrr/Desktop/Battle-Space/Power.cpp
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Power.cpp.i: cmake_force
@@ -336,7 +322,7 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Power.cpp.s: cmake_force
 CMakeFiles/Proyecto_1_Datos_ll.dir/Strategy.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/flags.make
 CMakeFiles/Proyecto_1_Datos_ll.dir/Strategy.cpp.o: /home/mrr/Desktop/Battle-Space/Strategy.cpp
 CMakeFiles/Proyecto_1_Datos_ll.dir/Strategy.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Strategy.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Strategy.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Strategy.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Strategy.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Strategy.cpp.o -c /home/mrr/Desktop/Battle-Space/Strategy.cpp
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Strategy.cpp.i: cmake_force
@@ -350,7 +336,7 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Strategy.cpp.s: cmake_force
 CMakeFiles/Proyecto_1_Datos_ll.dir/Win_Window.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/flags.make
 CMakeFiles/Proyecto_1_Datos_ll.dir/Win_Window.cpp.o: /home/mrr/Desktop/Battle-Space/Win_Window.cpp
 CMakeFiles/Proyecto_1_Datos_ll.dir/Win_Window.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Win_Window.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Win_Window.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Win_Window.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Win_Window.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Win_Window.cpp.o -c /home/mrr/Desktop/Battle-Space/Win_Window.cpp
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Win_Window.cpp.i: cmake_force
@@ -364,7 +350,7 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Win_Window.cpp.s: cmake_force
 CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_3.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/flags.make
 CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_3.cpp.o: /home/mrr/Desktop/Battle-Space/Enemy_3.cpp
 CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_3.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_3.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_3.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_3.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_3.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_3.cpp.o -c /home/mrr/Desktop/Battle-Space/Enemy_3.cpp
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_3.cpp.i: cmake_force
@@ -378,7 +364,7 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy_3.cpp.s: cmake_force
 CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/flags.make
 CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.o: Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp
 CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.o: CMakeFiles/Proyecto_1_Datos_ll.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.o -MF CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.o.d -o CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.o -c /home/mrr/Desktop/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp
 
 CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Resources.cpp.i: cmake_force
@@ -393,7 +379,6 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/EWIEGA46WW/qrc_Re
 Proyecto_1_Datos_ll_OBJECTS = \
 "CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/Proyecto_1_Datos_ll.dir/main.cpp.o" \
-"CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.o" \
 "CMakeFiles/Proyecto_1_Datos_ll.dir/Normal_Game.cpp.o" \
 "CMakeFiles/Proyecto_1_Datos_ll.dir/Hard_Game.cpp.o" \
 "CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o" \
@@ -419,7 +404,6 @@ Proyecto_1_Datos_ll_EXTERNAL_OBJECTS =
 
 Proyecto_1_Datos_ll: CMakeFiles/Proyecto_1_Datos_ll.dir/Proyecto_1_Datos_ll_autogen/mocs_compilation.cpp.o
 Proyecto_1_Datos_ll: CMakeFiles/Proyecto_1_Datos_ll.dir/main.cpp.o
-Proyecto_1_Datos_ll: CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.o
 Proyecto_1_Datos_ll: CMakeFiles/Proyecto_1_Datos_ll.dir/Normal_Game.cpp.o
 Proyecto_1_Datos_ll: CMakeFiles/Proyecto_1_Datos_ll.dir/Hard_Game.cpp.o
 Proyecto_1_Datos_ll: CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o
@@ -446,7 +430,7 @@ Proyecto_1_Datos_ll: /usr/lib/x86_64-linux-gnu/libQt5SerialPort.so.5.15.6
 Proyecto_1_Datos_ll: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.6
 Proyecto_1_Datos_ll: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.6
 Proyecto_1_Datos_ll: CMakeFiles/Proyecto_1_Datos_ll.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable Proyecto_1_Datos_ll"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mrr/Desktop/Battle-Space/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable Proyecto_1_Datos_ll"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Proyecto_1_Datos_ll.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -8,8 +8,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/Proyecto_1_Datos_ll.dir/Collector.cpp.o.d"
   "CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.o"
   "CMakeFiles/Proyecto_1_Datos_ll.dir/Dificulties_Window.cpp.o.d"
-  "CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.o"
-  "CMakeFiles/Proyecto_1_Datos_ll.dir/Easy_game.cpp.o.d"
   "CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy.cpp.o"
   "CMakeFiles/Proyecto_1_Datos_ll.dir/Enemy.cpp.o.d"
   "CMakeFiles/Proyecto_1_Datos_ll.dir/EnemyList.cpp.o"

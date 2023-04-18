@@ -102,12 +102,6 @@
 			null
 		],
 		[
-			"/home/mrr/Desktop/Battle-Space/Easy_game.h",
-			"MU",
-			"EWIEGA46WW/moc_Easy_game.cpp",
-			null
-		],
-		[
 			"/home/mrr/Desktop/Battle-Space/Enemy.h",
 			"MU",
 			"EWIEGA46WW/moc_Enemy.cpp",
@@ -260,7 +254,6 @@
 		[ "/home/mrr/Desktop/Battle-Space/Bullet.cpp", "MU", null ],
 		[ "/home/mrr/Desktop/Battle-Space/Collector.cpp", "MU", null ],
 		[ "/home/mrr/Desktop/Battle-Space/Dificulties_Window.cpp", "MU", null ],
-		[ "/home/mrr/Desktop/Battle-Space/Easy_game.cpp", "MU", null ],
 		[ "/home/mrr/Desktop/Battle-Space/Enemy.cpp", "MU", null ],
 		[ "/home/mrr/Desktop/Battle-Space/EnemyList.cpp", "MU", null ],
 		[ "/home/mrr/Desktop/Battle-Space/EnemyNode.cpp", "MU", null ],
