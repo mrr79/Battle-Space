@@ -23,7 +23,7 @@ void Dificulties::normal()
 
 void Dificulties::hard()
 {
-    Hard_Game * hard = new Hard_Game(1000, 15, 3, 100);
+    Hard_Game * hard = new Hard_Game(1000, 15, 4, 100);
     hard->show();
     this->close();
 }
@@ -72,7 +72,7 @@ Dificulties::Dificulties(QWidget *parent)
     proxy_hard->setWidget(hard_mode);
     scene->addItem(proxy_hard);
     proxy_hard->setPos(320,330);
-    //connect(hard_mode, &QPushButton::released, this, &Dificulties::hard);
+    connect(hard_mode, &QPushButton::released, this, &Dificulties::hard);
 
     //Configuration of the scene
     setScene(scene);

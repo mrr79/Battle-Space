@@ -603,20 +603,20 @@ void Player::spawn_random_enemies_Hard() {
                         enemy_list[n]=*enemyList.duplicate();
                         n++;
                         // emit signal to change the round
-                        emit roundChanged();
+                        emit roundChangedHARD();
                         round_aux++;
                         std::cout << "round: " << round_aux  << std::endl;
                         QTimer::singleShot((1000 + (enemyList.size() * 500)), this, [=]() {
                             fase1.get_list(round_aux-1) = enemyList;
                             enemyList.clear();
-                            spawn_random_enemies();
+                            spawn_random_enemies_Hard();
                         });
                     }
 
                 });
             } else {
                 QTimer::singleShot((1000 * (num_enemies_3 * num_enemies_3 + num_enemies)), this, [=]() {
-                    spawn_enemies_1();
+                    spawn_enemies_3();
                     num_enemies_3 += 1;
 
 
@@ -628,13 +628,13 @@ void Player::spawn_random_enemies_Hard() {
                         enemy_list[n]=*enemyList.duplicate();
                         n++;
                         // emit signal to change the round
-                        emit roundChanged();
+                        emit roundChangedHARD();
                         round_aux++;
                         QTimer::singleShot((1000 + (enemyList.size() * 500)), this, [=]() {
                             fase1.get_list(round_aux-1) = enemyList;
 
                             enemyList.clear();
-                            spawn_random_enemies();
+                            spawn_random_enemies_Hard();
                         });
                     }
                 });
@@ -648,7 +648,7 @@ void Player::spawn_random_enemies_Hard() {
             printLists();
             std::cout << "------------------------------------------------------" << std::endl;
             reset_powers();
-            spawn_random_enemies2();
+            spawn_random_enemies2HARD();
         }
     }
 
@@ -675,7 +675,7 @@ void Player::spawn_random_enemies2HARD() {
                         enemy_list2[m]=*enemyList.duplicate();
                         m++;
                         // emit signal to change the round
-                        emit roundChanged();
+                        emit roundChangedHARD();
                         round_aux2++;
                         std::cout << "round: " << round_aux  << std::endl;
                         QTimer::singleShot((1000 + (enemyList.size() * 500)), this, [=]() {
@@ -683,7 +683,7 @@ void Player::spawn_random_enemies2HARD() {
                             fase2.get_list(round_aux2-1) = enemyList;
                             enemyList.clear();
                             enemyList.printList();
-                            spawn_random_enemies2();
+                            spawn_random_enemies2HARD();
                         });
                     }
 
@@ -700,14 +700,14 @@ void Player::spawn_random_enemies2HARD() {
                         enemy_list2[m]=*enemyList.duplicate();
                         m++;
                         // emit signal to change the round
-                        emit roundChanged();
+                        emit roundChangedHARD();
                         round_aux2++;
                         std::cout << "round: " << round_aux  << std::endl;
                         QTimer::singleShot((1000 + (enemyList.size() * 500)), this, [=]() {
                             fase2.get_list(round_aux2-1) = enemyList;
                             enemyList.clear();
                             enemyList.printList();
-                            spawn_random_enemies2();
+                            spawn_random_enemies2HARD();
                         });
                     }
                 });

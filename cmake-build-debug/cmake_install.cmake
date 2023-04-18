@@ -1,4 +1,4 @@
-# Install script for directory: /home/henry/CLionProjects/Battle-Space
+# Install script for directory: /home/mrr/Desktop/Battle-Space
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,7 +49,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Proyecto_1_Datos_ll"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/henry/CLionProjects/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/mrr/Desktop/Battle-Space/cmake-build-debug/Proyecto_1_Datos_ll")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Proyecto_1_Datos_ll" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Proyecto_1_Datos_ll")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -66,5 +66,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/henry/CLionProjects/Battle-Space/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/mrr/Desktop/Battle-Space/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

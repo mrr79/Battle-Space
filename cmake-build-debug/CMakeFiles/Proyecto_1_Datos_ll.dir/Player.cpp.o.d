@@ -1,28 +1,28 @@
 CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o: \
- /home/henry/CLionProjects/Battle-Space/Player.cpp \
- /usr/include/stdc-predef.h \
- /home/henry/CLionProjects/Battle-Space/Player.h \
- /home/henry/CLionProjects/Battle-Space/Collector.h \
- /home/henry/CLionProjects/Battle-Space/NodeC.h \
- /usr/include/c++/10/iostream \
- /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
- /usr/include/x86_64-linux-gnu/c++/10/bits/os_defines.h \
- /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /home/mrr/Desktop/Battle-Space/Player.cpp /usr/include/stdc-predef.h \
+ /home/mrr/Desktop/Battle-Space/Player.h \
+ /home/mrr/Desktop/Battle-Space/Collector.h \
+ /home/mrr/Desktop/Battle-Space/NodeC.h /usr/include/c++/12/iostream \
+ /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
+ /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
+ /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/bits/timesize.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/long-double.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
- /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
- /usr/include/c++/10/pstl/pstl_config.h /usr/include/c++/10/ostream \
- /usr/include/c++/10/ios /usr/include/c++/10/iosfwd \
- /usr/include/c++/10/bits/stringfwd.h \
- /usr/include/c++/10/bits/memoryfwd.h /usr/include/c++/10/bits/postypes.h \
- /usr/include/c++/10/cwchar /usr/include/wchar.h \
+ /usr/include/x86_64-linux-gnu/c++/12/bits/cpu_defines.h \
+ /usr/include/c++/12/pstl/pstl_config.h /usr/include/c++/12/ostream \
+ /usr/include/c++/12/ios /usr/include/c++/12/iosfwd \
+ /usr/include/c++/12/bits/stringfwd.h \
+ /usr/include/c++/12/bits/memoryfwd.h /usr/include/c++/12/bits/postypes.h \
+ /usr/include/c++/12/cwchar /usr/include/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /usr/lib/gcc/x86_64-linux-gnu/10/include/stddef.h \
- /usr/lib/gcc/x86_64-linux-gnu/10/include/stdarg.h \
+ /usr/lib/gcc/x86_64-linux-gnu/12/include/stddef.h \
+ /usr/lib/gcc/x86_64-linux-gnu/12/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
@@ -31,43 +31,30 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/c++/10/exception /usr/include/c++/10/bits/exception.h \
- /usr/include/c++/10/bits/exception_ptr.h \
- /usr/include/c++/10/bits/exception_defines.h \
- /usr/include/c++/10/bits/cxxabi_init_exception.h \
- /usr/include/c++/10/typeinfo /usr/include/c++/10/bits/hash_bytes.h \
- /usr/include/c++/10/new /usr/include/c++/10/bits/nested_exception.h \
- /usr/include/c++/10/bits/move.h /usr/include/c++/10/type_traits \
- /usr/include/c++/10/bits/char_traits.h \
- /usr/include/c++/10/bits/stl_algobase.h \
- /usr/include/c++/10/bits/functexcept.h \
- /usr/include/c++/10/bits/cpp_type_traits.h \
- /usr/include/c++/10/ext/type_traits.h \
- /usr/include/c++/10/ext/numeric_traits.h \
- /usr/include/c++/10/bits/stl_pair.h \
- /usr/include/c++/10/bits/stl_iterator_base_types.h \
- /usr/include/c++/10/bits/stl_iterator_base_funcs.h \
- /usr/include/c++/10/bits/concept_check.h \
- /usr/include/c++/10/debug/assertions.h \
- /usr/include/c++/10/bits/stl_iterator.h \
- /usr/include/c++/10/bits/ptr_traits.h /usr/include/c++/10/debug/debug.h \
- /usr/include/c++/10/bits/predefined_ops.h /usr/include/c++/10/cstdint \
- /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h /usr/include/stdint.h \
+ /usr/include/c++/12/exception /usr/include/c++/12/bits/exception.h \
+ /usr/include/c++/12/bits/exception_ptr.h \
+ /usr/include/c++/12/bits/exception_defines.h \
+ /usr/include/c++/12/bits/cxxabi_init_exception.h \
+ /usr/include/c++/12/typeinfo /usr/include/c++/12/bits/hash_bytes.h \
+ /usr/include/c++/12/new /usr/include/c++/12/bits/move.h \
+ /usr/include/c++/12/type_traits \
+ /usr/include/c++/12/bits/nested_exception.h \
+ /usr/include/c++/12/bits/char_traits.h /usr/include/c++/12/cstdint \
+ /usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
- /usr/include/x86_64-linux-gnu/bits/timesize.h \
  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
  /usr/include/x86_64-linux-gnu/bits/time64.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /usr/include/c++/10/bits/localefwd.h \
- /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
- /usr/include/c++/10/clocale /usr/include/locale.h \
- /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/10/cctype \
+ /usr/include/c++/12/bits/localefwd.h \
+ /usr/include/x86_64-linux-gnu/c++/12/bits/c++locale.h \
+ /usr/include/c++/12/clocale /usr/include/locale.h \
+ /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/12/cctype \
  /usr/include/ctype.h /usr/include/x86_64-linux-gnu/bits/endian.h \
  /usr/include/x86_64-linux-gnu/bits/endianness.h \
- /usr/include/c++/10/bits/ios_base.h /usr/include/c++/10/ext/atomicity.h \
- /usr/include/x86_64-linux-gnu/c++/10/bits/gthr.h \
- /usr/include/x86_64-linux-gnu/c++/10/bits/gthr-default.h \
+ /usr/include/c++/12/bits/ios_base.h /usr/include/c++/12/ext/atomicity.h \
+ /usr/include/x86_64-linux-gnu/c++/12/bits/gthr.h \
+ /usr/include/x86_64-linux-gnu/c++/12/bits/gthr-default.h \
  /usr/include/pthread.h /usr/include/sched.h \
  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
@@ -85,29 +72,47 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+ /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
- /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
- /usr/include/c++/10/bits/locale_classes.h /usr/include/c++/10/string \
- /usr/include/c++/10/bits/allocator.h \
- /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
- /usr/include/c++/10/ext/new_allocator.h \
- /usr/include/c++/10/bits/ostream_insert.h \
- /usr/include/c++/10/bits/cxxabi_forced.h \
- /usr/include/c++/10/bits/stl_function.h \
- /usr/include/c++/10/backward/binders.h \
- /usr/include/c++/10/bits/range_access.h \
- /usr/include/c++/10/initializer_list \
- /usr/include/c++/10/bits/iterator_concepts.h \
- /usr/include/c++/10/concepts /usr/include/c++/10/bits/range_cmp.h \
- /usr/include/c++/10/bits/basic_string.h \
- /usr/include/c++/10/ext/alloc_traits.h \
- /usr/include/c++/10/bits/alloc_traits.h \
- /usr/include/c++/10/bits/stl_construct.h /usr/include/c++/10/string_view \
- /usr/include/c++/10/bits/functional_hash.h \
- /usr/include/c++/10/bits/string_view.tcc \
- /usr/include/c++/10/ext/string_conversions.h /usr/include/c++/10/cstdlib \
+ /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+ /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+ /usr/include/x86_64-linux-gnu/c++/12/bits/atomic_word.h \
+ /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+ /usr/include/c++/12/bits/locale_classes.h /usr/include/c++/12/string \
+ /usr/include/c++/12/bits/allocator.h \
+ /usr/include/x86_64-linux-gnu/c++/12/bits/c++allocator.h \
+ /usr/include/c++/12/bits/new_allocator.h \
+ /usr/include/c++/12/bits/functexcept.h \
+ /usr/include/c++/12/bits/cpp_type_traits.h \
+ /usr/include/c++/12/bits/ostream_insert.h \
+ /usr/include/c++/12/bits/cxxabi_forced.h \
+ /usr/include/c++/12/bits/stl_iterator_base_types.h \
+ /usr/include/c++/12/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/12/bits/concept_check.h \
+ /usr/include/c++/12/debug/assertions.h \
+ /usr/include/c++/12/bits/stl_iterator.h \
+ /usr/include/c++/12/ext/type_traits.h \
+ /usr/include/c++/12/bits/ptr_traits.h \
+ /usr/include/c++/12/bits/stl_function.h \
+ /usr/include/c++/12/backward/binders.h \
+ /usr/include/c++/12/ext/numeric_traits.h \
+ /usr/include/c++/12/bits/stl_algobase.h \
+ /usr/include/c++/12/bits/stl_pair.h /usr/include/c++/12/bits/utility.h \
+ /usr/include/c++/12/debug/debug.h \
+ /usr/include/c++/12/bits/predefined_ops.h \
+ /usr/include/c++/12/bits/refwrap.h /usr/include/c++/12/bits/invoke.h \
+ /usr/include/c++/12/bits/range_access.h \
+ /usr/include/c++/12/initializer_list \
+ /usr/include/c++/12/bits/basic_string.h \
+ /usr/include/c++/12/ext/alloc_traits.h \
+ /usr/include/c++/12/bits/alloc_traits.h \
+ /usr/include/c++/12/bits/stl_construct.h /usr/include/c++/12/string_view \
+ /usr/include/c++/12/bits/functional_hash.h \
+ /usr/include/c++/12/bits/string_view.tcc \
+ /usr/include/c++/12/ext/string_conversions.h /usr/include/c++/12/cstdlib \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/endian.h \
@@ -116,72 +121,54 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o: \
  /usr/include/x86_64-linux-gnu/sys/select.h \
  /usr/include/x86_64-linux-gnu/bits/select.h \
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
  /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /usr/include/c++/10/bits/std_abs.h /usr/include/c++/10/cstdio \
+ /usr/include/c++/12/bits/std_abs.h /usr/include/c++/12/cstdio \
  /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
- /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
- /usr/include/c++/10/cerrno /usr/include/errno.h \
+ /usr/include/c++/12/cerrno /usr/include/errno.h \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/x86_64-linux-gnu/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
- /usr/include/c++/10/bits/charconv.h \
- /usr/include/c++/10/bits/basic_string.tcc \
- /usr/include/c++/10/bits/locale_classes.tcc \
- /usr/include/c++/10/system_error \
- /usr/include/x86_64-linux-gnu/c++/10/bits/error_constants.h \
- /usr/include/c++/10/stdexcept /usr/include/c++/10/streambuf \
- /usr/include/c++/10/bits/streambuf.tcc \
- /usr/include/c++/10/bits/basic_ios.h \
- /usr/include/c++/10/bits/locale_facets.h /usr/include/c++/10/cwctype \
+ /usr/include/c++/12/bits/charconv.h \
+ /usr/include/c++/12/bits/basic_string.tcc \
+ /usr/include/c++/12/bits/locale_classes.tcc \
+ /usr/include/c++/12/system_error \
+ /usr/include/x86_64-linux-gnu/c++/12/bits/error_constants.h \
+ /usr/include/c++/12/stdexcept /usr/include/c++/12/streambuf \
+ /usr/include/c++/12/bits/streambuf.tcc \
+ /usr/include/c++/12/bits/basic_ios.h \
+ /usr/include/c++/12/bits/locale_facets.h /usr/include/c++/12/cwctype \
  /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
- /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
- /usr/include/c++/10/bits/streambuf_iterator.h \
- /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_inline.h \
- /usr/include/c++/10/bits/locale_facets.tcc \
- /usr/include/c++/10/bits/basic_ios.tcc \
- /usr/include/c++/10/bits/ostream.tcc /usr/include/c++/10/istream \
- /usr/include/c++/10/bits/istream.tcc \
+ /usr/include/x86_64-linux-gnu/c++/12/bits/ctype_base.h \
+ /usr/include/c++/12/bits/streambuf_iterator.h \
+ /usr/include/x86_64-linux-gnu/c++/12/bits/ctype_inline.h \
+ /usr/include/c++/12/bits/locale_facets.tcc \
+ /usr/include/c++/12/bits/basic_ios.tcc \
+ /usr/include/c++/12/bits/ostream.tcc /usr/include/c++/12/istream \
+ /usr/include/c++/12/bits/istream.tcc \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsPixmapItem \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsitem.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
- /usr/include/c++/10/cstddef /usr/include/c++/10/utility \
- /usr/include/c++/10/bits/stl_relops.h /usr/include/assert.h \
+ /usr/include/c++/12/cstddef /usr/include/c++/12/utility \
+ /usr/include/c++/12/bits/stl_relops.h /usr/include/assert.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h \
- /usr/include/c++/10/algorithm /usr/include/c++/10/bits/stl_algo.h \
- /usr/include/c++/10/bits/algorithmfwd.h \
- /usr/include/c++/10/bits/stl_heap.h \
- /usr/include/c++/10/bits/stl_tempbuf.h \
- /usr/include/c++/10/bits/uniform_int_dist.h /usr/include/c++/10/limits \
- /usr/include/c++/10/pstl/glue_algorithm_defs.h \
- /usr/include/c++/10/functional /usr/include/c++/10/tuple \
- /usr/include/c++/10/array /usr/include/c++/10/bits/uses_allocator.h \
- /usr/include/c++/10/bits/invoke.h /usr/include/c++/10/bits/refwrap.h \
- /usr/include/c++/10/bits/std_function.h \
- /usr/include/c++/10/unordered_map \
- /usr/include/c++/10/ext/aligned_buffer.h \
- /usr/include/c++/10/bits/hashtable.h \
- /usr/include/c++/10/bits/hashtable_policy.h \
- /usr/include/c++/10/bits/node_handle.h /usr/include/c++/10/optional \
- /usr/include/c++/10/bits/enable_special_members.h \
- /usr/include/c++/10/bits/unordered_map.h \
- /usr/include/c++/10/bits/erase_if.h /usr/include/c++/10/vector \
- /usr/include/c++/10/bits/stl_uninitialized.h \
- /usr/include/c++/10/bits/stl_vector.h \
- /usr/include/c++/10/bits/stl_bvector.h \
- /usr/include/c++/10/bits/vector.tcc \
- /usr/include/c++/10/pstl/execution_defs.h \
+ /usr/include/c++/12/algorithm /usr/include/c++/12/bits/stl_algo.h \
+ /usr/include/c++/12/bits/algorithmfwd.h \
+ /usr/include/c++/12/bits/stl_heap.h \
+ /usr/include/c++/12/bits/stl_tempbuf.h \
+ /usr/include/c++/12/bits/uniform_int_dist.h \
+ /usr/include/c++/12/pstl/glue_algorithm_defs.h \
+ /usr/include/c++/12/pstl/execution_defs.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h \
@@ -190,8 +177,8 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h \
- /usr/include/c++/10/atomic /usr/include/c++/10/bits/atomic_base.h \
- /usr/include/c++/10/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/12/atomic /usr/include/c++/12/bits/atomic_base.h \
+ /usr/include/c++/12/bits/atomic_lockfree_defines.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h \
@@ -207,8 +194,8 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
  /usr/include/string.h /usr/include/strings.h \
- /usr/include/c++/10/stdlib.h /usr/include/c++/10/iterator \
- /usr/include/c++/10/bits/stream_iterator.h \
+ /usr/include/c++/12/stdlib.h /usr/include/c++/12/iterator \
+ /usr/include/c++/12/bits/stream_iterator.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringliteral.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringalgorithms.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringview.h \
@@ -217,15 +204,31 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h \
- /usr/include/c++/10/numeric /usr/include/c++/10/bits/stl_numeric.h \
- /usr/include/c++/10/pstl/glue_numeric_defs.h \
+ /usr/include/c++/12/numeric /usr/include/c++/12/bits/stl_numeric.h \
+ /usr/include/c++/12/bit /usr/include/c++/12/pstl/glue_numeric_defs.h \
+ /usr/include/c++/12/functional /usr/include/c++/12/tuple \
+ /usr/include/c++/12/bits/uses_allocator.h \
+ /usr/include/c++/12/bits/std_function.h \
+ /usr/include/c++/12/unordered_map \
+ /usr/include/c++/12/ext/aligned_buffer.h \
+ /usr/include/c++/12/bits/hashtable.h \
+ /usr/include/c++/12/bits/hashtable_policy.h \
+ /usr/include/c++/12/bits/enable_special_members.h \
+ /usr/include/c++/12/bits/node_handle.h \
+ /usr/include/c++/12/bits/unordered_map.h \
+ /usr/include/c++/12/bits/erase_if.h /usr/include/c++/12/vector \
+ /usr/include/c++/12/bits/stl_uninitialized.h \
+ /usr/include/c++/12/bits/stl_vector.h \
+ /usr/include/c++/12/bits/stl_bvector.h \
+ /usr/include/c++/12/bits/vector.tcc /usr/include/c++/12/array \
+ /usr/include/c++/12/compare \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h \
- /usr/include/c++/10/list /usr/include/c++/10/bits/stl_list.h \
- /usr/include/c++/10/bits/allocated_ptr.h \
- /usr/include/c++/10/bits/list.tcc \
- /usr/lib/gcc/x86_64-linux-gnu/10/include/limits.h \
- /usr/lib/gcc/x86_64-linux-gnu/10/include/syslimits.h \
+ /usr/include/c++/12/list /usr/include/c++/12/bits/stl_list.h \
+ /usr/include/c++/12/bits/allocated_ptr.h \
+ /usr/include/c++/12/bits/list.tcc \
+ /usr/lib/gcc/x86_64-linux-gnu/12/include/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/12/include/syslimits.h \
  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
  /usr/include/linux/limits.h \
@@ -240,16 +243,17 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h \
- /usr/include/c++/10/map /usr/include/c++/10/bits/stl_tree.h \
- /usr/include/c++/10/bits/stl_map.h \
- /usr/include/c++/10/bits/stl_multimap.h \
+ /usr/include/c++/12/map /usr/include/c++/12/bits/stl_tree.h \
+ /usr/include/c++/12/bits/stl_map.h \
+ /usr/include/c++/12/bits/stl_multimap.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h \
- /usr/include/c++/10/chrono /usr/include/c++/10/ratio \
- /usr/include/c++/10/ctime /usr/include/c++/10/bits/parse_numbers.h \
+ /usr/include/c++/12/chrono /usr/include/c++/12/bits/chrono.h \
+ /usr/include/c++/12/ratio /usr/include/c++/12/limits \
+ /usr/include/c++/12/ctime /usr/include/c++/12/bits/parse_numbers.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h \
- /usr/include/c++/10/variant \
+ /usr/include/c++/12/variant \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h \
@@ -271,16 +275,15 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h \
- /usr/include/c++/10/memory \
- /usr/include/c++/10/bits/stl_raw_storage_iter.h \
- /usr/include/c++/10/bits/ranges_uninitialized.h \
- /usr/include/c++/10/ext/concurrence.h \
- /usr/include/c++/10/bits/unique_ptr.h \
- /usr/include/c++/10/bits/shared_ptr.h \
- /usr/include/c++/10/bits/shared_ptr_base.h \
- /usr/include/c++/10/bits/shared_ptr_atomic.h \
- /usr/include/c++/10/backward/auto_ptr.h \
- /usr/include/c++/10/pstl/glue_memory_defs.h \
+ /usr/include/c++/12/memory \
+ /usr/include/c++/12/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/12/bits/align.h /usr/include/c++/12/bits/unique_ptr.h \
+ /usr/include/c++/12/bits/shared_ptr.h \
+ /usr/include/c++/12/bits/shared_ptr_base.h \
+ /usr/include/c++/12/ext/concurrence.h \
+ /usr/include/c++/12/bits/shared_ptr_atomic.h \
+ /usr/include/c++/12/backward/auto_ptr.h \
+ /usr/include/c++/12/pstl/glue_memory_defs.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
@@ -288,16 +291,16 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h \
- /home/henry/CLionProjects/Battle-Space/Bullet.h \
+ /home/mrr/Desktop/Battle-Space/Bullet.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsRectItem \
- /home/henry/CLionProjects/Battle-Space/Enemy_1.h \
- /home/henry/CLionProjects/Battle-Space/Fase.h \
- /home/henry/CLionProjects/Battle-Space/EnemyList.h \
- /home/henry/CLionProjects/Battle-Space/EnemyNode.h \
+ /home/mrr/Desktop/Battle-Space/Enemy_1.h \
+ /home/mrr/Desktop/Battle-Space/Fase.h \
+ /home/mrr/Desktop/Battle-Space/EnemyList.h \
+ /home/mrr/Desktop/Battle-Space/EnemyNode.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsItem \
- /home/henry/CLionProjects/Battle-Space/Enemy.h \
- /home/henry/CLionProjects/Battle-Space/Strategy.h \
- /home/henry/CLionProjects/Battle-Space/Power.h \
+ /home/mrr/Desktop/Battle-Space/Enemy.h \
+ /home/mrr/Desktop/Battle-Space/Strategy.h \
+ /home/mrr/Desktop/Battle-Space/Power.h \
  /usr/include/x86_64-linux-gnu/qt5/QtSerialPort/QSerialPort \
  /usr/include/x86_64-linux-gnu/qt5/QtSerialPort/qserialport.h \
  /usr/include/x86_64-linux-gnu/qt5/QtSerialPort/qserialportglobal.h \
@@ -318,8 +321,8 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QtGlobal \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
- /home/henry/CLionProjects/Battle-Space/Enemy_2.h \
- /home/henry/CLionProjects/Battle-Space/Easy_game.h \
+ /home/mrr/Desktop/Battle-Space/Enemy_2.h \
+ /home/mrr/Desktop/Battle-Space/Easy_game.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsview.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainter.h \
@@ -429,8 +432,8 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmutex.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qexception.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qresultstore.h \
- /usr/include/c++/10/mutex /usr/include/c++/10/bits/std_mutex.h \
- /usr/include/c++/10/bits/unique_lock.h \
+ /usr/include/c++/12/mutex /usr/include/c++/12/bits/std_mutex.h \
+ /usr/include/c++/12/bits/unique_lock.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfutureinterface.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfuturesynchronizer.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfuture.h \
@@ -463,7 +466,7 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmath.h \
- /usr/include/c++/10/cmath /usr/include/math.h \
+ /usr/include/c++/12/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
@@ -473,18 +476,18 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /usr/include/c++/10/bits/specfun.h /usr/include/c++/10/tr1/gamma.tcc \
- /usr/include/c++/10/tr1/special_function_util.h \
- /usr/include/c++/10/tr1/bessel_function.tcc \
- /usr/include/c++/10/tr1/beta_function.tcc \
- /usr/include/c++/10/tr1/ell_integral.tcc \
- /usr/include/c++/10/tr1/exp_integral.tcc \
- /usr/include/c++/10/tr1/hypergeometric.tcc \
- /usr/include/c++/10/tr1/legendre_function.tcc \
- /usr/include/c++/10/tr1/modified_bessel_func.tcc \
- /usr/include/c++/10/tr1/poly_hermite.tcc \
- /usr/include/c++/10/tr1/poly_laguerre.tcc \
- /usr/include/c++/10/tr1/riemann_zeta.tcc \
+ /usr/include/c++/12/bits/specfun.h /usr/include/c++/12/tr1/gamma.tcc \
+ /usr/include/c++/12/tr1/special_function_util.h \
+ /usr/include/c++/12/tr1/bessel_function.tcc \
+ /usr/include/c++/12/tr1/beta_function.tcc \
+ /usr/include/c++/12/tr1/ell_integral.tcc \
+ /usr/include/c++/12/tr1/exp_integral.tcc \
+ /usr/include/c++/12/tr1/hypergeometric.tcc \
+ /usr/include/c++/12/tr1/legendre_function.tcc \
+ /usr/include/c++/12/tr1/modified_bessel_func.tcc \
+ /usr/include/c++/12/tr1/poly_hermite.tcc \
+ /usr/include/c++/12/tr1/poly_laguerre.tcc \
+ /usr/include/c++/12/tr1/riemann_zeta.tcc \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmessageauthenticationcode.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcryptographichash.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetaobject.h \
@@ -518,9 +521,9 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qeasingcurve.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qqueue.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrandom.h \
- /usr/include/c++/10/random /usr/include/c++/10/bits/random.h \
- /usr/include/x86_64-linux-gnu/c++/10/bits/opt_random.h \
- /usr/include/c++/10/bits/random.tcc \
+ /usr/include/c++/12/random /usr/include/c++/12/bits/random.h \
+ /usr/include/x86_64-linux-gnu/c++/12/bits/opt_random.h \
+ /usr/include/c++/12/bits/random.tcc \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qreadwritelock.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h \
@@ -569,9 +572,9 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qthread.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdeadlinetimer.h \
- /usr/include/c++/10/future /usr/include/c++/10/thread \
- /usr/include/c++/10/condition_variable \
- /usr/include/c++/10/bits/atomic_futex.h \
+ /usr/include/c++/12/future /usr/include/c++/12/condition_variable \
+ /usr/include/c++/12/bits/atomic_futex.h \
+ /usr/include/c++/12/bits/std_thread.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qthreadpool.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qthread.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qthreadstorage.h \
@@ -595,8 +598,8 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qwineventnotifier.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qxmlstream.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcoreversion.h \
- /home/henry/CLionProjects/Battle-Space/Normal_Game.h \
- /home/henry/CLionProjects/Battle-Space/Enemy_3.h \
+ /home/mrr/Desktop/Battle-Space/Normal_Game.h \
+ /home/mrr/Desktop/Battle-Space/Enemy_3.h \
  /usr/include/x86_64-linux-gnu/qt5/QtXml/QtXml \
  /usr/include/x86_64-linux-gnu/qt5/QtXml/QtXmlDepends \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore \
@@ -606,6 +609,7 @@ CMakeFiles/Proyecto_1_Datos_ll.dir/Player.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtXml/qtxmlglobal.h \
  /usr/include/x86_64-linux-gnu/qt5/QtXml/qxml.h \
  /usr/include/x86_64-linux-gnu/qt5/QtXml/qtxmlversion.h \
+ /usr/include/c++/12/thread /usr/include/c++/12/bits/this_thread_sleep.h \
  /usr/include/x86_64-linux-gnu/qt5/QtSerialPort/QSerialPortInfo \
  /usr/include/x86_64-linux-gnu/qt5/QtSerialPort/qserialportinfo.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QRegularExpression

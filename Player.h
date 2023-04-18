@@ -105,7 +105,7 @@ private:
     void movimiento();
 signals:
     void roundChanged();
-
+    void roundChangedHARD();
 
 
 };

@@ -1,8 +1,6 @@
 #include "Hard_Game.h"
 #include <QTimer>
 #include <QGraphicsTextItem>
-#include <QFont>
-#include <QImage>
 #include "Enemy_2.h"
 #include "QDebug"
 #include <QFont>
@@ -10,7 +8,7 @@
 #include <QPushButton>
 #include <QGraphicsProxyWidget>
 #include "Enemy_2.h"
-#include "Enemy_1.h"
+#include "Enemy_3.h"
 #include "Game_Over.h"
 #include "Win_Window.h"
 #include <QGraphicsScene>
@@ -49,17 +47,24 @@ Hard_Game::Hard_Game(int bullet_speed, int bullets, int ships_number, int health
 
     //PLayer en la scene
 
-    Player *player = new Player(collector, bullets,shipsnumber,fase1,fase2);
+    player = new Player(collector, bullets,shipsnumber,fase1,fase2);
+    player->buscaYconectaArduino();
+    timer = new QTimer(this);
+    connect(timer, SIGNAL(timeout()), player, SLOT(on_pushButton_3_clicked()));
+    timer->start(500); // Trigger every 1 second
     player->setPixmap(QPixmap(":/Images/myship.png").scaled(50,50));
 
-    player->spawn_random_enemies();//ESTE SIRVE
+    player->spawn_random_enemies_Hard();//ESTE SIRVE
 
 
     health_label = new QGraphicsTextItem("Health: " + QString::number(health));
 
     health_label->setDefaultTextColor(Qt::red);
 
-
+    prueba_label = new QGraphicsTextItem("ESTS EN DIFICIL  " );
+    prueba_label->setDefaultTextColor(Qt::red);
+    scene->addItem(prueba_label);
+    prueba_label->setPos(100,100);
 
     //Agregado de el item a la escena
     scene->addItem(player);
@@ -106,8 +111,8 @@ Hard_Game::Hard_Game(int bullet_speed, int bullets, int ships_number, int health
 
 
     //  PARA CAMBIAR DE ROUNDS=FASES
-    QObject::connect(player, SIGNAL(roundChanged()), this, SLOT(handleRoundChanged()));
-    connect(this, &Hard_Game::spawnEnemies, player, &Player::spawn_random_enemies);
+    QObject::connect(player, SIGNAL(roundChangedHARD()), this, SLOT(handleRoundChanged()));
+    connect(this, &Hard_Game::spawnEnemies, player, &Player::spawn_random_enemies_Hard);
 
 
 
@@ -157,10 +162,12 @@ void Hard_Game::check_health()
     else{
         QList<QGraphicsItem *> colliding_items = line->collidingItems();
         for (int i = 0, n = colliding_items.size(); i < n; ++i){
-            if (typeid(*(colliding_items[i])) == typeid(Enemy_1)){
+            if (typeid(*(colliding_items[i])) == typeid(Enemy_3)){
+                player->on_pushButton_2_clicked();
                 decrease_health();
             }
             if (typeid(*(colliding_items[i])) == typeid(Enemy_2)){
+
                 decrease_health();
             }
         }
@@ -193,14 +200,14 @@ void Hard_Game::ganar(){
 
         QTimer::singleShot(15000, this, [this]() {
             if (fase == 2 && round == 5 && health_number >= 1) {
-                std::cout << "---------------------HAS GANADO REINA" << std::endl;
+                //std::cout << "---------------------HAS GANADO REINA" << std::endl;
                 check->stop();
                 Win_Window *win = new Win_Window();
                 win->show();
                 this->close();
             }
             else if (fase == 2 && round == 5 && health_number <= 0){
-                std::cout << "---------------------tristemente perdiste REINA" << std::endl;
+                //std::cout << "---------------------tristemente perdiste REINA" << std::endl;
                 check->stop();
                 Game_Over *game_over = new Game_Over();
                 game_over->show();

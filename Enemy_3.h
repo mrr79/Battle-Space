@@ -18,20 +18,19 @@ Q_OBJECT
 public:
     EnemyList* enemy_list;
     EnemyList* enemy_list2;
+    int enemy3_life = 2;
     Enemy_3(Collector& collector, EnemyList enemy_list[], EnemyList enemy_list2[]);
-    int enemy3_life = 1;
-    int enemy3_speed = 10;
-    Enemy_3* self_ptr; // Agregar un puntero a Enemy_1 como miembro de la clase
+    int enemy3_speed = 5;
+    int enemy3_speed_y=5;
 
-signals:
-    void hitByBullet();
+
 public slots:
     void move();
 private:
     Collector& collector;
-
     void printLists() const;
     void printLists2() const;
+
 };
 
 

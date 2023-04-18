@@ -9,6 +9,7 @@
 #include <QTimer>
 #include "Player.h"
 #include "Fase.h"
+
 class Hard_Game: public QGraphicsView{
 Q_OBJECT
 public:
@@ -25,6 +26,8 @@ public:
     QGraphicsTextItem *round_label;
     QGraphicsTextItem *fase_label;
 
+    QGraphicsTextItem *prueba_label;
+
     QGraphicsLineItem *line;
 
     QGraphicsScene * scene;
@@ -39,6 +42,7 @@ public:
     int current_round;
 
     void add_enemies_to_wave(EnemyList *list_enemies);
+
 public slots:
     //ir restando los bullets : ver funcion en el cpp
     void decrease_bullets();
@@ -57,12 +61,10 @@ private:
     QVector<EnemyList*> wave;
     int round;
     int fase;
-
-
+    QTimer* timer;
+    Player *player;
 signals:
     void spawnEnemies();
 };
-
-
 
 #endif // HARD_GAME_H

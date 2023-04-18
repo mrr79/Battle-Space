@@ -29,14 +29,11 @@
 using namespace std;
 
 
-Enemy_3::Enemy_3(Collector& collector, EnemyList enemy_list[], EnemyList enemy_list2[])
-        : collector(collector), enemy_list(enemy_list), enemy_list2(enemy_list2)
+Enemy_3::Enemy_3(Collector& collector, EnemyList enemy_list[], EnemyList enemy_list2[]) : collector(collector), enemy_list(enemy_list), enemy_list2(enemy_list2)
 {
     this->enemy_list = enemy_list;
     this->enemy_list2 = enemy_list2;
-
     int random_number = rand() % 550;
-    self_ptr = this; // Asignar la dirección de memoria del objeto actual al puntero self_ptr
 
     setPos(800,random_number);
 
@@ -47,20 +44,19 @@ Enemy_3::Enemy_3(Collector& collector, EnemyList enemy_list[], EnemyList enemy_l
     connect(timer,SIGNAL(timeout()),this,SLOT(move()));
 
     timer->start(50);
-
 }
 
 void Enemy_3::move()
 {
     QList<QGraphicsItem *> colliding_items = collidingItems();
-    for (int i = 0, n = colliding_items.size(); i < n; ++i){
-        if (typeid(*(colliding_items[i])) == typeid(Bullet)){
+    for (int i = 0, n = colliding_items.size(); i < n; ++i) {
+        if (typeid(*(colliding_items[i])) == typeid(Bullet)) {
             Bullet* bullet = dynamic_cast<Bullet*>(colliding_items[i]);
-
             collector.eliminar_nodo_collector(bullet);
             int damage = bullet->bullet_damage;
 
-            if (enemy3_life == 0 && damage==0){
+            if (enemy3_life == 0 && damage == 0) {
+                // remove both bullet and enemy
                 for (int i = 0; i < 5; i++) {
                     if (enemy_list[i].buscar(reinterpret_cast<Enemy *>(this)) == 1) {
                         enemy_list[i].remove(reinterpret_cast<Enemy *>(this));
@@ -71,48 +67,51 @@ void Enemy_3::move()
                         break;
                     }
                 }
+
                 scene()->removeItem(colliding_items[i]);
+                //delete colliding_items[i];
                 scene()->removeItem(this);
                 delete this;
-                emit hitByBullet();
                 return;
-                std::cout<<"DANO EN LA BALA " << damage <<std::endl;
             }
-            else{
+            else {
                 enemy3_life--;
                 damage--;
-                scene()->removeItem(colliding_items[i]); // Remove bullet from scene
+                // remove the bullet
+                scene()->removeItem(colliding_items[i]);
                 return;
-
             }
-
         }
     }
 
-    // en x y en y
-    int new_x = x() - enemy3_speed;
-    int new_y = y();
+    int y_pos = 0;
 
-    if (new_x < 0 || new_x > 800) {
-        scene()->removeItem(this);
-        //delete this;
-        return;
-    }
-
-    if (new_y < 0) {
-        new_y = 0;
-    } else if (new_y > 600) {
-        new_y = 600;
+    if (pos().x() < 150) {
+        y_pos = 0;
+    } else if (pos().x() < 200) {
+        y_pos = -30;
+    } else if (pos().x() < 250) {
+        y_pos = -60;
+    } else if (pos().x() < 300) {
+        y_pos = -30;
+    } else if (pos().x() < 350) {
+        y_pos = 30;
+    } else if (pos().x() < 400) {
+        y_pos = 60;
+    } else if (pos().x() < 450) {
+        y_pos = 30;
     } else {
-        int random_number = rand() % 2;
-        if (random_number == 1){
-            new_y -= 20;
-        } else {
-            new_y += 20;
-        }
+        y_pos = 0;
     }
 
-    setPos(new_x, new_y);
+    // Set the new position of the enemy
+    setPos(x() - enemy3_speed, y() + y_pos/3);
+
+    if (pos().x() < 0) {
+        // remove and delete the enemy object
+        scene()->removeItem(this);
+        delete this;
+    }
 }
 void Enemy_3::printLists() const {
     std::cout << "Enemy Lists: " << std::endl;
