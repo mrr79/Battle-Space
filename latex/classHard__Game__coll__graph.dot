@@ -1,0 +1,16 @@
+digraph "Hard_Game"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="Hard_Game",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Clase que define la ventana del juego en modo difícil."];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="QGraphicsView",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" collector" ];
+  Node3 [label="Collector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCollector.html",tooltip="La clase Collector se utiliza para la recolección de balas que no impactan enimigos en una lista enla..."];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" inicio" ];
+  Node4 [label="NodeC",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classNodeC.html",tooltip="Declaracion de la clase NodeC."];
+  Node4 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" next" ];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" fase1\nfase2" ];
+  Node5 [label="Fase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classFase.html",tooltip="declaracion de la calase fase"];
+}

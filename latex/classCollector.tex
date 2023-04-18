@@ -1,0 +1,213 @@
+\hypertarget{classCollector}{}\doxysection{Collector Class Reference}
+\label{classCollector}\index{Collector@{Collector}}
+
+
+La clase \mbox{\hyperlink{classCollector}{Collector}} se utiliza para la recolección de balas que no impactan enimigos en una lista enlazada simple, con el fin de utilizarlas nuvamente.  
+
+
+
+
+{\ttfamily \#include $<$Collector.\+h$>$}
+
+
+
+Collaboration diagram for Collector\+:
+% FIG 0
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classCollector_ad60b06491094b8fddf25502cf162cdf6}\label{classCollector_ad60b06491094b8fddf25502cf162cdf6}} 
+\mbox{\hyperlink{classCollector_ad60b06491094b8fddf25502cf162cdf6}{Collector}} ()
+\begin{DoxyCompactList}\small\item\em Constructor de la clase \mbox{\hyperlink{classCollector}{Collector}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCollector_afa8bf121d5cba26db036303e549533a7}{eliminar\+\_\+nodo\+\_\+collector}} (void $\ast$valor)
+\begin{DoxyCompactList}\small\item\em Método utilizado para insertar un nodo en la lista del collector. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classCollector_afeb4595993b6b521c6b4459e9bb2d47b}{collector\+\_\+size}} ()
+\begin{DoxyCompactList}\small\item\em Método utilizado para obtener el tamaño de la lista del collector. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classCollector_a74e36ec6a1e87f52f0a23ba6a7ff86b1}{en\+\_\+collector}} (void $\ast$valor)
+\begin{DoxyCompactList}\small\item\em Método utilizado para comprobar si un valor se encuentra en la lista del collector. \end{DoxyCompactList}\item 
+void $\ast$ \mbox{\hyperlink{classCollector_a1b4bc0e7281bb622756362706e8e2ea4}{get\+\_\+first\+\_\+collector}} ()
+\begin{DoxyCompactList}\small\item\em Método utilizado para obtener el primer valor de la lista del collector. \end{DoxyCompactList}\item 
+void $\ast$ \mbox{\hyperlink{classCollector_a1587be48da5e3cd0ce2211785d94ebb8}{get\+Pos}} (int posicion)
+\begin{DoxyCompactList}\small\item\em Método utilizado para obtener el valor de un nodo en una posición determinada de la lista del collector. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCollector_a268a3a11541d26ad2c372d61ba5de778}{elim\+Pos}} (int pos)
+\begin{DoxyCompactList}\small\item\em Método utilizado para eliminar el nodo en una posición determinada de la lista del collector. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classNodeC}{NodeC}} $\ast$ \mbox{\hyperlink{classCollector_aec7e8204212caeebbc82a65124a93093}{get\+Head}} ()
+\begin{DoxyCompactList}\small\item\em Método utilizado para obtener el puntero al primer nodo de la lista enlazada simple. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classCollector_a16b5789d6e7a188fbf3c44cd61781825}{validar\+\_\+existencia}} ()
+\begin{DoxyCompactList}\small\item\em Método utilizado para comprobar si la lista del collector contiene nodos. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCollector_a15a3d21f8319173d36ead794953407e8}{insertar\+\_\+collector}} (void $\ast$valor)
+\begin{DoxyCompactList}\small\item\em Inserta un elemento en el colector. \end{DoxyCompactList}\item 
+void $\ast$ \mbox{\hyperlink{classCollector_a259a166e307f98e08ebd8dc279a28ce4}{obtener\+\_\+valor}} ()
+\begin{DoxyCompactList}\small\item\em Obtiene el valor del primer elemento del colector. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classCollector_a1781accc04025a243290fb7ecff366a5}\label{classCollector_a1781accc04025a243290fb7ecff366a5}} 
+void \mbox{\hyperlink{classCollector_a1781accc04025a243290fb7ecff366a5}{mostrar\+\_\+collector}} ()
+\begin{DoxyCompactList}\small\item\em Muestra por consola los valores almacenados en el colector. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classCollector_ac0d82d1ebb02d8619afcc20b866907bc}\label{classCollector_ac0d82d1ebb02d8619afcc20b866907bc}} 
+\mbox{\hyperlink{classNodeC}{NodeC}} $\ast$ {\bfseries inicio} = nullptr
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+La clase \mbox{\hyperlink{classCollector}{Collector}} se utiliza para la recolección de balas que no impactan enimigos en una lista enlazada simple, con el fin de utilizarlas nuvamente. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classCollector_afeb4595993b6b521c6b4459e9bb2d47b}\label{classCollector_afeb4595993b6b521c6b4459e9bb2d47b}} 
+\index{Collector@{Collector}!collector\_size@{collector\_size}}
+\index{collector\_size@{collector\_size}!Collector@{Collector}}
+\doxysubsubsection{\texorpdfstring{collector\_size()}{collector\_size()}}
+{\footnotesize\ttfamily int Collector\+::collector\+\_\+size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Método utilizado para obtener el tamaño de la lista del collector. 
+
+\begin{DoxyReturn}{Returns}
+Tamaño de la lista del collector. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCollector_afa8bf121d5cba26db036303e549533a7}\label{classCollector_afa8bf121d5cba26db036303e549533a7}} 
+\index{Collector@{Collector}!eliminar\_nodo\_collector@{eliminar\_nodo\_collector}}
+\index{eliminar\_nodo\_collector@{eliminar\_nodo\_collector}!Collector@{Collector}}
+\doxysubsubsection{\texorpdfstring{eliminar\_nodo\_collector()}{eliminar\_nodo\_collector()}}
+{\footnotesize\ttfamily void Collector\+::eliminar\+\_\+nodo\+\_\+collector (\begin{DoxyParamCaption}\item[{void $\ast$}]{valor }\end{DoxyParamCaption})}
+
+
+
+Método utilizado para insertar un nodo en la lista del collector. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em valor} & Puntero al valor del nodo a insertar.\\
+\hline
+\end{DoxyParams}
+Método utilizado para eliminar un nodo de la lista del collector. 
+\begin{DoxyParams}{Parameters}
+{\em valor} & Puntero al valor del nodo a eliminar. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classCollector_a268a3a11541d26ad2c372d61ba5de778}\label{classCollector_a268a3a11541d26ad2c372d61ba5de778}} 
+\index{Collector@{Collector}!elimPos@{elimPos}}
+\index{elimPos@{elimPos}!Collector@{Collector}}
+\doxysubsubsection{\texorpdfstring{elimPos()}{elimPos()}}
+{\footnotesize\ttfamily void Collector\+::elim\+Pos (\begin{DoxyParamCaption}\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Método utilizado para eliminar el nodo en una posición determinada de la lista del collector. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em posicion} & Posición del nodo a eliminar. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classCollector_a74e36ec6a1e87f52f0a23ba6a7ff86b1}\label{classCollector_a74e36ec6a1e87f52f0a23ba6a7ff86b1}} 
+\index{Collector@{Collector}!en\_collector@{en\_collector}}
+\index{en\_collector@{en\_collector}!Collector@{Collector}}
+\doxysubsubsection{\texorpdfstring{en\_collector()}{en\_collector()}}
+{\footnotesize\ttfamily bool Collector\+::en\+\_\+collector (\begin{DoxyParamCaption}\item[{void $\ast$}]{valor }\end{DoxyParamCaption})}
+
+
+
+Método utilizado para comprobar si un valor se encuentra en la lista del collector. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em valor} & Puntero al valor a comprobar. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Verdadero si el valor se encuentra en la lista del collector, falso en caso contrario. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCollector_a1b4bc0e7281bb622756362706e8e2ea4}\label{classCollector_a1b4bc0e7281bb622756362706e8e2ea4}} 
+\index{Collector@{Collector}!get\_first\_collector@{get\_first\_collector}}
+\index{get\_first\_collector@{get\_first\_collector}!Collector@{Collector}}
+\doxysubsubsection{\texorpdfstring{get\_first\_collector()}{get\_first\_collector()}}
+{\footnotesize\ttfamily void $\ast$ Collector\+::get\+\_\+first\+\_\+collector (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Método utilizado para obtener el primer valor de la lista del collector. 
+
+\begin{DoxyReturn}{Returns}
+Puntero al primer valor de la lista del collector. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCollector_aec7e8204212caeebbc82a65124a93093}\label{classCollector_aec7e8204212caeebbc82a65124a93093}} 
+\index{Collector@{Collector}!getHead@{getHead}}
+\index{getHead@{getHead}!Collector@{Collector}}
+\doxysubsubsection{\texorpdfstring{getHead()}{getHead()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classNodeC}{NodeC}} $\ast$ Collector\+::get\+Head (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Método utilizado para obtener el puntero al primer nodo de la lista enlazada simple. 
+
+\begin{DoxyReturn}{Returns}
+Puntero al primer nodo de la lista enlazada simple. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCollector_a1587be48da5e3cd0ce2211785d94ebb8}\label{classCollector_a1587be48da5e3cd0ce2211785d94ebb8}} 
+\index{Collector@{Collector}!getPos@{getPos}}
+\index{getPos@{getPos}!Collector@{Collector}}
+\doxysubsubsection{\texorpdfstring{getPos()}{getPos()}}
+{\footnotesize\ttfamily void $\ast$ Collector\+::get\+Pos (\begin{DoxyParamCaption}\item[{int}]{posicion }\end{DoxyParamCaption})}
+
+
+
+Método utilizado para obtener el valor de un nodo en una posición determinada de la lista del collector. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em posicion} & Posición del nodo cuyo valor se desea obtener. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Puntero al valor del nodo en la posición especificada. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCollector_a15a3d21f8319173d36ead794953407e8}\label{classCollector_a15a3d21f8319173d36ead794953407e8}} 
+\index{Collector@{Collector}!insertar\_collector@{insertar\_collector}}
+\index{insertar\_collector@{insertar\_collector}!Collector@{Collector}}
+\doxysubsubsection{\texorpdfstring{insertar\_collector()}{insertar\_collector()}}
+{\footnotesize\ttfamily void Collector\+::insertar\+\_\+collector (\begin{DoxyParamCaption}\item[{void $\ast$}]{valor }\end{DoxyParamCaption})}
+
+
+
+Inserta un elemento en el colector. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em valor} & Valor del elemento a insertar. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classCollector_a259a166e307f98e08ebd8dc279a28ce4}\label{classCollector_a259a166e307f98e08ebd8dc279a28ce4}} 
+\index{Collector@{Collector}!obtener\_valor@{obtener\_valor}}
+\index{obtener\_valor@{obtener\_valor}!Collector@{Collector}}
+\doxysubsubsection{\texorpdfstring{obtener\_valor()}{obtener\_valor()}}
+{\footnotesize\ttfamily void$\ast$ Collector\+::obtener\+\_\+valor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Obtiene el valor del primer elemento del colector. 
+
+\begin{DoxyReturn}{Returns}
+Puntero al valor del primer elemento del colector. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCollector_a16b5789d6e7a188fbf3c44cd61781825}\label{classCollector_a16b5789d6e7a188fbf3c44cd61781825}} 
+\index{Collector@{Collector}!validar\_existencia@{validar\_existencia}}
+\index{validar\_existencia@{validar\_existencia}!Collector@{Collector}}
+\doxysubsubsection{\texorpdfstring{validar\_existencia()}{validar\_existencia()}}
+{\footnotesize\ttfamily bool Collector\+::validar\+\_\+existencia (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Método utilizado para comprobar si la lista del collector contiene nodos. 
+
+\begin{DoxyReturn}{Returns}
+Verdadero si la lista del collector contiene nodos, falso en caso contrario. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Collector.\+h\item 
+Collector.\+cpp\end{DoxyCompactItemize}

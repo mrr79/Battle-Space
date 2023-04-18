@@ -1,0 +1,18 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node15 [label="QGraphicsView",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node15 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="Dificulties",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDificulties.html",tooltip="La clase Dificulties_Window representa la ventana que permite al jugador elegir la dificultad del jue..."];
+  Node15 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="Game_Over",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classGame__Over.html",tooltip="La clase Game_Over representa la ventana que se muestra cuando el juego termina."];
+  Node15 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="Hard_Game",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classHard__Game.html",tooltip="Clase que define la ventana del juego en modo difícil."];
+  Node15 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="Normal_Game",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classNormal__Game.html",tooltip="Declaracion de la clase Normal_Game la cual establece las condiciones de juego para la dificultad fac..."];
+  Node15 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="Win_Window",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classWin__Window.html",tooltip="Declaracion de la clase Win_Window."];
+}

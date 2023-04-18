@@ -1,0 +1,133 @@
+\hypertarget{classEnemyList}{}\doxysection{Enemy\+List Class Reference}
+\label{classEnemyList}\index{EnemyList@{EnemyList}}
+
+
+Clase \mbox{\hyperlink{classEnemyNode}{Enemy\+Node}} para la lista enlazada de enemigos.  
+
+
+
+
+{\ttfamily \#include $<$Enemy\+List.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classEnemyList_acf7de3fc14406f0694077761ea4a5213}{append}} (\mbox{\hyperlink{classEnemyNode}{Enemy\+Node}} item)
+\begin{DoxyCompactList}\small\item\em Agrega un nuevo enemigo a la lista. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classEnemyList_a9ac8e18604cd8375db7fb1dea36932fd}{remove}} (\mbox{\hyperlink{classEnemyNode}{Enemy\+Node}} item)
+\begin{DoxyCompactList}\small\item\em Elimina un enemigo de la lista. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classEnemyList_a872fbd1e8039330771e2e87455e167ff}{buscar}} (\mbox{\hyperlink{classEnemyNode}{Enemy\+Node}} item)
+\begin{DoxyCompactList}\small\item\em Busca un enemigo en la lista. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classEnemyList_a0bf028e511e2a5408619eaa4e77c9cc8}{size}} () const
+\begin{DoxyCompactList}\small\item\em Obtiene el número de elementos en la lista. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classEnemyNode}{Enemy\+Node}} $\ast$ \mbox{\hyperlink{classEnemyList_a3a6e9f42e6976a30d1d854b7cb3bd88a}{get\+Head}} () const
+\begin{DoxyCompactList}\small\item\em Este método devuelve el nodo inicial de la lista. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classEnemyList_a1f79d2493f6aa48745b36d350e822d74}\label{classEnemyList_a1f79d2493f6aa48745b36d350e822d74}} 
+void \mbox{\hyperlink{classEnemyList_a1f79d2493f6aa48745b36d350e822d74}{clear}} ()
+\begin{DoxyCompactList}\small\item\em Este método borra todos los nodos de la lista y establece el tamaño de la lista a cero. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classEnemyList_a91200f1c7b4c7974179a771c016f8be7}\label{classEnemyList_a91200f1c7b4c7974179a771c016f8be7}} 
+void \mbox{\hyperlink{classEnemyList_a91200f1c7b4c7974179a771c016f8be7}{print\+List}} () const
+\begin{DoxyCompactList}\small\item\em Este método imprime los elementos de la lista en la consola. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classEnemyList}{Enemy\+List}} $\ast$ \mbox{\hyperlink{classEnemyList_a33b928e1240a08344e3c2c9ee2f4c538}{duplicate}} () const
+\begin{DoxyCompactList}\small\item\em Este método devuelve una nueva lista que es una copia de la lista actual. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clase \mbox{\hyperlink{classEnemyNode}{Enemy\+Node}} para la lista enlazada de enemigos. 
+
+Esta clase hace una lista enlazada de enemigos, que contiene un puntero a un objeto \mbox{\hyperlink{classEnemy}{Enemy}} y un puntero al siguiente nodo de la lista. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classEnemyList_acf7de3fc14406f0694077761ea4a5213}\label{classEnemyList_acf7de3fc14406f0694077761ea4a5213}} 
+\index{EnemyList@{EnemyList}!append@{append}}
+\index{append@{append}!EnemyList@{EnemyList}}
+\doxysubsubsection{\texorpdfstring{append()}{append()}}
+{\footnotesize\ttfamily void Enemy\+List\+::append (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classEnemyNode}{Enemy\+Node}}}]{item }\end{DoxyParamCaption})}
+
+
+
+Agrega un nuevo enemigo a la lista. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{classEnemyNode}{Enemy\+Node}}} & Objeto \mbox{\hyperlink{classEnemy}{Enemy}} que se va a agregar a la lista. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classEnemyList_a872fbd1e8039330771e2e87455e167ff}\label{classEnemyList_a872fbd1e8039330771e2e87455e167ff}} 
+\index{EnemyList@{EnemyList}!buscar@{buscar}}
+\index{buscar@{buscar}!EnemyList@{EnemyList}}
+\doxysubsubsection{\texorpdfstring{buscar()}{buscar()}}
+{\footnotesize\ttfamily bool Enemy\+List\+::buscar (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classEnemyNode}{Enemy\+Node}}}]{item }\end{DoxyParamCaption})}
+
+
+
+Busca un enemigo en la lista. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{classEnemyNode}{Enemy\+Node}}} & Objeto \mbox{\hyperlink{classEnemy}{Enemy}} que se va a buscar en la lista. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Verdadero si el objeto \mbox{\hyperlink{classEnemy}{Enemy}} se encuentra en la lista, falso en caso contrario. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classEnemyList_a33b928e1240a08344e3c2c9ee2f4c538}\label{classEnemyList_a33b928e1240a08344e3c2c9ee2f4c538}} 
+\index{EnemyList@{EnemyList}!duplicate@{duplicate}}
+\index{duplicate@{duplicate}!EnemyList@{EnemyList}}
+\doxysubsubsection{\texorpdfstring{duplicate()}{duplicate()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classEnemyList}{Enemy\+List}} $\ast$ Enemy\+List\+::duplicate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Este método devuelve una nueva lista que es una copia de la lista actual. 
+
+\begin{DoxyReturn}{Returns}
+Devuelve un puntero a \mbox{\hyperlink{classEnemyList}{Enemy\+List}} que representa la nueva lista. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classEnemyList_a3a6e9f42e6976a30d1d854b7cb3bd88a}\label{classEnemyList_a3a6e9f42e6976a30d1d854b7cb3bd88a}} 
+\index{EnemyList@{EnemyList}!getHead@{getHead}}
+\index{getHead@{getHead}!EnemyList@{EnemyList}}
+\doxysubsubsection{\texorpdfstring{getHead()}{getHead()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classEnemyNode}{Enemy\+Node}} $\ast$ Enemy\+List\+::get\+Head (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Este método devuelve el nodo inicial de la lista. 
+
+\begin{DoxyReturn}{Returns}
+Devuelve un puntero a \mbox{\hyperlink{classEnemyNode}{Enemy\+Node}} que representa el primer nodo de la lista. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classEnemyList_a9ac8e18604cd8375db7fb1dea36932fd}\label{classEnemyList_a9ac8e18604cd8375db7fb1dea36932fd}} 
+\index{EnemyList@{EnemyList}!remove@{remove}}
+\index{remove@{remove}!EnemyList@{EnemyList}}
+\doxysubsubsection{\texorpdfstring{remove()}{remove()}}
+{\footnotesize\ttfamily void Enemy\+List\+::remove (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classEnemyNode}{Enemy\+Node}}}]{item }\end{DoxyParamCaption})}
+
+
+
+Elimina un enemigo de la lista. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{classEnemyNode}{Enemy\+Node}}} & Objeto \mbox{\hyperlink{classEnemy}{Enemy}} que se va a eliminar de la lista. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classEnemyList_a0bf028e511e2a5408619eaa4e77c9cc8}\label{classEnemyList_a0bf028e511e2a5408619eaa4e77c9cc8}} 
+\index{EnemyList@{EnemyList}!size@{size}}
+\index{size@{size}!EnemyList@{EnemyList}}
+\doxysubsubsection{\texorpdfstring{size()}{size()}}
+{\footnotesize\ttfamily int Enemy\+List\+::size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Obtiene el número de elementos en la lista. 
+
+\begin{DoxyReturn}{Returns}
+Número de elementos en la lista. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Enemy\+List.\+h\item 
+Enemy\+List.\+cpp\end{DoxyCompactItemize}

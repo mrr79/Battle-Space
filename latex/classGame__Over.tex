@@ -1,0 +1,76 @@
+\hypertarget{classGame__Over}{}\doxysection{Game\+\_\+\+Over Class Reference}
+\label{classGame__Over}\index{Game\_Over@{Game\_Over}}
+
+
+La clase \mbox{\hyperlink{classGame__Over}{Game\+\_\+\+Over}} representa la ventana que se muestra cuando el juego termina.  
+
+
+
+
+{\ttfamily \#include $<$Game\+\_\+\+Over.\+h$>$}
+
+
+
+Inheritance diagram for Game\+\_\+\+Over\+:
+% FIG 0
+
+
+Collaboration diagram for Game\+\_\+\+Over\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classGame__Over_a6ba8362394e651f0900489eb75ff4bf7}{Game\+\_\+\+Over}} (QWidget $\ast$parent=0)
+\begin{DoxyCompactList}\small\item\em Constructor de \mbox{\hyperlink{classGame__Over}{Game\+\_\+\+Over}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGame__Over_a5a339e327836cfb7576ebcf02020d503}{main\+\_\+menu}} ()
+\begin{DoxyCompactList}\small\item\em Slot para volver al menú principal. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classGame__Over_a20ec2106d2f1fc19efc430d43632ae43}\label{classGame__Over_a20ec2106d2f1fc19efc430d43632ae43}} 
+QGraphics\+Scene $\ast$ {\bfseries scene}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+La clase \mbox{\hyperlink{classGame__Over}{Game\+\_\+\+Over}} representa la ventana que se muestra cuando el juego termina. 
+
+Esta clase hereda de QGraphics\+View y es responsable de mostrar la escena de Game Over. En esta ventana, el usuario puede elegir volver a la pantalla principal del juego. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classGame__Over_a6ba8362394e651f0900489eb75ff4bf7}\label{classGame__Over_a6ba8362394e651f0900489eb75ff4bf7}} 
+\index{Game\_Over@{Game\_Over}!Game\_Over@{Game\_Over}}
+\index{Game\_Over@{Game\_Over}!Game\_Over@{Game\_Over}}
+\doxysubsubsection{\texorpdfstring{Game\_Over()}{Game\_Over()}}
+{\footnotesize\ttfamily Game\+\_\+\+Over\+::\+Game\+\_\+\+Over (\begin{DoxyParamCaption}\item[{QWidget $\ast$}]{parent = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+
+
+Constructor de \mbox{\hyperlink{classGame__Over}{Game\+\_\+\+Over}}. 
+
+Este constructor crea la escena de Game Over y configura los elementos que se muestran en ella, incluyendo el título, el botón para volver al menú principal y la conexión con la señal correspondiente para procesar la selección del usuario.
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & El padre de la vista. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classGame__Over_a5a339e327836cfb7576ebcf02020d503}\label{classGame__Over_a5a339e327836cfb7576ebcf02020d503}} 
+\index{Game\_Over@{Game\_Over}!main\_menu@{main\_menu}}
+\index{main\_menu@{main\_menu}!Game\_Over@{Game\_Over}}
+\doxysubsubsection{\texorpdfstring{main\_menu()}{main\_menu()}}
+{\footnotesize\ttfamily void Game\+\_\+\+Over\+::main\+\_\+menu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Slot para volver al menú principal. 
+
+Este slot es llamado cuando el usuario hace clic en el botón para volver al menú principal. Cierra la ventana actual y muestra la ventana de selección de dificultad del juego. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Game\+\_\+\+Over.\+h\item 
+Game\+\_\+\+Over.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,148 @@
+\hypertarget{classNormal__Game}{}\doxysection{Normal\+\_\+\+Game Class Reference}
+\label{classNormal__Game}\index{Normal\_Game@{Normal\_Game}}
+
+
+Declaracion de la clase \mbox{\hyperlink{classNormal__Game}{Normal\+\_\+\+Game}} la cual establece las condiciones de juego para la dificultad facil y normal.  
+
+
+
+
+{\ttfamily \#include $<$Normal\+\_\+\+Game.\+h$>$}
+
+
+
+Inheritance diagram for Normal\+\_\+\+Game\+:
+% FIG 0
+
+
+Collaboration diagram for Normal\+\_\+\+Game\+:
+% FIG 1
+\doxysubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classNormal__Game_a26c60222350577eb7ccf7ca095a6676a}\label{classNormal__Game_a26c60222350577eb7ccf7ca095a6676a}} 
+void \mbox{\hyperlink{classNormal__Game_a26c60222350577eb7ccf7ca095a6676a}{decrease\+\_\+bullets}} ()
+\begin{DoxyCompactList}\small\item\em Va restando la cantidad de bullest mostrada segun se gastan. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classNormal__Game_a46e946af7fddd835c2c96af0e3832afe}\label{classNormal__Game_a46e946af7fddd835c2c96af0e3832afe}} 
+void \mbox{\hyperlink{classNormal__Game_a46e946af7fddd835c2c96af0e3832afe}{decrease\+\_\+health}} ()
+\begin{DoxyCompactList}\small\item\em Va restando vida segun pasan los enemigos al jugador y activa el buzzer. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classNormal__Game_a00e9f78884102eb262ddac5f7c1b3715}\label{classNormal__Game_a00e9f78884102eb262ddac5f7c1b3715}} 
+void \mbox{\hyperlink{classNormal__Game_a00e9f78884102eb262ddac5f7c1b3715}{check\+\_\+health}} ()
+\begin{DoxyCompactList}\small\item\em Permite checkear la vida para saber si se pierde. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classNormal__Game_a49af96ecfd2e4a7737b52da1c755f1c9}\label{classNormal__Game_a49af96ecfd2e4a7737b52da1c755f1c9}} 
+void \mbox{\hyperlink{classNormal__Game_a49af96ecfd2e4a7737b52da1c755f1c9}{handle\+Round\+Changed}} ()
+\begin{DoxyCompactList}\small\item\em Metodo que cambia de ronda. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classNormal__Game_ad949ad1770c2cffccb21cc36efb9e0d7}\label{classNormal__Game_ad949ad1770c2cffccb21cc36efb9e0d7}} 
+void \mbox{\hyperlink{classNormal__Game_ad949ad1770c2cffccb21cc36efb9e0d7}{emit\+Spawn\+Enemies\+Signal}} ()
+\begin{DoxyCompactList}\small\item\em Emite una senal cuando hay enemigos en pantalla. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classNormal__Game_a8862a078bfd0b281eb1c5ab51449a649}\label{classNormal__Game_a8862a078bfd0b281eb1c5ab51449a649}} 
+void \mbox{\hyperlink{classNormal__Game_a8862a078bfd0b281eb1c5ab51449a649}{ganar}} ()
+\begin{DoxyCompactList}\small\item\em Metodo que permite poner la ventana de ganar cuando se acaban las rondas. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classNormal__Game_a74ae2e20f41d2cb34df0f9c3c6f8a2c8}\label{classNormal__Game_a74ae2e20f41d2cb34df0f9c3c6f8a2c8}} 
+void \mbox{\hyperlink{classNormal__Game_a74ae2e20f41d2cb34df0f9c3c6f8a2c8}{spawn\+Enemies}} ()
+\begin{DoxyCompactList}\small\item\em Senal enviada cuando aparecen enemigos. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classNormal__Game_a731d20b0308634e297ecfc7adda5e339}{Normal\+\_\+\+Game}} (int bullet\+\_\+speed, int bullets, int ships\+\_\+number, int health, QWidget $\ast$parent=0)
+\begin{DoxyCompactList}\small\item\em Constructor de la clase de juego normal y establece en pantalla las labels con informacon necesaria. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classNormal__Game_a1c350769422690589b36eb6f23e2f301}{add\+\_\+enemies\+\_\+to\+\_\+wave}} (\mbox{\hyperlink{classEnemyList}{Enemy\+List}} $\ast$list\+\_\+enemies)
+\begin{DoxyCompactList}\small\item\em Anade enemigos a la oleada. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classNormal__Game_a9e48eac5c5de1a69c6ae2409c910df92}\label{classNormal__Game_a9e48eac5c5de1a69c6ae2409c910df92}} 
+QTimer $\ast$ {\bfseries timer\+\_\+bullets} = new QTimer
+\item 
+\mbox{\Hypertarget{classNormal__Game_ad29543a7ab8c8ed9c2edb34b05284610}\label{classNormal__Game_ad29543a7ab8c8ed9c2edb34b05284610}} 
+QTimer $\ast$ {\bfseries check}
+\item 
+\mbox{\Hypertarget{classNormal__Game_a7e4ebcb20769c22e7d94f70060ac1d16}\label{classNormal__Game_a7e4ebcb20769c22e7d94f70060ac1d16}} 
+QGraphics\+Text\+Item $\ast$ {\bfseries bullets\+\_\+label}
+\item 
+\mbox{\Hypertarget{classNormal__Game_a975e220944cb3b242f10edacbef38e81}\label{classNormal__Game_a975e220944cb3b242f10edacbef38e81}} 
+QGraphics\+Text\+Item $\ast$ {\bfseries health\+\_\+label}
+\item 
+\mbox{\Hypertarget{classNormal__Game_a6d87a0db267f8d695da585523e024dca}\label{classNormal__Game_a6d87a0db267f8d695da585523e024dca}} 
+QGraphics\+Text\+Item $\ast$ {\bfseries round\+\_\+label}
+\item 
+\mbox{\Hypertarget{classNormal__Game_a4ce095c769297e343e3e07a7d753f273}\label{classNormal__Game_a4ce095c769297e343e3e07a7d753f273}} 
+QGraphics\+Text\+Item $\ast$ {\bfseries fase\+\_\+label}
+\item 
+\mbox{\Hypertarget{classNormal__Game_ad53bd388ca9734139b6ebe21504ca3c0}\label{classNormal__Game_ad53bd388ca9734139b6ebe21504ca3c0}} 
+QGraphics\+Line\+Item $\ast$ {\bfseries line}
+\item 
+\mbox{\Hypertarget{classNormal__Game_afb811db4c91c6cfc7160babfb79a163f}\label{classNormal__Game_afb811db4c91c6cfc7160babfb79a163f}} 
+QGraphics\+Scene $\ast$ {\bfseries scene}
+\item 
+\mbox{\Hypertarget{classNormal__Game_a4a68ed55305ab757a8379f27e7c5ede1}\label{classNormal__Game_a4a68ed55305ab757a8379f27e7c5ede1}} 
+\mbox{\hyperlink{classCollector}{Collector}} {\bfseries collector}
+\item 
+\mbox{\Hypertarget{classNormal__Game_ae5f465a0367b3577b4fb2a0fc42ac1b1}\label{classNormal__Game_ae5f465a0367b3577b4fb2a0fc42ac1b1}} 
+\mbox{\hyperlink{classFase}{Fase}} {\bfseries fase1}
+\item 
+\mbox{\Hypertarget{classNormal__Game_ad0ce69b243a2ecec868bd363f2bf0702}\label{classNormal__Game_ad0ce69b243a2ecec868bd363f2bf0702}} 
+\mbox{\hyperlink{classFase}{Fase}} {\bfseries fase2}
+\item 
+\mbox{\Hypertarget{classNormal__Game_a2cb11232c294be08e47c1dda5bf36adb}\label{classNormal__Game_a2cb11232c294be08e47c1dda5bf36adb}} 
+int {\bfseries enemy\+\_\+count}
+\item 
+\mbox{\Hypertarget{classNormal__Game_a9558c25f0a6937271a898fa7f1b013f3}\label{classNormal__Game_a9558c25f0a6937271a898fa7f1b013f3}} 
+int {\bfseries current\+\_\+round}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Declaracion de la clase \mbox{\hyperlink{classNormal__Game}{Normal\+\_\+\+Game}} la cual establece las condiciones de juego para la dificultad facil y normal. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classNormal__Game_a731d20b0308634e297ecfc7adda5e339}\label{classNormal__Game_a731d20b0308634e297ecfc7adda5e339}} 
+\index{Normal\_Game@{Normal\_Game}!Normal\_Game@{Normal\_Game}}
+\index{Normal\_Game@{Normal\_Game}!Normal\_Game@{Normal\_Game}}
+\doxysubsubsection{\texorpdfstring{Normal\_Game()}{Normal\_Game()}}
+{\footnotesize\ttfamily Normal\+\_\+\+Game\+::\+Normal\+\_\+\+Game (\begin{DoxyParamCaption}\item[{int}]{bullet\+\_\+speed,  }\item[{int}]{bullets,  }\item[{int}]{ships\+\_\+number,  }\item[{int}]{health,  }\item[{QWidget $\ast$}]{parent = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+
+
+Constructor de la clase de juego normal y establece en pantalla las labels con informacon necesaria. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em bullet\+\_\+speed} & \\
+\hline
+{\em bullets} & \\
+\hline
+{\em ships\+\_\+number} & \\
+\hline
+{\em health} & \\
+\hline
+{\em parent} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classNormal__Game_a1c350769422690589b36eb6f23e2f301}\label{classNormal__Game_a1c350769422690589b36eb6f23e2f301}} 
+\index{Normal\_Game@{Normal\_Game}!add\_enemies\_to\_wave@{add\_enemies\_to\_wave}}
+\index{add\_enemies\_to\_wave@{add\_enemies\_to\_wave}!Normal\_Game@{Normal\_Game}}
+\doxysubsubsection{\texorpdfstring{add\_enemies\_to\_wave()}{add\_enemies\_to\_wave()}}
+{\footnotesize\ttfamily void Normal\+\_\+\+Game\+::add\+\_\+enemies\+\_\+to\+\_\+wave (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classEnemyList}{Enemy\+List}} $\ast$}]{list\+\_\+enemies }\end{DoxyParamCaption})}
+
+
+
+Anade enemigos a la oleada. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em list\+\_\+enemies} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Normal\+\_\+\+Game.\+h\item 
+Normal\+\_\+\+Game.\+cpp\end{DoxyCompactItemize}

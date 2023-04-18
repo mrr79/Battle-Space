@@ -26,7 +26,6 @@
 
 using namespace std;
 
-
 Strategy Player::cargar_xml(QString n){
     QFile file(n);
     QString fname = file.fileName();
@@ -788,13 +787,11 @@ void Player::on_pushButton_3_clicked()
                 int downButton = std::stoi(tokens[2].toStdString());
                 qDebug() << "Potenciometro:" << analogValue << "Up:" << upButton << "Down:" << downButton;
                 if (upButton == 1){
-                    std::cout<<"yendo pa rriba" << std::endl;
                     Subir = 1;
                     QKeyEvent* keyEvent = new QKeyEvent(QEvent::KeyPress, Qt::Key_Up, Qt::NoModifier);
                     keyPressEvent(keyEvent);
                 }
                 if (downButton == 1){
-                    std::cout<<"yendo pa bajo" << std::endl;
                     Bajar = 1;
                     QKeyEvent* keyEvent = new QKeyEvent(QEvent::KeyPress, Qt::Key_Down, Qt::NoModifier);
                     keyPressEvent(keyEvent);

@@ -1,0 +1,88 @@
+\hypertarget{classEnemy__2}{}\doxysection{Enemy\+\_\+2 Class Reference}
+\label{classEnemy__2}\index{Enemy\_2@{Enemy\_2}}
+
+
+La clase \mbox{\hyperlink{classEnemy__1}{Enemy\+\_\+1}} representa a un enemigo de tipo 1 en el juego, ademas se encarga de controlar su movimiento y colisiones con otros objetos.  
+
+
+
+
+{\ttfamily \#include $<$Enemy\+\_\+2.\+h$>$}
+
+
+
+Inheritance diagram for Enemy\+\_\+2\+:
+% FIG 0
+
+
+Collaboration diagram for Enemy\+\_\+2\+:
+% FIG 1
+\doxysubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classEnemy__2_a12196a97235865f5b475220418f3a2ce}{move}} ()
+\begin{DoxyCompactList}\small\item\em Función que mueve al enemigo y maneja las colisiones con otros objetos. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classEnemy__2_a2e18804708b4bdb9bed683b0700cea24}{Enemy\+\_\+2}} (\mbox{\hyperlink{classCollector}{Collector}} \&collector, \mbox{\hyperlink{classEnemyList}{Enemy\+List}} \mbox{\hyperlink{classEnemy__2_a2c8326784ef4164007242108a449a407}{enemy\+\_\+list}}\mbox{[}$\,$\mbox{]}, \mbox{\hyperlink{classEnemyList}{Enemy\+List}} \mbox{\hyperlink{classEnemy__2_a0cd7ee9abbb1d37fe88c0b4b508eb384}{enemy\+\_\+list2}}\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Constructor de la clase \mbox{\hyperlink{classEnemy__2}{Enemy\+\_\+2}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classEnemy__2_a2c8326784ef4164007242108a449a407}\label{classEnemy__2_a2c8326784ef4164007242108a449a407}} 
+\mbox{\hyperlink{classEnemyList}{Enemy\+List}} $\ast$ \mbox{\hyperlink{classEnemy__2_a2c8326784ef4164007242108a449a407}{enemy\+\_\+list}}
+\begin{DoxyCompactList}\small\item\em Un puntero a un arreglo de listas de enemigos que controla el movimiento de los enemigos en el juego. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classEnemy__2_a0cd7ee9abbb1d37fe88c0b4b508eb384}\label{classEnemy__2_a0cd7ee9abbb1d37fe88c0b4b508eb384}} 
+\mbox{\hyperlink{classEnemyList}{Enemy\+List}} $\ast$ \mbox{\hyperlink{classEnemy__2_a0cd7ee9abbb1d37fe88c0b4b508eb384}{enemy\+\_\+list2}}
+\begin{DoxyCompactList}\small\item\em Un puntero a un segundo arreglo de listas de enemigos que controla el movimiento de los enemigos en el juego. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classEnemy__2_abfb60e9b094f196a89c644fc1b0fe803}\label{classEnemy__2_abfb60e9b094f196a89c644fc1b0fe803}} 
+int \mbox{\hyperlink{classEnemy__2_abfb60e9b094f196a89c644fc1b0fe803}{enemy2\+\_\+life}} = 2
+\begin{DoxyCompactList}\small\item\em La vida del enemigo 2. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classEnemy__2_a635329adde35c778e1e78881c6fd52c3}\label{classEnemy__2_a635329adde35c778e1e78881c6fd52c3}} 
+int \mbox{\hyperlink{classEnemy__2_a635329adde35c778e1e78881c6fd52c3}{enemy2\+\_\+speed}} = 5
+\begin{DoxyCompactList}\small\item\em La velocidad del enemigo 2. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+La clase \mbox{\hyperlink{classEnemy__1}{Enemy\+\_\+1}} representa a un enemigo de tipo 1 en el juego, ademas se encarga de controlar su movimiento y colisiones con otros objetos. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classEnemy__2_a2e18804708b4bdb9bed683b0700cea24}\label{classEnemy__2_a2e18804708b4bdb9bed683b0700cea24}} 
+\index{Enemy\_2@{Enemy\_2}!Enemy\_2@{Enemy\_2}}
+\index{Enemy\_2@{Enemy\_2}!Enemy\_2@{Enemy\_2}}
+\doxysubsubsection{\texorpdfstring{Enemy\_2()}{Enemy\_2()}}
+{\footnotesize\ttfamily Enemy\+\_\+2\+::\+Enemy\+\_\+2 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classCollector}{Collector}} \&}]{collector,  }\item[{\mbox{\hyperlink{classEnemyList}{Enemy\+List}}}]{enemy\+\_\+list\mbox{[}$\,$\mbox{]},  }\item[{\mbox{\hyperlink{classEnemyList}{Enemy\+List}}}]{enemy\+\_\+list2\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Constructor de la clase \mbox{\hyperlink{classEnemy__2}{Enemy\+\_\+2}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em collector} & El recolector de objetos para eliminar los objetos \mbox{\hyperlink{classBullet}{Bullet}} \\
+\hline
+{\em enemy\+\_\+list} & Un arreglo de listas enlazadas de enemigos para eliminar este enemigo de la lista \\
+\hline
+{\em enemy\+\_\+list2} & Un arreglo de listas enlazadas de enemigos para eliminar este enemigo de la lista \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classEnemy__2_a12196a97235865f5b475220418f3a2ce}\label{classEnemy__2_a12196a97235865f5b475220418f3a2ce}} 
+\index{Enemy\_2@{Enemy\_2}!move@{move}}
+\index{move@{move}!Enemy\_2@{Enemy\_2}}
+\doxysubsubsection{\texorpdfstring{move}{move}}
+{\footnotesize\ttfamily void Enemy\+\_\+2\+::move (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Función que mueve al enemigo y maneja las colisiones con otros objetos. 
+
+Si colisiona con un objeto de la clase \mbox{\hyperlink{classBullet}{Bullet}}, reduce la vida del enemigo. Si su vida es cero, elimina el objeto y lo elimina de la lista de enemigos. Si la bala no reduce su vida, solo elimina la bala. Si el enemigo llega al borde izquierdo de la pantalla, lo elimina. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Enemy\+\_\+2.\+h\item 
+Enemy\+\_\+2.\+cpp\end{DoxyCompactItemize}

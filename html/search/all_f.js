@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['self_5fptr_80',['self_ptr',['../classEnemy__1.html#a0f320cc50ec99aa82efb059faaa5a699',1,'Enemy_1']]],
+  ['setdescription_81',['setDescription',['../classPower.html#a72cfc7ef89002c889e5a55d69f9c0e09',1,'Power']]],
+  ['seteffect_82',['setEffect',['../classPower.html#a186856654819add8ced15f4ad6630935',1,'Power']]],
+  ['setname_83',['setName',['../classPower.html#a2b47e153b2f5f35d5a0049af4db5d776',1,'Power::setName()'],['../classStrategy.html#a7e2ebcdfc925bb5579e3874b8cd4fd04',1,'Strategy::setName()']]],
+  ['setnext_84',['setNext',['../classEnemyNode.html#aa73ed4fc26eea63260e328fc19b5305f',1,'EnemyNode']]],
+  ['setpower1_85',['setPower1',['../classStrategy.html#afc0eeb31ed84628f630cd99b06d6d39d',1,'Strategy']]],
+  ['setpower2_86',['setPower2',['../classStrategy.html#ac8303d4be17000c4d260ae4728f6f641',1,'Strategy']]],
+  ['size_87',['size',['../classEnemyList.html#a0bf028e511e2a5408619eaa4e77c9cc8',1,'EnemyList']]],
+  ['spawn_5fenemies_88',['spawn_enemies',['../classPlayer.html#a4980066650d4fcaaaef26269cc7051c2',1,'Player']]],
+  ['spawn_5fenemies_5f1_89',['spawn_enemies_1',['../classPlayer.html#a4b3440503824f9d0a8dee700478662c7',1,'Player']]],
+  ['spawn_5fenemies_5f2_90',['spawn_enemies_2',['../classPlayer.html#a27d37f85811b28faeee7916e32cf98ad',1,'Player']]],
+  ['spawn_5fenemies_5f3_91',['spawn_enemies_3',['../classPlayer.html#a63ce09a0866b273687efa8d19d53e1c5',1,'Player']]],
+  ['spawn_5frandom_5fenemies_92',['spawn_random_enemies',['../classPlayer.html#a5f1755530208b5cca2bc91341d4b0505',1,'Player']]],
+  ['spawn_5frandom_5fenemies2_93',['spawn_random_enemies2',['../classPlayer.html#a04bf8d18fd520c7641a1c089698a0980',1,'Player']]],
+  ['spawn_5frandom_5fenemies2hard_94',['spawn_random_enemies2HARD',['../classPlayer.html#a397a6a155d653a8b6baed7a9693c800a',1,'Player']]],
+  ['spawn_5frandom_5fenemies_5fhard_95',['spawn_random_enemies_Hard',['../classPlayer.html#afc0c5dfe97486969975892d4b5f548ef',1,'Player']]],
+  ['spawnenemies_96',['spawnEnemies',['../classHard__Game.html#ae49de786f598e02b948b37a28ef747b6',1,'Hard_Game::spawnEnemies()'],['../classNormal__Game.html#a74ae2e20f41d2cb34df0f9c3c6f8a2c8',1,'Normal_Game::spawnEnemies()']]],
+  ['strategy_97',['Strategy',['../classStrategy.html',1,'Strategy'],['../classStrategy.html#a046d0d7ec9ccff588f23ef3b051505bb',1,'Strategy::Strategy()']]]
+];

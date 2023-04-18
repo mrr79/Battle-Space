@@ -1,0 +1,120 @@
+\hypertarget{classBullet}{}\doxysection{Bullet Class Reference}
+\label{classBullet}\index{Bullet@{Bullet}}
+
+
+Clase que representa una bala disparada por el jugador.  
+
+
+
+
+{\ttfamily \#include $<$Bullet.\+h$>$}
+
+
+
+Inheritance diagram for Bullet\+:
+% FIG 0
+
+
+Collaboration diagram for Bullet\+:
+% FIG 1
+\doxysubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classBullet_a6140db968c42c05e829e142f74f20b16}{move}} ()
+\begin{DoxyCompactList}\small\item\em Maneja las colisiones de la bala con otros elementos de la escena. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBullet_ae8956ff9bc86ad6ef53ed9a9d20ac9e9}{reduce\+Damage}} ()
+\begin{DoxyCompactList}\small\item\em Reduce el daño infligido por la bala. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classBullet_a8a6e875de60595b6aebd2c1c9632908a}{collision\+Detected}} ()
+\begin{DoxyCompactList}\small\item\em Señal emitida cuando se detecta una colisión con un enemigo. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classBullet_acd7befc0bc18907cc1d871d37bbdddeb}{Bullet}} ()
+\begin{DoxyCompactList}\small\item\em Constructor por defecto de la clase \mbox{\hyperlink{classBullet}{Bullet}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classCollector}{Collector}} $\ast$ \mbox{\hyperlink{classBullet_a3edf15ea786f96ffe85075d35d3dc2e6}{collector}} = new \mbox{\hyperlink{classCollector}{Collector}}()
+\begin{DoxyCompactList}\small\item\em Mueve la bala hacia la derecha en la escena. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classBullet_afc0cd4254b5179f16294fd52bb6c27a6}\label{classBullet_afc0cd4254b5179f16294fd52bb6c27a6}} 
+double \mbox{\hyperlink{classBullet_afc0cd4254b5179f16294fd52bb6c27a6}{bullet\+\_\+damage}}
+\begin{DoxyCompactList}\small\item\em Daño infligido por la bala a los enemigos. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Slots}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classBullet_af7824d38932adcf57d7a2e442ed92169}\label{classBullet_af7824d38932adcf57d7a2e442ed92169}} 
+void {\bfseries handle\+Collision} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clase que representa una bala disparada por el jugador. 
+
+Esta clase define el comportamiento de las balas disparadas por el jugador. Las balas se mueven hacia la derecha a una velocidad constante y desaparecen cuando salen de la escena. También pueden infligir daño a los enemigos con los que colisionan. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classBullet_acd7befc0bc18907cc1d871d37bbdddeb}\label{classBullet_acd7befc0bc18907cc1d871d37bbdddeb}} 
+\index{Bullet@{Bullet}!Bullet@{Bullet}}
+\index{Bullet@{Bullet}!Bullet@{Bullet}}
+\doxysubsubsection{\texorpdfstring{Bullet()}{Bullet()}}
+{\footnotesize\ttfamily Bullet\+::\+Bullet (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructor por defecto de la clase \mbox{\hyperlink{classBullet}{Bullet}}. 
+
+Crea una nueva instancia de la clase \mbox{\hyperlink{classBullet}{Bullet}} y establece la imagen de la bala. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classBullet_a8a6e875de60595b6aebd2c1c9632908a}\label{classBullet_a8a6e875de60595b6aebd2c1c9632908a}} 
+\index{Bullet@{Bullet}!collisionDetected@{collisionDetected}}
+\index{collisionDetected@{collisionDetected}!Bullet@{Bullet}}
+\doxysubsubsection{\texorpdfstring{collisionDetected}{collisionDetected}}
+{\footnotesize\ttfamily void Bullet\+::collision\+Detected (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+
+
+Señal emitida cuando se detecta una colisión con un enemigo. 
+
+Esta señal se emite cuando la bala colisiona con un enemigo en la escena. \mbox{\Hypertarget{classBullet_a6140db968c42c05e829e142f74f20b16}\label{classBullet_a6140db968c42c05e829e142f74f20b16}} 
+\index{Bullet@{Bullet}!move@{move}}
+\index{move@{move}!Bullet@{Bullet}}
+\doxysubsubsection{\texorpdfstring{move}{move}}
+{\footnotesize\ttfamily void Bullet\+::move (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Maneja las colisiones de la bala con otros elementos de la escena. 
+
+Maneja las colisiones de la bala con otros elementos de la escena, como los enemigos. Si la bala choca con un enemigo, se emite una señal para indicar que se ha detectado una colisión. \mbox{\Hypertarget{classBullet_ae8956ff9bc86ad6ef53ed9a9d20ac9e9}\label{classBullet_ae8956ff9bc86ad6ef53ed9a9d20ac9e9}} 
+\index{Bullet@{Bullet}!reduceDamage@{reduceDamage}}
+\index{reduceDamage@{reduceDamage}!Bullet@{Bullet}}
+\doxysubsubsection{\texorpdfstring{reduceDamage}{reduceDamage}}
+{\footnotesize\ttfamily void Bullet\+::reduce\+Damage (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Reduce el daño infligido por la bala. 
+
+Reduce el daño infligido por la bala en un 20\%. Esto se utiliza para simular el efecto de la atenuación de la bala a medida que se reutiliza en el collector. 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classBullet_a3edf15ea786f96ffe85075d35d3dc2e6}\label{classBullet_a3edf15ea786f96ffe85075d35d3dc2e6}} 
+\index{Bullet@{Bullet}!collector@{collector}}
+\index{collector@{collector}!Bullet@{Bullet}}
+\doxysubsubsection{\texorpdfstring{collector}{collector}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classCollector}{Collector}}$\ast$ Bullet\+::collector = new \mbox{\hyperlink{classCollector}{Collector}}()}
+
+
+
+Mueve la bala hacia la derecha en la escena. 
+
+Mueve la bala hacia la derecha en la escena a una velocidad constante. Si la bala sale de la escena, se elimina automáticamente. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Bullet.\+h\item 
+Bullet.\+cpp\end{DoxyCompactItemize}

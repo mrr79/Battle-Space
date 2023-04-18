@@ -1,0 +1,141 @@
+\hypertarget{classHard__Game}{}\doxysection{Hard\+\_\+\+Game Class Reference}
+\label{classHard__Game}\index{Hard\_Game@{Hard\_Game}}
+
+
+Clase que define la ventana del juego en modo difícil.  
+
+
+
+
+{\ttfamily \#include $<$Hard\+\_\+\+Game.\+h$>$}
+
+
+
+Inheritance diagram for Hard\+\_\+\+Game\+:
+% FIG 0
+
+
+Collaboration diagram for Hard\+\_\+\+Game\+:
+% FIG 1
+\doxysubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classHard__Game_a7a6a4d692267b50a8ba127389fb06b27}{decrease\+\_\+bullets}} ()
+\begin{DoxyCompactList}\small\item\em Método que disminuye el número de balas del jugador. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHard__Game_ab089bce88c752d641a53e0090ce56a0c}{decrease\+\_\+health}} ()
+\begin{DoxyCompactList}\small\item\em Método que disminuye la salud del jugador. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHard__Game_abb7c90759774564090e0b7241c3a3c8b}{check\+\_\+health}} ()
+\begin{DoxyCompactList}\small\item\em Método que revisa la salud del jugador para determinar si pierde o gana. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classHard__Game_af943a5287b50f0c65b6ba16b8ed1f319}\label{classHard__Game_af943a5287b50f0c65b6ba16b8ed1f319}} 
+void \mbox{\hyperlink{classHard__Game_af943a5287b50f0c65b6ba16b8ed1f319}{handle\+Round\+Changed}} ()
+\begin{DoxyCompactList}\small\item\em Esta función maneja los cambios en el número de ronda (fase). Cuando el jugador llega al final de una ronda, el número de ronda se incrementa, y se emite la señal spawn\+Enemies. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classHard__Game_aff322f12f58d66b308d0154a8ea73bc6}\label{classHard__Game_aff322f12f58d66b308d0154a8ea73bc6}} 
+void {\bfseries emit\+Spawn\+Enemies\+Signal} ()
+\item 
+\mbox{\Hypertarget{classHard__Game_a0c9e6246726b1a0ffd32032488d04b02}\label{classHard__Game_a0c9e6246726b1a0ffd32032488d04b02}} 
+void \mbox{\hyperlink{classHard__Game_a0c9e6246726b1a0ffd32032488d04b02}{ganar}} ()
+\begin{DoxyCompactList}\small\item\em Si el jugador gana la partida, se llama a esta función. Detiene el temporizador de comprobación y abre la \mbox{\hyperlink{classWin__Window}{Win\+\_\+\+Window}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classHard__Game_ae49de786f598e02b948b37a28ef747b6}\label{classHard__Game_ae49de786f598e02b948b37a28ef747b6}} 
+void \mbox{\hyperlink{classHard__Game_ae49de786f598e02b948b37a28ef747b6}{spawn\+Enemies}} ()
+\begin{DoxyCompactList}\small\item\em Senal enviada cuando aparecen enemigos. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classHard__Game_a8a777eca430f9b8a96b6a8ff16b087d5}\label{classHard__Game_a8a777eca430f9b8a96b6a8ff16b087d5}} 
+$\ast$$\ast$$\ast$brief Constructor de la clase \mbox{\hyperlink{classHard__Game}{Hard\+\_\+\+Game}} $\ast$$\ast$param bullet\+\_\+speed La velocidad de las balas $\ast$param bullets El número de balas con el que empieza el jugador $\ast$param ships\+\_\+number El número de naves enemigas que aparecerán en cada ronda $\ast$param health La cantidad de vidas con la que empieza el jugador $\ast$param parent El widget padre de la clase $\ast$ {\bfseries Hard\+\_\+\+Game} (int bullet\+\_\+speed, int bullets, int ships\+\_\+number, int health, QWidget $\ast$parent=0)
+\item 
+\mbox{\Hypertarget{classHard__Game_a6ade47163d41116f61ecf16aaf65046f}\label{classHard__Game_a6ade47163d41116f61ecf16aaf65046f}} 
+void {\bfseries add\+\_\+enemies\+\_\+to\+\_\+wave} (\mbox{\hyperlink{classEnemyList}{Enemy\+List}} $\ast$list\+\_\+enemies)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classHard__Game_a44f2e6dcfdc1cd774acfb51c1457b9c9}\label{classHard__Game_a44f2e6dcfdc1cd774acfb51c1457b9c9}} 
+QTimer $\ast$ {\bfseries timer\+\_\+bullets} = new QTimer
+\item 
+\mbox{\Hypertarget{classHard__Game_a783fd0fef691eaf7eb3899e41182a8ee}\label{classHard__Game_a783fd0fef691eaf7eb3899e41182a8ee}} 
+QTimer $\ast$ {\bfseries check}
+\item 
+\mbox{\Hypertarget{classHard__Game_a5ceafa2e9e28681cb00bb05286413c33}\label{classHard__Game_a5ceafa2e9e28681cb00bb05286413c33}} 
+QGraphics\+Text\+Item $\ast$ {\bfseries bullets\+\_\+label}
+\item 
+\mbox{\Hypertarget{classHard__Game_add9b35369d9744c81d9c29df0b5ef573}\label{classHard__Game_add9b35369d9744c81d9c29df0b5ef573}} 
+QGraphics\+Text\+Item $\ast$ {\bfseries health\+\_\+label}
+\item 
+\mbox{\Hypertarget{classHard__Game_a65511b4654061e203b81ec63c6ddb07a}\label{classHard__Game_a65511b4654061e203b81ec63c6ddb07a}} 
+QGraphics\+Text\+Item $\ast$ {\bfseries round\+\_\+label}
+\item 
+\mbox{\Hypertarget{classHard__Game_a2236528807defdba656c121271857321}\label{classHard__Game_a2236528807defdba656c121271857321}} 
+QGraphics\+Text\+Item $\ast$ {\bfseries fase\+\_\+label}
+\item 
+\mbox{\Hypertarget{classHard__Game_af536db3bfc67404a7df95c5597e57079}\label{classHard__Game_af536db3bfc67404a7df95c5597e57079}} 
+QGraphics\+Text\+Item $\ast$ {\bfseries prueba\+\_\+label}
+\item 
+\mbox{\Hypertarget{classHard__Game_af5482ff82704f398ccec493e0e9746a3}\label{classHard__Game_af5482ff82704f398ccec493e0e9746a3}} 
+QGraphics\+Line\+Item $\ast$ {\bfseries line}
+\item 
+\mbox{\Hypertarget{classHard__Game_a880a45257909b8871214af8fc7e161b7}\label{classHard__Game_a880a45257909b8871214af8fc7e161b7}} 
+QGraphics\+Scene $\ast$ {\bfseries scene}
+\item 
+\mbox{\Hypertarget{classHard__Game_a43d4c0f2b5317598222117f473320f7d}\label{classHard__Game_a43d4c0f2b5317598222117f473320f7d}} 
+\mbox{\hyperlink{classCollector}{Collector}} {\bfseries collector}
+\item 
+\mbox{\Hypertarget{classHard__Game_aae3b2b4ea744ff261ff3d60434ce9a10}\label{classHard__Game_aae3b2b4ea744ff261ff3d60434ce9a10}} 
+\mbox{\hyperlink{classFase}{Fase}} {\bfseries fase1}
+\item 
+\mbox{\Hypertarget{classHard__Game_afb249ff804741ac95a14b36a34ee22c1}\label{classHard__Game_afb249ff804741ac95a14b36a34ee22c1}} 
+\mbox{\hyperlink{classFase}{Fase}} {\bfseries fase2}
+\item 
+\mbox{\Hypertarget{classHard__Game_a5474448b15d25e4332ff94b2a724a974}\label{classHard__Game_a5474448b15d25e4332ff94b2a724a974}} 
+int {\bfseries enemy\+\_\+count}
+\item 
+\mbox{\Hypertarget{classHard__Game_aa6838c0a0fc7bc54cb8084116fef55df}\label{classHard__Game_aa6838c0a0fc7bc54cb8084116fef55df}} 
+int {\bfseries current\+\_\+round}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clase que define la ventana del juego en modo difícil. 
+
+Esta clase hereda de QGraphics\+View y se encarga de crear la ventana del juego en modo difícil, donde el jugador tendrá menos balas y enemigos más resistentes y rápidos. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classHard__Game_abb7c90759774564090e0b7241c3a3c8b}\label{classHard__Game_abb7c90759774564090e0b7241c3a3c8b}} 
+\index{Hard\_Game@{Hard\_Game}!check\_health@{check\_health}}
+\index{check\_health@{check\_health}!Hard\_Game@{Hard\_Game}}
+\doxysubsubsection{\texorpdfstring{check\_health}{check\_health}}
+{\footnotesize\ttfamily void Hard\+\_\+\+Game\+::check\+\_\+health (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Método que revisa la salud del jugador para determinar si pierde o gana. 
+
+Este método es llamado por un QTimer cada 50 milisegundos para revisar si la salud del jugador llega a cero. Si la salud llega a cero, se muestra la ventana de Game Over y se cierra la ventana del juego. Si el jugador llega a la ronda 5 en la fase 2 con al menos una vida, se llama al método \mbox{\hyperlink{classHard__Game_a0c9e6246726b1a0ffd32032488d04b02}{ganar()}} para mostrar la ventana de Victoria. \mbox{\Hypertarget{classHard__Game_a7a6a4d692267b50a8ba127389fb06b27}\label{classHard__Game_a7a6a4d692267b50a8ba127389fb06b27}} 
+\index{Hard\_Game@{Hard\_Game}!decrease\_bullets@{decrease\_bullets}}
+\index{decrease\_bullets@{decrease\_bullets}!Hard\_Game@{Hard\_Game}}
+\doxysubsubsection{\texorpdfstring{decrease\_bullets}{decrease\_bullets}}
+{\footnotesize\ttfamily void Hard\+\_\+\+Game\+::decrease\+\_\+bullets (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Método que disminuye el número de balas del jugador. 
+
+Este método es llamado por un QTimer cada vez que el jugador dispara una bala. Si el número de balas llega a cero y el colector de balas está vacío, el QTimer se detiene. \mbox{\Hypertarget{classHard__Game_ab089bce88c752d641a53e0090ce56a0c}\label{classHard__Game_ab089bce88c752d641a53e0090ce56a0c}} 
+\index{Hard\_Game@{Hard\_Game}!decrease\_health@{decrease\_health}}
+\index{decrease\_health@{decrease\_health}!Hard\_Game@{Hard\_Game}}
+\doxysubsubsection{\texorpdfstring{decrease\_health}{decrease\_health}}
+{\footnotesize\ttfamily void Hard\+\_\+\+Game\+::decrease\+\_\+health (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Método que disminuye la salud del jugador. 
+
+Este método es llamado por un QTimer cada vez que una nave enemiga colisiona con el jugador. Si la salud llega a cero, se llama al método \mbox{\hyperlink{classHard__Game_abb7c90759774564090e0b7241c3a3c8b}{check\+\_\+health()}} para determinar si el jugador pierde o gana. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Hard\+\_\+\+Game.\+h\item 
+Hard\+\_\+\+Game.\+cpp\end{DoxyCompactItemize}
